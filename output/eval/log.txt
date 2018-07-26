@@ -1,0 +1,84 @@
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	81
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	81
+suningshop_v7	0.96867	0.00552	0.55357	0.02837	0.00097
+suningshop_v7	0.96750	0.00423	0.52433	0.02038	0.00097
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	81
+lfw	0.99767	0.00238	0.99667	0.00471	0.00100
+lfw	0.99733	0.00238	0.99667	0.00471	0.00100
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	81
+cfp_ff	0.99800	0.00223	0.99686	0.00432	0.00086
+cfp_ff	0.99800	0.00223	0.99686	0.00432	0.00086
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	81
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+cfp_fp	0.93057	0.01234	0.79800	0.03614	0.00114
+cfp_fp	0.93086	0.01171	0.79829	0.03769	0.00114
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	81
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+agedb_30	0.97617	0.00746	0.93967	0.01785	0.00067
+agedb_30	0.97717	0.00847	0.94100	0.01989	0.00100
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	203
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	204
+suningshop_v7	0.96750	0.00479	0.57414	0.02677	0.00130
+suningshop_v7	0.96783	0.00415	0.58129	0.02368	0.00130
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	203
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	204
+lfw	0.99750	0.00281	0.99667	0.00471	0.00133
+lfw	0.99700	0.00314	0.99633	0.00504	0.00133
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	203
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	204
+cfp_ff	0.99800	0.00223	0.99629	0.00496	0.00086
+cfp_ff	0.99800	0.00223	0.99600	0.00498	0.00086
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	203
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	204
+cfp_fp	0.92814	0.01275	0.79600	0.03364	0.00114
+cfp_fp	0.92829	0.01234	0.79743	0.03384	0.00114
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	203
+/disk1/meiyi/models/insightface/model_r50_v1_3_ms_0129/model-r50	204
+agedb_30	0.97617	0.00823	0.94167	0.01784	0.00100
+agedb_30	0.97583	0.00790	0.94033	0.01816	0.00100
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+renren	0.97033	0.00531	0.78833	0.01765	0.00133
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	118
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+renren	0.97033	0.00531	0.78833	0.01765	0.00133
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+renren	0.97033	0.00531	0.78833	0.01765	0.00133
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+classify_renren_1000	0.86400	0.00000	0.00000	0.00000	0.00000
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+classify_renren_5000	0.77480	0.00000	0.00000	0.00000	0.00000
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	142
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	118
+renren	0.96900	0.00528	0.77067	0.01896	0.00133
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	118
+classify_renren_1000	0.85850	0.00000	0.00000	0.00000	0.00000
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	118
+classify_renren_5000	0.77070	0.00000	0.00000	0.00000	0.00000
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	118
+classify_renren_10000	0.74410	0.00000	0.00000	0.00000	0.00000
+classify_renren_10000	0.74180	0.00000	0.00000	0.00000	0.00000
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	140
+renren	0.9697	0.0054	0.7830	0.0178	0.00133
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	140
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+classify_renren_1000	0.8620	0.0000	0.0000	0.0000	0.00000
+renren	0.9637	0.0061	0.7897	0.0389	0.00067
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+classify_renren_1000	0.8630	0.0000	0.0000	0.0000	0.00000
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	140
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+classify_renren_5000	0.7743	0.0000	0.0000	0.0000	0.00000
+classify_renren_5000	0.7700	0.0000	0.0000	0.0000	0.00000
+/disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2	140
+/disk1/meiyi/models/insightface/model_r50_v1_4_ms_0129/model-r50	57
+classify_renren_10000	0.7446	0.0000	0.0000	0.0000	0.00000
+classify_renren_10000	0.7407	0.0000	0.0000	0.0000	0.00000

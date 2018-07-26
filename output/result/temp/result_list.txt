@@ -1,0 +1,8 @@
+r50, MS-CELEB-1M
+r50_v3ft, renren fine-tune
+r50_v3, renren retrain
+r50_v4ft, renren + suning fine-tune
+r50_v4, renren + suning retrain
+r50_v5, try combined margin
+r50_v6ft, douyin fine-tune
+r50_v6, douyin retrain

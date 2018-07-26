@@ -1,0 +1,18 @@
+2018-06-12 10:51	loading recordio /home/meiyi/Face/insightface/datasets/faces_emore/train.rec...
+2018-06-12 10:52	Epoch[0] Batch [20]	Speed: 700.80 samples/sec	acc=0.015253
+2018-06-12 10:52	Epoch[0] Batch [40]	Speed: 691.75 samples/sec	acc=0.049023
+2018-06-12 10:53	Epoch[0] Batch [60]	Speed: 687.45 samples/sec	acc=0.077490
+2018-06-12 10:53	Epoch[0] Batch [80]	Speed: 633.53 samples/sec	acc=0.102588
+2018-06-12 10:54	Epoch[0] Batch [100]	Speed: 554.67 samples/sec	acc=0.122461
+2018-06-12 10:55	Epoch[0] Batch [120]	Speed: 474.92 samples/sec	acc=0.147461
+2018-06-12 10:56	Epoch[0] Batch [140]	Speed: 434.16 samples/sec	acc=0.168750
+2018-06-12 10:56	Epoch[0] Batch [160]	Speed: 409.50 samples/sec	acc=0.189795
+2018-06-12 10:57	Epoch[0] Batch [180]	Speed: 390.78 samples/sec	acc=0.206299
+2018-06-12 10:58	Epoch[0] Batch [200]	Speed: 383.14 samples/sec	acc=0.223828
+2018-06-12 10:59	Epoch[0] Batch [220]	Speed: 372.88 samples/sec	acc=0.244287
+2018-06-12 11:00	Epoch[0] Batch [240]	Speed: 381.04 samples/sec	acc=0.265869
+2018-06-12 11:01	Epoch[0] Batch [260]	Speed: 371.43 samples/sec	acc=0.275146
+2018-06-12 11:02	Epoch[0] Batch [280]	Speed: 369.80 samples/sec	acc=0.290332
+2018-06-12 11:03	Epoch[0] Batch [300]	Speed: 368.79 samples/sec	acc=0.305078
+2018-06-12 11:04	Epoch[0] Batch [320]	Speed: 360.29 samples/sec	acc=0.320850
+2018-06-12 11:05	Epoch[0] Batch [340]	Speed: 365.33 samples/sec	acc=0.331885

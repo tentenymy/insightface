@@ -1,0 +1,7 @@
+
+date_dir: /home/meiyi/Face/insightface_v2/datasets/faces_emore
+prefix: /disk1/meiyi/models/insightface_mobile/model_mb1_em_v0_0
+tag: mb1_em_v0
+pretrain: 
+per_batch_size: 64
+save: 0, max_steps: 0, lr: 0.10000, verbose: 1000, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00

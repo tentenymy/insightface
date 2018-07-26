@@ -1,0 +1,48 @@
+
+date_dir: /home/meiyi/Face/insightface/datasets/baidu
+prefix: /disk1/meiyi/models/insightface/model_r50_bd_v1ft_0/model_r50_bd_v1ft
+tag: r50_bd_v1ftt
+pretrain: /disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2,142
+per_batch_size: 800
+save: 0, max_steps: 0, lr: 0.10000, verbose: 1000, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+20180525-011811	1000	1	0.1000	
+
+date_dir: /home/meiyi/Face/insightface/datasets/baidu
+prefix: /disk1/meiyi/models/insightface/model_r50_bd_v1ft_0/model_r50_bd_v1ft
+tag: r50_bd_v1ftt
+pretrain: /disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2,142
+per_batch_size: 800
+save: 0, max_steps: 0, lr: 0.10000, verbose: 1000, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: /home/meiyi/Face/insightface/datasets/baidu
+prefix: /disk1/meiyi/models/insightface/model_r50_bd_v1ft_0/model_r50_bd_v1ft
+tag: r50_bd_v1ftt
+pretrain: /disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2,142
+per_batch_size: 800
+save: 0, max_steps: 0, lr: 0.10000, verbose: 1000, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: /home/meiyi/Face/insightface/datasets/baidu
+prefix: /disk1/meiyi/models/insightface/model_r50_bd_v1ft_0/model_r50_bd_v1ft
+tag: r50_bd_v1ftt
+pretrain: /disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2,142
+per_batch_size: 800
+save: 0, max_steps: 0, lr: 0.10000, verbose: 1000, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: /home/meiyi/Face/insightface/datasets/baidu
+prefix: /disk1/meiyi/models/insightface/model_r50_bd_v1ft_0/model_r50_bd_v1ft
+tag: r50_bd_v1ftt
+pretrain: /disk1/meiyi/models/insightface/model_r50_v2_3_ms_0214/model-r50_v2,142
+per_batch_size: 800
+save: 0, max_steps: 0, lr: 0.10000, verbose: 1000, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+20180525-022333	1000	1	0.1000	suningshop_v9	0.97533	0.00420	0.67945	0.03537	classify_suning_test	0.66516	0.00000	0.00000	0.00000	
+20180525-030347	2000	2	0.1000	suningshop_v9	0.97500	0.00435	0.68314	0.04202	classify_suning_test	0.66490	0.00000	0.00000	0.00000	
+20180525-034341	3000	3	0.1000	suningshop_v9	0.97483	0.00456	0.68216	0.03424	classify_suning_test	0.66543	0.00000	0.00000	0.00000	
+20180525-042400	4000	4	0.1000	suningshop_v9	0.97483	0.00404	0.68757	0.02414	classify_suning_test	0.66490	0.00000	0.00000	0.00000	
+20180525-050433	5000	5	0.1000	suningshop_v9	0.97467	0.00393	0.68045	0.03720	classify_suning_test	0.66569	0.00000	0.00000	0.00000	
+20180525-054459	6000	6	0.1000	suningshop_v9	0.97517	0.00468	0.68825	0.02417	classify_suning_test	0.66569	0.00000	0.00000	0.00000	
+20180525-062530	7000	7	0.1000	suningshop_v9	0.97517	0.00462	0.68111	0.04054	classify_suning_test	0.66490	0.00000	0.00000	0.00000	
+20180525-070604	8000	8	0.1000	suningshop_v9	0.97500	0.00401	0.68824	0.03492	classify_suning_test	0.66437	0.00000	0.00000	0.00000	
+20180525-074621	9000	9	0.1000	suningshop_v9	0.97467	0.00420	0.68418	0.03417	classify_suning_test	0.66622	0.00000	0.00000	0.00000	
+20180525-082649	10000	10	0.1000	suningshop_v9	0.97467	0.00407	0.65911	0.04411	classify_suning_test	0.66516	0.00000	0.00000	0.00000	
+20180525-090712	11000	11	0.1000	suningshop_v9	0.97500	0.00459	0.67976	0.03901	classify_suning_test	0.66596	0.00000	0.00000	0.00000	
+20180525-094757	12000	12	0.1000	suningshop_v9	0.97433	0.00403	0.67944	0.03666	classify_suning_test	0.66463	0.00000	0.00000	0.00000	
