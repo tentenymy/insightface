@@ -1,0 +1,28 @@
+
+date_dir: ../datasets/faces_ms1m_112x112
+prefix: ../models/model_r50_v0
+tag: r50_v0
+pretrain: 
+per_batch_size: 90
+save: 0, max_steps: 0, lr: 0.10000, verbose: 1000, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: /home/meiyi/insightface/datasets/faces_ms1m_112x112
+prefix: ../models/model_r50_v0
+tag: r50_v0
+pretrain: 
+per_batch_size: 64
+save: 0, max_steps: 0, lr: 0.10000, verbose: 600, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: ../datasets/faces_ms1m_112x112
+prefix: ../models/model_r50_v1
+tag: r50_v0
+pretrain: 
+per_batch_size: 64
+save: 0, max_steps: 0, lr: 0.10000, verbose: 600, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: ../datasets/faces_ms1m_112x112
+prefix: ../models/model_r50_v2
+tag: r50_v0
+pretrain: 
+per_batch_size: 64
+save: 0, max_steps: 0, lr: 0.10000, verbose: 600, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00

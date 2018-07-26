@@ -1,0 +1,6 @@
+do_save,1
+max_steps,200000
+lr_steps,0,0.1
+lr_steps,140000,0.01
+lr_steps,200000,0.001
+lr_steps,300000,0.0001

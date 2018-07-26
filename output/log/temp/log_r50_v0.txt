@@ -1,0 +1,49 @@
+2018-04-18 17:09	loading recordio ../datasets/faces_ms1m_112x112/train.rec...
+2018-04-18 17:10	loading recordio ../datasets/faces_ms1m_112x112/train.rec...
+2018-04-18 17:11	Epoch[0] Batch [20]	Speed: 294.99 samples/sec	acc=0.000000
+2018-04-18 17:12	Epoch[0] Batch [40]	Speed: 298.55 samples/sec	acc=0.000000
+2018-04-18 17:12	Epoch[0] Batch [60]	Speed: 299.14 samples/sec	acc=0.000000
+2018-04-18 17:13	loading recordio /home/meiyi/insightface/datasets/faces_ms1m_112x112/train.rec...
+2018-04-18 17:14	Epoch[0] Batch [20]	Speed: 226.88 samples/sec	acc=0.000000
+2018-04-18 17:14	Epoch[0] Batch [40]	Speed: 226.88 samples/sec	acc=0.000000
+2018-04-18 17:15	Epoch[0] Batch [60]	Speed: 225.34 samples/sec	acc=0.000000
+2018-04-18 17:15	Epoch[0] Batch [80]	Speed: 166.11 samples/sec	acc=0.000000
+2018-04-18 17:16	Epoch[0] Batch [100]	Speed: 151.24 samples/sec	acc=0.000000
+2018-04-18 17:16	Epoch[0] Batch [120]	Speed: 147.30 samples/sec	acc=0.000000
+2018-04-18 17:17	Epoch[0] Batch [140]	Speed: 142.16 samples/sec	acc=0.000000
+2018-04-18 17:18	Epoch[0] Batch [160]	Speed: 127.03 samples/sec	acc=0.000000
+2018-04-18 17:18	Epoch[0] Batch [180]	Speed: 117.00 samples/sec	acc=0.000000
+2018-04-18 17:19	Epoch[0] Batch [200]	Speed: 111.44 samples/sec	acc=0.000000
+2018-04-18 17:20	Epoch[0] Batch [220]	Speed: 108.20 samples/sec	acc=0.000000
+2018-04-18 17:32	loading recordio ../datasets/faces_ms1m_112x112/train.rec...
+2018-04-18 17:32	loading recordio ../datasets/faces_ms1m_112x112/train.rec...
+2018-04-18 17:33	Epoch[0] Batch [20]	Speed: 149.68 samples/sec	acc=0.000000
+2018-04-18 17:34	Epoch[0] Batch [40]	Speed: 143.55 samples/sec	acc=0.000000
+2018-04-18 17:34	Epoch[0] Batch [60]	Speed: 143.02 samples/sec	acc=0.000000
+2018-04-18 17:34	Epoch[0] Batch [80]	Speed: 139.16 samples/sec	acc=0.000000
+2018-04-18 17:34	Epoch[0] Batch [100]	Speed: 140.67 samples/sec	acc=0.000000
+2018-04-18 17:35	Epoch[0] Batch [120]	Speed: 131.57 samples/sec	acc=0.000000
+2018-04-18 17:35	Epoch[0] Batch [140]	Speed: 116.02 samples/sec	acc=0.000000
+2018-04-18 17:36	Epoch[0] Batch [160]	Speed: 99.64 samples/sec	acc=0.000000
+2018-04-18 17:36	Epoch[0] Batch [20]	Speed: 82.90 samples/sec	acc=0.000000
+2018-04-18 17:36	Epoch[0] Batch [180]	Speed: 85.54 samples/sec	acc=0.000000
+2018-04-18 17:36	Epoch[0] Batch [40]	Speed: 87.07 samples/sec	acc=0.000000
+2018-04-18 17:37	Epoch[0] Batch [200]	Speed: 76.65 samples/sec	acc=0.000000
+2018-04-18 17:37	Epoch[0] Batch [60]	Speed: 85.60 samples/sec	acc=0.000000
+2018-04-18 17:37	Epoch[0] Batch [80]	Speed: 88.56 samples/sec	acc=0.000000
+2018-04-18 17:37	Epoch[0] Batch [220]	Speed: 74.00 samples/sec	acc=0.000000
+2018-04-18 17:38	Epoch[0] Batch [100]	Speed: 87.22 samples/sec	acc=0.000000
+2018-04-18 17:38	Epoch[0] Batch [240]	Speed: 73.57 samples/sec	acc=0.000000
+2018-04-18 17:38	Epoch[0] Batch [120]	Speed: 87.59 samples/sec	acc=0.000000
+2018-04-18 17:38	Epoch[0] Batch [260]	Speed: 65.69 samples/sec	acc=0.000000
+2018-04-18 17:39	Epoch[0] Batch [140]	Speed: 90.98 samples/sec	acc=0.000000
+2018-04-18 17:39	Epoch[0] Batch [160]	Speed: 87.00 samples/sec	acc=0.000000
+2018-04-18 17:39	Epoch[0] Batch [280]	Speed: 59.26 samples/sec	acc=0.000000
+2018-04-18 17:40	Epoch[0] Batch [180]	Speed: 85.82 samples/sec	acc=0.000000
+2018-04-18 17:40	Epoch[0] Batch [300]	Speed: 52.50 samples/sec	acc=0.000000
+2018-04-18 17:40	Epoch[0] Batch [200]	Speed: 84.89 samples/sec	acc=0.000000
+2018-04-18 17:41	Epoch[0] Batch [220]	Speed: 82.00 samples/sec	acc=0.000000
+2018-04-18 17:41	Epoch[0] Batch [320]	Speed: 49.11 samples/sec	acc=0.000000
+2018-04-18 17:41	Epoch[0] Batch [240]	Speed: 80.46 samples/sec	acc=0.000000
+2018-04-18 17:42	Epoch[0] Batch [260]	Speed: 76.70 samples/sec	acc=0.000000
+2018-04-18 17:42	Epoch[0] Batch [340]	Speed: 48.60 samples/sec	acc=0.000000
