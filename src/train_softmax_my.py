@@ -354,6 +354,11 @@ def get_symbol(args, arg_params, aux_params):
 
 
 def train_net(args):
+    # Set training parameters (do_save, max_step, lr)
+    config_path = os.path.join(args.config_dir, 'config_' + args.tag + '.txt')
+    if os.path.exists(config_path):
+        get_config(config_path, 0, args)
+        
     ctx = []
     cvd = os.environ['CUDA_VISIBLE_DEVICES'].strip()
     if len(cvd) > 0:
@@ -610,6 +615,8 @@ def main():
     # time.sleep(3600*6.5)
     global args
     args = parse_args()
+    set_log_config(os.path.join(args.log_dir, 'log_' + args.tag + '.txt'))
+
     train_net(args)
 
 
