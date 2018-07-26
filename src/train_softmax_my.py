@@ -600,7 +600,7 @@ def train_net(args):
               num_epoch=end_epoch,
               eval_data=val_dataiter,
               eval_metric=eval_metrics,
-              kvstore='device',
+              kvstore='local',
               optimizer=opt,
               # optimizer_params   = optimizer_params,
               initializer=initializer,
