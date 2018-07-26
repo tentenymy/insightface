@@ -5,14 +5,13 @@ from __future__ import print_function
 import os
 import sys
 import math
-import random
+
 import logging
-import pickle
-import numpy as np
+
 from image_iter import FaceImageIter
-from image_iter import FaceImageIterList
+
 import mxnet as mx
-from mxnet import ndarray as nd
+
 import argparse
 import mxnet.optimizer as optimizer
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
@@ -30,9 +29,6 @@ import fdpn
 import fnasnet
 import spherenet
 import verification
-import sklearn
-#sys.path.append(os.path.join(os.path.dirname(__file__), 'losses'))
-#import center_loss
 
 
 logger = logging.getLogger()
