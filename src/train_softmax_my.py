@@ -403,6 +403,13 @@ def train_net(args):
         args.gamma = 0.06
 
     print('Called with argument:', args)
+    result_path = os.path.join(args.result_dir, "result_" + args.tag + ".txt")
+    with open(result_path, 'a+') as result_file:
+        args_dict = args.__dict__
+        for key in args_dict:
+            result_file.write("%s: %s\n" % (key, str(args_dict[key])))
+
+
     data_shape = (args.image_channel, image_size[0], image_size[1])
     mean = None
 
@@ -459,7 +466,7 @@ def train_net(args):
     _cb = mx.callback.Speedometer(args.batch_size, som)
 
     # meiyi change
-    result_path = os.path.join(args.result_dir, "result_" + args.tag + ".txt")
+    
     with open(result_path, 'a+') as result_file:
         result_file.write('\n')
         result_file.write('date_dir: %s\n' % args.data_dir)
