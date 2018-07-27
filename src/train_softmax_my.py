@@ -185,6 +185,7 @@ def parse_args():
                         help='true means save every model while training')
     parser.add_argument('--do_save_threshold', default=0.982, type=float)
     parser.add_argument('--tag', default='r50_v0', help='directory to save model.')
+    parser.add_argument('--last_epoch', default=0, help='save model from last_epoch + 1')
     args = parser.parse_args()
     return args
 
@@ -516,7 +517,7 @@ def train_net(args):
     # for i in xrange(len(ver_list)):
     #  highest_acc.append(0.0)
     global_step = [0]
-    save_step = [0]
+    save_step = [args.last_epoch]
     if len(args.lr_steps) == 0:
         lr_steps = [40000, 60000, 80000]
         if args.loss_type >= 1 and args.loss_type <= 7:
@@ -561,33 +562,6 @@ def train_net(args):
                 highest_acc[0] = max(highest_acc[0], acc_list[0])
             print('[%d]Accuracy-Highest: %1.5f' % (mbatch, highest_acc[0]))
 
-        # if mbatch % 1000 == 0:
-        #     print('lr-batch-epoch:', opt.lr, param.nbatch, param.epoch)
-        #
-        # if mbatch >= 0 and mbatch % args.verbose == 0:
-        #     acc_list = ver_test(mbatch)
-        #     save_step[0] += 1
-        #     msave = save_step[0]
-        #     do_save = False
-        #     if len(acc_list) > 0:
-        #         lfw_score = acc_list[0]
-        #         if lfw_score > highest_acc[0]:
-        #             highest_acc[0] = lfw_score
-        #             if lfw_score >= 0.998:
-        #                 do_save = True
-        #         if acc_list[-1] >= highest_acc[-1]:
-        #             highest_acc[-1] = acc_list[-1]
-        #             if lfw_score >= 0.99:
-        #                 do_save = True
-        #     if args.ckpt == 0:
-        #         do_save = False
-        #     elif args.ckpt > 1:
-        #         do_save = True
-        #     if do_save:
-        #         print('saving', msave)
-        #         arg, aux = model.get_params()
-        #         mx.model.save_checkpoint(prefix, msave, model.symbol, arg, aux)
-        #     print('[%d]Accuracy-Highest: %1.5f' % (mbatch, highest_acc[-1]))
         if mbatch <= args.beta_freeze:
             _beta = args.beta
         else:
