@@ -185,7 +185,7 @@ def parse_args():
                         help='true means save every model while training')
     parser.add_argument('--do_save_threshold', default=0.982, type=float)
     parser.add_argument('--tag', default='r50_v0', help='directory to save model.')
-    parser.add_argument('--last_epoch', default=0, help='save model from last_epoch + 1')
+    parser.add_argument('--last_epoch', default=0, type=int, help='save model from last_epoch + 1')
     args = parser.parse_args()
     return args
 
@@ -517,7 +517,7 @@ def train_net(args):
     # for i in xrange(len(ver_list)):
     #  highest_acc.append(0.0)
     global_step = [0]
-    save_step = [args.last_epoch]
+    save_step = [int(args.last_epoch)]
     if len(args.lr_steps) == 0:
         lr_steps = [40000, 60000, 80000]
         if args.loss_type >= 1 and args.loss_type <= 7:
