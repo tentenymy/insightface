@@ -189,6 +189,8 @@ def parse_args():
     parser.add_argument('--do_save_threshold', default=0.982, type=float)
     parser.add_argument('--tag', default='r50_v0', help='directory to save model.')
     parser.add_argument('--last_epoch', default=0, type=int, help='save model from last_epoch + 1')
+
+    parser.add_argument('--fine_tune', type=int, default=0)
     args = parser.parse_args()
     return args
 
@@ -354,6 +356,11 @@ def get_symbol(args, arg_params, aux_params):
                                       normalization='valid')
     out_list.append(softmax)
     out = mx.symbol.Group(out_list)
+
+    # fine-tune
+    if args.fine_tune:
+        arg_params = dict({k: arg_params[k] for k in arg_params if 'fc7' not in k})
+
     return (out, arg_params, aux_params)
 
 
@@ -434,10 +441,17 @@ def train_net(args):
         data_shape_dict = {'data': (args.per_batch_size,) + data_shape}
         spherenet.init_weights(sym, data_shape_dict, args.num_layers)
 
-    model = mx.mod.Module(
-        context=ctx,
-        symbol=sym,
-    )
+    if args.fine_tune:
+        # fixed_params = sym.list_arguments()[:239]
+        # fixed_params = sym.list_arguments()[:239]
+        fixed_params = dict({k: arg_params[k] for k in arg_params if 'fc7' not in k})
+        model = mx.mod.Module(context=ctx, symbol=sym, fixed_param_names=fixed_params)
+    else:
+        model = mx.mod.Module(
+            context=ctx,
+            symbol=sym,
+        )
+        
     val_dataiter = None
 
     train_dataiter = FaceImageIter(
