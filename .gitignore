@@ -2,7 +2,7 @@
 output/log/temp/
 output/result/temp/
 output/config/temp/
-
+datasets/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
