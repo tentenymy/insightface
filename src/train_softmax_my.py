@@ -39,6 +39,9 @@ args = None
 
 # set logging configuration
 def set_log_config(log_path, file_level=logging.INFO, console_level=logging.INFO):
+    with open(log_path, 'w') as file:
+	file.write('\n')
+
     logger.setLevel(file_level)
 
     log_formatter_for_file = logging.Formatter("%(asctime)s\t%(message)s", "%Y-%m-%d %H:%M")
@@ -176,11 +179,11 @@ def parse_args():
     parser.add_argument('--target', type=str, default='lfw,cfp_fp,agedb_30',
                         help='verification targets')
 
-    parser.add_argument('--log_dir', type=str, default='/home/meiyi/Face/insightface/output/log')
+    parser.add_argument('--log_dir', type=str, default='/home/meiyiyang/Face/insightface/output/log')
     parser.add_argument('--config_dir', type=str,
-                        default='/home/meiyi/Face/insightface/output/config', help='')
+                        default='/home/meiyiyang/Face/insightface/output/config', help='')
     parser.add_argument('--result_dir', type=str,
-                        default='/home/meiyi/Face/insightface/output/result')
+                        default='/home/meiyiyang/Face/insightface/output/result')
     parser.add_argument('--do_save', action='store_true',
                         help='true means save every model while training')
     parser.add_argument('--do_save_threshold', default=0.982, type=float)
@@ -581,7 +584,7 @@ def train_net(args):
               num_epoch=end_epoch,
               eval_data=val_dataiter,
               eval_metric=eval_metrics,
-              kvstore='local',
+              kvstore='device',
               optimizer=opt,
               # optimizer_params   = optimizer_params,
               initializer=initializer,
