@@ -1,12 +1,12 @@
-CUDA='5,6,7'
+CUDA='0,1,2,3,4,5'
 BATCH_SIZE='152'
 
 DATA_DIR=/home/meiyiyang/Face/insightface/datasets/faces_emore
 MODEL_OUTPUT_DIR=/data/meiyi/models/mobile/model_mobile1_emore_v0_0/model_mobile1_emore_v0
 TAG=mobile1_emore_v0
 
-LAST_EPOCH=195
-PRETRAIN=/data/meiyi/models/mobile/model_mobile1_emore_v0_0/model_mobile1_emore_v0,195
+LAST_EPOCH=259
+PRETRAIN=/data/meiyi/models/mobile/model_mobile1_emore_v0_0/model_mobile1_emore_v0,259
 
 NETWORK=m1
 EMB_SIZE='128'

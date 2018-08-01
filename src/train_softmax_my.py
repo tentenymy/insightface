@@ -13,6 +13,7 @@ import mxnet as mx
 import mxnet.optimizer as optimizer
 
 from image_iter import FaceImageIter
+from data import FaceImageIterList
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 import face_image
 sys.path.append(os.path.join(os.path.dirname(__file__), 'eval'))
@@ -27,7 +28,7 @@ import fdensenet
 import fdpn
 import fnasnet
 import spherenet
-import verification
+# import verification
 import verification_mxnet_meiyi
 
 
@@ -165,6 +166,7 @@ def parse_args():
     parser.add_argument('--margin-b', type=float, default=0.0, help='')
     parser.add_argument('--easy-margin', type=int, default=0, help='')
 
+    # sphereface
     parser.add_argument('--margin', type=int, default=4, help='margin for sphere')
     parser.add_argument('--beta', type=float, default=1000., help='param for sphere')
     parser.add_argument('--beta-min', type=float, default=5., help='param for sphere')
@@ -172,6 +174,14 @@ def parse_args():
     parser.add_argument('--gamma', type=float, default=0.12, help='param for sphere')
     parser.add_argument('--power', type=float, default=1.0, help='param for sphere')
     parser.add_argument('--scale', type=float, default=0.9993, help='param for sphere')
+
+    # triplet loss
+    parser.add_argument('--center-alpha', type=float, default=0.5, help='')
+    parser.add_argument('--center-scale', type=float, default=0.003, help='')
+    parser.add_argument('--images-per-identity', type=int, default=0, help='')
+    parser.add_argument('--triplet-bag-size', type=int, default=3600, help='')
+    parser.add_argument('--triplet-alpha', type=float, default=0.3, help='')
+    parser.add_argument('--triplet-max-ap', type=float, default=0.0, help='')
 
     parser.add_argument('--rand-mirror', type=int, default=1,
                         help='if do random mirror in training')
@@ -257,6 +267,7 @@ def get_symbol(args, arg_params, aux_params):
                                  wd_mult=args.fc7_wd_mult)
 
     # loss
+    extra_loss = None
     if args.loss_type == 0:  # softmax
         _bias = mx.symbol.Variable('fc7_bias', lr_mult=2.0, wd_mult=0.0)
         fc7 = mx.sym.FullyConnected(data=embedding, weight=_weight, bias=_bias,
@@ -351,10 +362,35 @@ def get_symbol(args, arg_params, aux_params):
                                             off_value=0.0)
                 body = mx.sym.broadcast_mul(gt_one_hot, diff)
                 fc7 = fc7 + body
+    elif args.loss_type == 12:  # triplet loss
+        nembedding = mx.symbol.L2Normalization(embedding, mode='instance', name='fc1n')
+        anchor = mx.symbol.slice_axis(nembedding, axis=0, begin=0, end=args.per_batch_size // 3)
+        positive = mx.symbol.slice_axis(nembedding, axis=0, begin=args.per_batch_size // 3,
+                                        end=2 * args.per_batch_size // 3)
+        negative = mx.symbol.slice_axis(nembedding, axis=0, begin=2 * args.per_batch_size // 3,
+                                        end=args.per_batch_size)
+        ap = anchor - positive
+        an = anchor - negative
+        ap = ap * ap
+        an = an * an
+        ap = mx.symbol.sum(ap, axis=1, keepdims=1)  # (T,1)
+        an = mx.symbol.sum(an, axis=1, keepdims=1)  # (T,1)
+        triplet_loss = mx.symbol.Activation(data=(ap - an + args.triplet_alpha), act_type='relu')
+        triplet_loss = mx.symbol.mean(triplet_loss)
+        # triplet_loss = mx.symbol.sum(triplet_loss)/(args.per_batch_size//3)
+        extra_loss = mx.symbol.MakeLoss(triplet_loss)
+
     out_list = [mx.symbol.BlockGrad(embedding)]
-    softmax = mx.symbol.SoftmaxOutput(data=fc7, label=gt_label, name='softmax',
-                                      normalization='valid')
-    out_list.append(softmax)
+    softmax = None
+    if args.loss_type < 10:
+        softmax = mx.symbol.SoftmaxOutput(data=fc7, label=gt_label, name='softmax',
+                                          normalization='valid')
+        out_list.append(softmax)
+    if softmax is None:
+        out_list.append(mx.sym.BlockGrad(gt_label))
+    if extra_loss is not None:
+        out_list.append(extra_loss)
+
     out = mx.symbol.Group(out_list)
 
     # fine-tune
@@ -413,6 +449,20 @@ def train_net(args):
         args.beta_freeze = 5000
         args.gamma = 0.06
 
+    if args.loss_type < 9:
+        assert args.images_per_identity == 0
+    else:
+        if args.images_per_identity == 0:
+            if args.loss_type == 11:
+                args.images_per_identity = 2
+            elif args.loss_type == 10 or args.loss_type == 9:
+                args.images_per_identity = 16
+            elif args.loss_type == 12 or args.loss_type == 13:
+                args.images_per_identity = 5
+                assert args.per_batch_size % 3 == 0
+        assert args.images_per_identity >= 2
+        args.per_identities = int(args.per_batch_size / args.images_per_identity)
+
     print('Called with argument:', args)
     result_path = os.path.join(args.result_dir, "result_" + args.tag + ".txt")
     with open(result_path, 'a+') as result_file:
@@ -441,6 +491,10 @@ def train_net(args):
         data_shape_dict = {'data': (args.per_batch_size,) + data_shape}
         spherenet.init_weights(sym, data_shape_dict, args.num_layers)
 
+    triplet_params = None
+    if args.loss_type == 12 or args.loss_type == 13:
+        triplet_params = [args.triplet_bag_size, args.triplet_alpha, args.triplet_max_ap]
+
     if args.fine_tune:
         # fixed_params = sym.list_arguments()[:239]
         # fixed_params = sym.list_arguments()[:239]
@@ -454,15 +508,34 @@ def train_net(args):
         
     val_dataiter = None
 
-    train_dataiter = FaceImageIter(
-        batch_size=args.batch_size,
-        data_shape=data_shape,
-        path_imgrec=path_imgrec,
-        shuffle=True,
-        rand_mirror=args.rand_mirror,
-        mean=mean,
-        cutoff=args.cutoff,
-    )
+    if len(data_dir_list) == 1 and args.loss_type != 12 and args.loss_type != 13:
+        train_dataiter = FaceImageIter(
+            batch_size=args.batch_size,
+            data_shape=data_shape,
+            path_imgrec=path_imgrec,
+            shuffle=True,
+            rand_mirror=args.rand_mirror,
+            mean=mean,
+            cutoff=args.cutoff,
+        )
+    else:
+        iter_list = []
+        for _data_dir in data_dir_list:
+            _path_imgrec = os.path.join(_data_dir, "train.rec")
+            _dataiter = FaceImageIter(
+                batch_size=args.batch_size,
+                data_shape=data_shape,
+                path_imgrec=_path_imgrec,
+                shuffle=True,
+                rand_mirror=args.rand_mirror,
+                mean=mean,
+                cutoff=args.cutoff,
+                images_per_identity=args.images_per_identity,
+                triplet_params=triplet_params,
+            )
+            iter_list.append(_dataiter)
+        iter_list.append(_dataiter)
+        train_dataiter = FaceImageIterList(iter_list)
 
     if args.loss_type < 10:
         _metric = AccMetric()
@@ -481,6 +554,8 @@ def train_net(args):
     _rescale = 1.0 / args.ctx_num
     opt = optimizer.SGD(learning_rate=base_lr, momentum=base_mom, wd=base_wd, rescale_grad=_rescale)
     som = 20
+    if args.loss_type == 12 or args.loss_type == 13:
+        som = 2
     _cb = mx.callback.Speedometer(args.batch_size, som)
 
     # meiyi change
