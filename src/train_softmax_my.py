@@ -464,12 +464,6 @@ def train_net(args):
         args.per_identities = int(args.per_batch_size / args.images_per_identity)
 
     print('Called with argument:', args)
-    result_path = os.path.join(args.result_dir, "result_" + args.tag + ".txt")
-    with open(result_path, 'a+') as result_file:
-        args_dict = args.__dict__
-        for key in args_dict:
-            result_file.write("%s: %s\n" % (key, str(args_dict[key])))
-
 
     data_shape = (args.image_channel, image_size[0], image_size[1])
     mean = None
@@ -629,6 +623,17 @@ def train_net(args):
         _cb(param)
 
         if mbatch >= 0 and mbatch % args.verbose == 0:
+            # update args
+            if mbatch == args.verbose:
+                result_path = os.path.join(args.result_dir, "result_" + args.tag + ".txt")
+                with open(result_path, 'a+') as result_file:
+                    result_file.write('\n')
+                    args_dict = args.__dict__
+                    for key in args_dict:
+                        result_file.write("%s: %s\n" % (key, str(args_dict[key])))
+                    result_file.write('\n')
+
+
             # update config
             config_path = os.path.join(args.config_dir, 'config_' + args.tag + '.txt')
             if os.path.exists(config_path):

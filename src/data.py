@@ -498,11 +498,11 @@ class FaceImageIter(io.DataIter):
         #label = np.zeros( (bag_size,) )
         tag = []
         #idx = np.zeros( (bag_size,) )
-        print('eval %d images..'%bag_size, self.triplet_oseq_cur)
-        print('triplet time stat', self.times)
+        #print('eval %d images..'%bag_size, self.triplet_oseq_cur)
+        #print('triplet time stat', self.times)
         if self.triplet_oseq_cur+bag_size>len(self.oseq):
           self.triplet_oseq_reset()
-          print('eval %d images..'%bag_size, self.triplet_oseq_cur)
+          #print('eval %d images..'%bag_size, self.triplet_oseq_cur)
         self.times[0] += self.time_elapsed()
         self.time_reset()
         #print(data.shape)
@@ -717,7 +717,7 @@ class FaceImageIter(io.DataIter):
 
     def reset(self):
         """Resets the iterator to the beginning of the data."""
-        print('call reset()')
+        #print('call reset()')
         if self.c2c_auto:
           self.reset_c2c()
         self.cur = 0
