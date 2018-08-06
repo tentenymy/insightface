@@ -553,7 +553,7 @@ def train_net(args):
     _cb = mx.callback.Speedometer(args.batch_size, som)
 
     # meiyi change
-    
+    result_path = os.path.join(args.result_dir, "result_" + args.tag + ".txt")
     with open(result_path, 'a+') as result_file:
         result_file.write('\n')
         result_file.write('date_dir: %s\n' % args.data_dir)
@@ -678,7 +678,7 @@ def train_net(args):
               num_epoch=end_epoch,
               eval_data=val_dataiter,
               eval_metric=eval_metrics,
-              kvstore='device',
+              kvstore='local',
               optimizer=opt,
               # optimizer_params   = optimizer_params,
               initializer=initializer,

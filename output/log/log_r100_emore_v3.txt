@@ -1,0 +1,23 @@
+
+2018-08-06 15:03	loading recordio /home/meiyiyang/Face/insightface/datasets/faces_emore/train.rec...
+2018-08-06 15:05	Epoch[0] Batch [20]	Speed: 148.55 samples/sec	lossvalue=0.161809
+2018-08-06 15:06	Epoch[0] Batch [40]	Speed: 159.54 samples/sec	lossvalue=0.172624
+2018-08-06 15:07	Epoch[0] Batch [60]	Speed: 147.92 samples/sec	lossvalue=0.174085
+2018-08-06 15:08	Epoch[0] Batch [80]	Speed: 156.74 samples/sec	lossvalue=0.143253
+2018-08-06 15:09	Epoch[0] Batch [100]	Speed: 139.00 samples/sec	lossvalue=0.190613
+2018-08-06 15:10	Epoch[0] Batch [120]	Speed: 172.13 samples/sec	lossvalue=0.183517
+2018-08-06 15:11	Epoch[0] Batch [140]	Speed: 138.34 samples/sec	lossvalue=0.169852
+2018-08-06 15:12	Epoch[0] Batch [160]	Speed: 174.06 samples/sec	lossvalue=0.166172
+2018-08-06 15:13	Epoch[0] Batch [180]	Speed: 148.20 samples/sec	lossvalue=0.168322
+2018-08-06 15:14	Epoch[0] Batch [200]	Speed: 178.33 samples/sec	lossvalue=0.150862
+2018-08-06 15:15	Epoch[0] Batch [220]	Speed: 153.68 samples/sec	lossvalue=0.172391
+2018-08-06 15:16	Epoch[0] Batch [240]	Speed: 159.31 samples/sec	lossvalue=0.168172
+2018-08-06 15:17	Epoch[0] Batch [260]	Speed: 160.77 samples/sec	lossvalue=0.152868
+2018-08-06 15:18	Epoch[0] Batch [280]	Speed: 151.33 samples/sec	lossvalue=0.182463
+2018-08-06 15:19	Epoch[0] Batch [300]	Speed: 189.49 samples/sec	lossvalue=0.155684
+2018-08-06 15:20	Epoch[0] Batch [320]	Speed: 162.09 samples/sec	lossvalue=0.164643
+2018-08-06 15:20	Epoch[0] Batch [340]	Speed: 176.71 samples/sec	lossvalue=0.161853
+2018-08-06 15:21	Epoch[0] Batch [360]	Speed: 161.77 samples/sec	lossvalue=0.164116
+2018-08-06 15:22	Epoch[0] Batch [380]	Speed: 185.70 samples/sec	lossvalue=0.167005
+2018-08-06 15:23	Epoch[0] Batch [400]	Speed: 174.18 samples/sec	lossvalue=0.170550
+2018-08-06 15:24	Epoch[0] Batch [420]	Speed: 175.98 samples/sec	lossvalue=0.161724
