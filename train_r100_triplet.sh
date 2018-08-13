@@ -2,7 +2,7 @@ CUDA='2,3,4,5,6,7'
 BATCH_SIZE=75
 
 DATA_DIR=/home/meiyiyang/Face/insightface/datasets/faces_emore
-MODEL_OUTPUT_DIR=/data/meiyi/models/r100/model_r100_emore_v3_1/model_r100_emore_v3
+MODEL_OUTPUT_DIR=/data/meiyi/models/r100/model_r100_emore_v3_2/model_r100_emore_v3
 TAG=r100_emore_v3
 
 LAST_EPOCH=0
@@ -12,7 +12,7 @@ NETWORK=r100
 MOM='0.0'
 LOSS_TYPE=12
 TRIPLET_BAG_SIZE=3600
-TRIPLET_ALPHA=0.30
+TRIPLET_ALPHA=0.25
 
 TARGET=classify_megaface,lfw,classify_suning_test
 LOGFILE='/home/meiyiyang/Face/insightface/output/log/log_'$TAG'_arg.txt'
