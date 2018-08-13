@@ -1070,6 +1070,8 @@ def train_net(args):
                     mode_classify = 0  # 0 normal(lfw), 1 classify, 2 classify megaface
                     if "megaface" in name:
                         mode_classify = 2
+                    elif "classify_suning_test" in name:
+                        mode_classify = 3
                     elif "classify" in name:
                         mode_classify = 1
 

@@ -576,10 +576,11 @@ def train_net(args):
             for name in args.target.split(','):
                 path = os.path.join(data_dir, name + ".bin")
                 if os.path.exists(path):
-                    # print("load data", name)
                     mode_classify = 0  # 0 normal(lfw), 1 classify, 2 classify megaface
                     if "megaface" in name:
                         mode_classify = 2
+                    elif "classify_suning_test" in name:
+                        mode_classify = 3
                     elif "classify" in name:
                         mode_classify = 1
 
