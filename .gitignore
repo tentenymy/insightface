@@ -3,6 +3,9 @@ output/log/temp/
 output/result/temp/
 output/config/temp/
 datasets/
+.idea/
+.DS_Store
+*/.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

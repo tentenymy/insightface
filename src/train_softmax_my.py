@@ -28,7 +28,7 @@ import fdensenet
 import fdpn
 import fnasnet
 import spherenet
-# import verification
+import fmnasnet
 import verification_mxnet_meiyi
 
 
@@ -40,8 +40,9 @@ args = None
 
 # set logging configuration
 def set_log_config(log_path, file_level=logging.INFO, console_level=logging.INFO):
-    with open(log_path, 'w') as file:
-	file.write('\n')
+    with open(log_path, 'a+') as file:
+        print("write log")
+        file.write('\n')
 
     logger.setLevel(file_level)
 
@@ -132,7 +133,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Train face network')
     # general
     parser.add_argument('--data-dir', default='', help='training set directory')
-    parser.add_argument('--prefix', default='../model/model', help='directory to save model.')
+    parser.add_argument('--prefix', default='../models/model', help='directory to save model.')
     parser.add_argument('--pretrained', default='', help='pretrained model to load')
     parser.add_argument('--ckpt', type=int, default=1,
                         help='checkpoint saving option. 0: discard saving. 1: save when necessary. 2: always save')
@@ -186,7 +187,7 @@ def parse_args():
     parser.add_argument('--rand-mirror', type=int, default=1,
                         help='if do random mirror in training')
     parser.add_argument('--cutoff', type=int, default=0, help='cut off aug')
-    parser.add_argument('--target', type=str, default='lfw,cfp_fp,agedb_30',
+    parser.add_argument('--target', type=str, default='classify_megaface',
                         help='verification targets')
 
     parser.add_argument('--log_dir', type=str, default='/home/meiyiyang/Face/insightface/output/log')
@@ -245,7 +246,10 @@ def get_symbol(args, arg_params, aux_params):
                                     version_unit=args.version_unit)
     elif args.network[0] == 'n':
         print('init nasnet', args.num_layers)
-        embedding = fnasnet.get_symbol(args.emb_size)
+        if args.num_layers == 1:
+            embedding = fnasnet.get_symbol(args.emb_size)
+        else:
+            embedding = fmnasnet.get_symbol(args.emb_size)
     elif args.network[0] == 's':
         print('init spherenet', args.num_layers)
         embedding = spherenet.get_symbol(args.emb_size, args.num_layers)
@@ -407,7 +411,10 @@ def train_net(args):
         get_config(config_path, 0, args)
         
     ctx = []
-    cvd = os.environ['CUDA_VISIBLE_DEVICES'].strip()
+    if 'CUDA_VISIBLE_DEVICES' in os.environ:
+        cvd = os.environ['CUDA_VISIBLE_DEVICES'].strip()
+    else:
+        cvd = []
     if len(cvd) > 0:
         for i in xrange(len(cvd.split(','))):
             ctx.append(mx.gpu(i))

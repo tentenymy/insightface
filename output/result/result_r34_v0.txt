@@ -1,0 +1,98 @@
+
+date_dir: ../datasets/faces_ms1m_112x112
+prefix: ../models/model
+tag: r34_v0
+pretrain: 
+per_batch_size: 128
+save: 0, max_steps: 0, lr: 0.10000, verbose: 2000, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: ../datasets/faces_ms1m_112x112
+prefix: ../models/model
+tag: r34_v0
+pretrain: 
+per_batch_size: 128
+save: 1, max_steps: 200000, lr: 0.10000, verbose: 20, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: ../datasets/baidu
+prefix: ../models/model
+tag: r34_v0
+pretrain: 
+per_batch_size: 128
+save: 1, max_steps: 200000, lr: 0.10000, verbose: 20, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: ../datasets/baidu
+prefix: ../models/model
+tag: r34_v0
+pretrain: 
+per_batch_size: 128
+save: 1, max_steps: 200000, lr: 0.10000, verbose: 20, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+date_dir: ../datasets/baidu
+prefix: ../models/model
+tag: r34_v0
+pretrain: 
+per_batch_size: 1
+save: 1, max_steps: 200000, lr: 0.10000, verbose: 20, margin_a: 1.00, margin_m: 0.50, margin_b: 0.00
+
+version_se: 0
+do_save: True
+verbose: 20
+cutoff: 0
+version_input: 1
+rand_mirror: 1
+emb_size: 512
+ckpt: 1
+tag: r34_v0
+num_layers: 2
+use_deformable: 0
+config_dir: ../output/config
+ctx_num: 1
+do_save_threshold: 0.982
+scale: 0.9993
+data_dir: ../datasets/baidu
+network: n2
+margin_s: 64.0
+center_alpha: 0.5
+version_act: prelu
+result_dir: ../output/result
+beta_freeze: 0
+lr: 0.1
+triplet_bag_size: 3600
+margin_m: 0.5
+num_classes: 1701
+end_epoch: 100000
+margin_a: 1.0
+triplet_max_ap: 0.0
+lr_steps: 
+log_dir: ../output/log
+last_epoch: 0
+loss_type: 4
+wd: 0.0005
+power: 1.0
+version_unit: 3
+batch_size: 1
+beta: 1000.0
+mom: 0.9
+margin_b: 0.0
+triplet_alpha: 0.3
+easy_margin: 0
+version_output: E
+image_channel: 3
+gamma: 0.12
+target: classify_megaface
+image_w: 112
+rescale_threshold: 0
+images_per_identity: 0
+prefix: ../models/model
+fc7_wd_mult: 1.0
+per_batch_size: 1
+beta_min: 5.0
+center_scale: 0.003
+pretrained: 
+fine_tune: 0
+image_h: 112
+max_steps: 200000
+margin: 4
+bn_mom: 0.9
+
+20180814-173551	20	1	0.1000	

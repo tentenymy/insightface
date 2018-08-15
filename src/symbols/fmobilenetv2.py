@@ -72,14 +72,14 @@ class MobilenetV2(nn.HybridBlock):
                 seq.add(InvertedResidual(t, self.cn[cn_id-1], self.cn[cn_id], 1))
             return seq
         
-        self.b0 = ConvBlock(self.cn[0], 3, 1)
-        self.b1 = InvertedResidualSequence(1, 1, 1, 1)
-        self.b2 = InvertedResidualSequence(6, 2, 2, 2)
-        self.b3 = InvertedResidualSequence(6, 3, 3, 2)
-        self.b4 = InvertedResidualSequence(6, 4, 4, 1)
-        self.b5 = InvertedResidualSequence(6, 5, 3, 2)
-        self.b6 = InvertedResidualSequence(6, 6, 3, 2)
-        self.b7 = InvertedResidualSequence(6, 7, 1, 1)
+        self.b0 = ConvBlock(self.cn[0], 3, 1) # 112 * 112 * 32
+        self.b1 = InvertedResidualSequence(1, 1, 1, 1) # 112 * 112 * 16
+        self.b2 = InvertedResidualSequence(6, 2, 2, 2) # 56 * 56 * 24
+        self.b3 = InvertedResidualSequence(6, 3, 3, 2) # 28 * 28 * 32
+        self.b4 = InvertedResidualSequence(6, 4, 4, 1) # 28 * 28 * 64
+        self.b5 = InvertedResidualSequence(6, 5, 3, 2) # 14 * 14 * 96
+        self.b6 = InvertedResidualSequence(6, 6, 3, 2) # 7 * 7 * 160
+        self.b7 = InvertedResidualSequence(6, 7, 1, 1) # 7 * 7 * 320
 
         self.last_channels = int(1280*self.w) if self.w > 1.0 else 1280
         with self.name_scope():
