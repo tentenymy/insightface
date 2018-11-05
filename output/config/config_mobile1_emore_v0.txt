@@ -1,8 +1,8 @@
 do_save,0
 do_save_threshold,0.9945
 max_steps,50000
-lr_steps,0,0.005
-verbose,1000
+lr_steps,0,0.1
+verbose,200
 margin-a,1.0
 margin-m,0.3
 margin-b,0.2

@@ -2,6 +2,7 @@
 output/log/temp/
 output/result/temp/
 output/config/temp/
+output/result/*/events.*
 datasets/
 .idea/
 .DS_Store

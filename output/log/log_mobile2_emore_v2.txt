@@ -1,0 +1,1177 @@
+
+2018-10-29 11:38	loading recordio /home/meiyiyang/Face/insightface/datasets/faces_emore/train.rec...
+2018-10-29 11:39	Epoch[0] Batch [20]	Speed: 1173.62 samples/sec	acc=0.000000
+2018-10-29 11:39	Epoch[0] Batch [40]	Speed: 1201.49 samples/sec	acc=0.000000
+2018-10-29 11:39	Epoch[0] Batch [60]	Speed: 1211.35 samples/sec	acc=0.000000
+2018-10-29 11:39	Epoch[0] Batch [80]	Speed: 1216.42 samples/sec	acc=0.000000
+2018-10-29 11:39	Epoch[0] Batch [100]	Speed: 1210.58 samples/sec	acc=0.000000
+2018-10-29 11:40	Epoch[0] Batch [120]	Speed: 1192.72 samples/sec	acc=0.000000
+2018-10-29 11:40	Epoch[0] Batch [140]	Speed: 1209.27 samples/sec	acc=0.000000
+2018-10-29 11:40	Epoch[0] Batch [160]	Speed: 1210.31 samples/sec	acc=0.000000
+2018-10-29 11:40	Epoch[0] Batch [180]	Speed: 1216.23 samples/sec	acc=0.000000
+2018-10-29 11:41	Epoch[0] Batch [200]	Speed: 1202.43 samples/sec	acc=0.000000
+2018-10-29 11:41	Epoch[0] Batch [220]	Speed: 1212.97 samples/sec	acc=0.000000
+2018-10-29 11:41	Epoch[0] Batch [240]	Speed: 1197.25 samples/sec	acc=0.000000
+2018-10-29 11:41	Epoch[0] Batch [260]	Speed: 1206.60 samples/sec	acc=0.000000
+2018-10-29 11:41	Epoch[0] Batch [280]	Speed: 1208.53 samples/sec	acc=0.000000
+2018-10-29 11:42	Epoch[0] Batch [300]	Speed: 1205.19 samples/sec	acc=0.000000
+2018-10-29 11:42	Epoch[0] Batch [320]	Speed: 1207.83 samples/sec	acc=0.000000
+2018-10-29 11:42	Epoch[0] Batch [340]	Speed: 1201.77 samples/sec	acc=0.000000
+2018-10-29 11:42	Epoch[0] Batch [360]	Speed: 1201.52 samples/sec	acc=0.000000
+2018-10-29 11:42	Epoch[0] Batch [380]	Speed: 1215.31 samples/sec	acc=0.000000
+2018-10-29 11:43	Epoch[0] Batch [400]	Speed: 1202.89 samples/sec	acc=0.000000
+2018-10-29 11:43	Epoch[0] Batch [420]	Speed: 1207.09 samples/sec	acc=0.000000
+2018-10-29 11:43	Epoch[0] Batch [440]	Speed: 1211.73 samples/sec	acc=0.000000
+2018-10-29 11:43	Epoch[0] Batch [460]	Speed: 1205.07 samples/sec	acc=0.000000
+2018-10-29 11:43	Epoch[0] Batch [480]	Speed: 1200.04 samples/sec	acc=0.000000
+2018-10-29 11:44	Epoch[0] Batch [500]	Speed: 1213.44 samples/sec	acc=0.000000
+2018-10-29 11:44	Epoch[0] Batch [520]	Speed: 1212.70 samples/sec	acc=0.000000
+2018-10-29 11:44	Epoch[0] Batch [540]	Speed: 1200.33 samples/sec	acc=0.000000
+2018-10-29 11:44	Epoch[0] Batch [560]	Speed: 1203.74 samples/sec	acc=0.000000
+2018-10-29 11:45	Epoch[0] Batch [580]	Speed: 1203.05 samples/sec	acc=0.000000
+2018-10-29 11:45	Epoch[0] Batch [600]	Speed: 1206.84 samples/sec	acc=0.000000
+2018-10-29 11:45	Epoch[0] Batch [620]	Speed: 1198.83 samples/sec	acc=0.000000
+2018-10-29 11:45	Epoch[0] Batch [640]	Speed: 1203.33 samples/sec	acc=0.000000
+2018-10-29 11:45	Epoch[0] Batch [660]	Speed: 1209.49 samples/sec	acc=0.000000
+2018-10-29 11:46	Epoch[0] Batch [680]	Speed: 1209.78 samples/sec	acc=0.000000
+2018-10-29 11:46	Epoch[0] Batch [700]	Speed: 1214.70 samples/sec	acc=0.000000
+2018-10-29 11:46	Epoch[0] Batch [720]	Speed: 1212.64 samples/sec	acc=0.000000
+2018-10-29 11:46	Epoch[0] Batch [740]	Speed: 1204.69 samples/sec	acc=0.000000
+2018-10-29 11:46	Epoch[0] Batch [760]	Speed: 1209.35 samples/sec	acc=0.000000
+2018-10-29 11:47	Epoch[0] Batch [780]	Speed: 1210.79 samples/sec	acc=0.000000
+2018-10-29 11:47	Epoch[0] Batch [800]	Speed: 1210.63 samples/sec	acc=0.000000
+2018-10-29 11:47	Epoch[0] Batch [820]	Speed: 1212.47 samples/sec	acc=0.000000
+2018-10-29 11:47	Epoch[0] Batch [840]	Speed: 1189.55 samples/sec	acc=0.000000
+2018-10-29 11:48	Epoch[0] Batch [860]	Speed: 1211.25 samples/sec	acc=0.000000
+2018-10-29 11:48	Epoch[0] Batch [880]	Speed: 1210.94 samples/sec	acc=0.000000
+2018-10-29 11:48	Epoch[0] Batch [900]	Speed: 1210.58 samples/sec	acc=0.000000
+2018-10-29 11:48	Epoch[0] Batch [920]	Speed: 1207.51 samples/sec	acc=0.000000
+2018-10-29 11:48	Epoch[0] Batch [940]	Speed: 1216.57 samples/sec	acc=0.000000
+2018-10-29 11:49	Epoch[0] Batch [960]	Speed: 1206.40 samples/sec	acc=0.000000
+2018-10-29 11:49	Epoch[0] Batch [980]	Speed: 1211.06 samples/sec	acc=0.000000
+2018-10-29 11:49	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540838986.192.168.2.148
+2018-10-29 11:49	wrote 1 event to disk
+2018-10-29 11:49	wrote 1 event to disk
+2018-10-29 11:49	wrote 2 events to disk
+2018-10-29 11:50	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540839008.192.168.2.148
+2018-10-29 11:50	wrote 1 event to disk
+2018-10-29 11:50	wrote 1 event to disk
+2018-10-29 11:50	wrote 2 events to disk
+2018-10-29 11:50	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0001.params"
+2018-10-29 11:50	Epoch[0] Batch [1000]	Speed: 290.99 samples/sec	acc=0.000000
+2018-10-29 11:50	Epoch[0] Batch [1020]	Speed: 1204.33 samples/sec	acc=0.000000
+2018-10-29 11:50	Epoch[0] Batch [1040]	Speed: 1206.74 samples/sec	acc=0.000000
+2018-10-29 11:50	Epoch[0] Batch [1060]	Speed: 1206.53 samples/sec	acc=0.000000
+2018-10-29 11:51	Epoch[0] Batch [1080]	Speed: 1202.90 samples/sec	acc=0.000000
+2018-10-29 11:51	Epoch[0] Batch [1100]	Speed: 1205.63 samples/sec	acc=0.000000
+2018-10-29 11:51	Epoch[0] Batch [1120]	Speed: 1189.02 samples/sec	acc=0.000000
+2018-10-29 11:51	Epoch[0] Batch [1140]	Speed: 1209.48 samples/sec	acc=0.000000
+2018-10-29 11:51	Epoch[0] Batch [1160]	Speed: 1205.61 samples/sec	acc=0.000000
+2018-10-29 11:52	Epoch[0] Batch [1180]	Speed: 1199.05 samples/sec	acc=0.000000
+2018-10-29 11:52	Epoch[0] Batch [1200]	Speed: 1196.92 samples/sec	acc=0.000000
+2018-10-29 11:52	Epoch[0] Batch [1220]	Speed: 1203.10 samples/sec	acc=0.000000
+2018-10-29 11:52	Epoch[0] Batch [1240]	Speed: 1200.60 samples/sec	acc=0.000000
+2018-10-29 11:52	Epoch[0] Batch [1260]	Speed: 1206.91 samples/sec	acc=0.000000
+2018-10-29 11:53	Epoch[0] Batch [1280]	Speed: 1204.00 samples/sec	acc=0.000000
+2018-10-29 11:53	Epoch[0] Batch [1300]	Speed: 1202.23 samples/sec	acc=0.000000
+2018-10-29 11:53	Epoch[0] Batch [1320]	Speed: 1206.88 samples/sec	acc=0.000000
+2018-10-29 11:53	Epoch[0] Batch [1340]	Speed: 1207.38 samples/sec	acc=0.000000
+2018-10-29 11:53	Epoch[0] Batch [1360]	Speed: 1197.35 samples/sec	acc=0.000000
+2018-10-29 11:54	Epoch[0] Batch [1380]	Speed: 1208.53 samples/sec	acc=0.000000
+2018-10-29 11:54	Epoch[0] Batch [1400]	Speed: 1207.37 samples/sec	acc=0.000000
+2018-10-29 11:54	Epoch[0] Batch [1420]	Speed: 1174.86 samples/sec	acc=0.000000
+2018-10-29 11:54	Epoch[0] Batch [1440]	Speed: 1210.29 samples/sec	acc=0.000000
+2018-10-29 11:55	Epoch[0] Batch [1460]	Speed: 1212.14 samples/sec	acc=0.000000
+2018-10-29 11:55	Epoch[0] Batch [1480]	Speed: 1210.15 samples/sec	acc=0.000000
+2018-10-29 11:55	Epoch[0] Batch [1500]	Speed: 1207.47 samples/sec	acc=0.000000
+2018-10-29 11:55	Epoch[0] Batch [1520]	Speed: 1203.20 samples/sec	acc=0.000000
+2018-10-29 11:55	Epoch[0] Batch [1540]	Speed: 1200.84 samples/sec	acc=0.000000
+2018-10-29 11:56	Epoch[0] Batch [1560]	Speed: 1200.31 samples/sec	acc=0.000000
+2018-10-29 11:56	Epoch[0] Batch [1580]	Speed: 1209.18 samples/sec	acc=0.000065
+2018-10-29 11:56	Epoch[0] Batch [1600]	Speed: 1206.00 samples/sec	acc=0.000000
+2018-10-29 11:56	Epoch[0] Batch [1620]	Speed: 1204.70 samples/sec	acc=0.000065
+2018-10-29 11:56	Epoch[0] Batch [1640]	Speed: 1201.33 samples/sec	acc=0.000000
+2018-10-29 11:57	Epoch[0] Batch [1660]	Speed: 1204.81 samples/sec	acc=0.000000
+2018-10-29 11:57	Epoch[0] Batch [1680]	Speed: 1182.34 samples/sec	acc=0.000000
+2018-10-29 11:57	Epoch[0] Batch [1700]	Speed: 1215.60 samples/sec	acc=0.000195
+2018-10-29 11:57	Epoch[0] Batch [1720]	Speed: 1198.90 samples/sec	acc=0.000130
+2018-10-29 11:58	Epoch[0] Batch [1740]	Speed: 1197.35 samples/sec	acc=0.000195
+2018-10-29 11:58	Epoch[0] Batch [1760]	Speed: 1197.10 samples/sec	acc=0.000065
+2018-10-29 11:58	Epoch[0] Batch [1780]	Speed: 1201.55 samples/sec	acc=0.000065
+2018-10-29 11:58	Epoch[0] Batch [1800]	Speed: 1202.35 samples/sec	acc=0.000326
+2018-10-29 11:58	Epoch[0] Batch [1820]	Speed: 1201.58 samples/sec	acc=0.000065
+2018-10-29 11:59	Epoch[0] Batch [1840]	Speed: 1199.90 samples/sec	acc=0.000130
+2018-10-29 11:59	Epoch[0] Batch [1860]	Speed: 1198.27 samples/sec	acc=0.000326
+2018-10-29 11:59	Epoch[0] Batch [1880]	Speed: 1197.10 samples/sec	acc=0.000130
+2018-10-29 11:59	Epoch[0] Batch [1900]	Speed: 1205.85 samples/sec	acc=0.000586
+2018-10-29 11:59	Epoch[0] Batch [1920]	Speed: 1202.34 samples/sec	acc=0.000521
+2018-10-29 12:00	Epoch[0] Batch [1940]	Speed: 1202.07 samples/sec	acc=0.000586
+2018-10-29 12:00	Epoch[0] Batch [1960]	Speed: 1203.01 samples/sec	acc=0.000651
+2018-10-29 12:00	Epoch[0] Batch [1980]	Speed: 1199.95 samples/sec	acc=0.000716
+2018-10-29 12:01	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540839673.192.168.2.148
+2018-10-29 12:01	wrote 1 event to disk
+2018-10-29 12:01	wrote 1 event to disk
+2018-10-29 12:01	wrote 2 events to disk
+2018-10-29 12:01	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540839701.192.168.2.148
+2018-10-29 12:01	wrote 1 event to disk
+2018-10-29 12:01	wrote 1 event to disk
+2018-10-29 12:01	wrote 2 events to disk
+2018-10-29 12:01	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0002.params"
+2018-10-29 12:01	Epoch[0] Batch [2000]	Speed: 228.32 samples/sec	acc=0.000846
+2018-10-29 12:01	Epoch[0] Batch [2020]	Speed: 1209.48 samples/sec	acc=0.000911
+2018-10-29 12:02	Epoch[0] Batch [2040]	Speed: 1201.85 samples/sec	acc=0.000977
+2018-10-29 12:02	Epoch[0] Batch [2060]	Speed: 1207.51 samples/sec	acc=0.001563
+2018-10-29 12:02	Epoch[0] Batch [2080]	Speed: 1201.88 samples/sec	acc=0.001628
+2018-10-29 12:02	Epoch[0] Batch [2100]	Speed: 1207.97 samples/sec	acc=0.001497
+2018-10-29 12:02	Epoch[0] Batch [2120]	Speed: 1203.55 samples/sec	acc=0.002344
+2018-10-29 12:03	Epoch[0] Batch [2140]	Speed: 1203.19 samples/sec	acc=0.002279
+2018-10-29 12:03	Epoch[0] Batch [2160]	Speed: 1205.24 samples/sec	acc=0.002865
+2018-10-29 12:03	Epoch[0] Batch [2180]	Speed: 1207.35 samples/sec	acc=0.002279
+2018-10-29 12:03	Epoch[0] Batch [2200]	Speed: 1198.30 samples/sec	acc=0.004102
+2018-10-29 12:04	Epoch[0] Batch [2220]	Speed: 1213.02 samples/sec	acc=0.004036
+2018-10-29 12:04	Epoch[0] Batch [2240]	Speed: 1202.30 samples/sec	acc=0.005013
+2018-10-29 12:04	Epoch[0] Batch [2260]	Speed: 1179.74 samples/sec	acc=0.004948
+2018-10-29 12:04	Epoch[0] Batch [2280]	Speed: 1198.37 samples/sec	acc=0.006185
+2018-10-29 12:04	Epoch[0] Batch [2300]	Speed: 1198.84 samples/sec	acc=0.005339
+2018-10-29 12:05	Epoch[0] Batch [2320]	Speed: 1200.62 samples/sec	acc=0.005143
+2018-10-29 12:05	Epoch[0] Batch [2340]	Speed: 1196.96 samples/sec	acc=0.007031
+2018-10-29 12:05	Epoch[0] Batch [2360]	Speed: 1205.30 samples/sec	acc=0.008529
+2018-10-29 12:05	Epoch[0] Batch [2380]	Speed: 1198.81 samples/sec	acc=0.009766
+2018-10-29 12:05	Epoch[0] Batch [2400]	Speed: 1202.76 samples/sec	acc=0.009440
+2018-10-29 12:06	Epoch[0] Batch [2420]	Speed: 1202.91 samples/sec	acc=0.009440
+2018-10-29 12:06	Epoch[0] Batch [2440]	Speed: 1197.78 samples/sec	acc=0.012891
+2018-10-29 12:06	Epoch[0] Batch [2460]	Speed: 1200.63 samples/sec	acc=0.013477
+2018-10-29 12:06	Epoch[0] Batch [2480]	Speed: 1201.87 samples/sec	acc=0.013867
+2018-10-29 12:07	Epoch[0] Batch [2500]	Speed: 1199.34 samples/sec	acc=0.016081
+2018-10-29 12:07	Epoch[0] Batch [2520]	Speed: 1200.91 samples/sec	acc=0.016927
+2018-10-29 12:07	Epoch[0] Batch [2540]	Speed: 1191.22 samples/sec	acc=0.019010
+2018-10-29 12:07	Epoch[0] Batch [2560]	Speed: 1198.89 samples/sec	acc=0.020573
+2018-10-29 12:07	Epoch[0] Batch [2580]	Speed: 1203.87 samples/sec	acc=0.018750
+2018-10-29 12:08	Epoch[0] Batch [2600]	Speed: 1204.56 samples/sec	acc=0.020508
+2018-10-29 12:08	Epoch[0] Batch [2620]	Speed: 1203.56 samples/sec	acc=0.022721
+2018-10-29 12:08	Epoch[0] Batch [2640]	Speed: 1197.02 samples/sec	acc=0.026432
+2018-10-29 12:08	Epoch[0] Batch [2660]	Speed: 1215.45 samples/sec	acc=0.026628
+2018-10-29 12:08	Epoch[0] Batch [2680]	Speed: 1205.57 samples/sec	acc=0.029948
+2018-10-29 12:09	Epoch[0] Batch [2700]	Speed: 1206.80 samples/sec	acc=0.028125
+2018-10-29 12:09	Epoch[0] Batch [2720]	Speed: 1207.17 samples/sec	acc=0.031836
+2018-10-29 12:09	Epoch[0] Batch [2740]	Speed: 1196.77 samples/sec	acc=0.032878
+2018-10-29 12:09	Epoch[0] Batch [2760]	Speed: 1201.89 samples/sec	acc=0.035352
+2018-10-29 12:10	Epoch[0] Batch [2780]	Speed: 1200.44 samples/sec	acc=0.037630
+2018-10-29 12:10	Epoch[0] Batch [2800]	Speed: 1204.94 samples/sec	acc=0.036914
+2018-10-29 12:10	Epoch[0] Batch [2820]	Speed: 1198.35 samples/sec	acc=0.044792
+2018-10-29 12:10	Epoch[0] Batch [2840]	Speed: 1200.31 samples/sec	acc=0.040820
+2018-10-29 12:10	Epoch[0] Batch [2860]	Speed: 1207.05 samples/sec	acc=0.041406
+2018-10-29 12:11	Epoch[0] Batch [2880]	Speed: 1208.93 samples/sec	acc=0.045573
+2018-10-29 12:11	Epoch[0] Batch [2900]	Speed: 1205.29 samples/sec	acc=0.046615
+2018-10-29 12:11	Epoch[0] Batch [2920]	Speed: 1199.41 samples/sec	acc=0.048958
+2018-10-29 12:11	Epoch[0] Batch [2940]	Speed: 1200.49 samples/sec	acc=0.052474
+2018-10-29 12:11	Epoch[0] Batch [2960]	Speed: 1201.97 samples/sec	acc=0.048958
+2018-10-29 12:12	Epoch[0] Batch [2980]	Speed: 1200.82 samples/sec	acc=0.054883
+2018-10-29 12:12	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540840358.192.168.2.148
+2018-10-29 12:12	wrote 1 event to disk
+2018-10-29 12:12	wrote 1 event to disk
+2018-10-29 12:12	wrote 2 events to disk
+2018-10-29 12:13	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540840381.192.168.2.148
+2018-10-29 12:13	wrote 1 event to disk
+2018-10-29 12:13	wrote 1 event to disk
+2018-10-29 12:13	wrote 2 events to disk
+2018-10-29 12:13	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0003.params"
+2018-10-29 12:13	Epoch[0] Batch [3000]	Speed: 282.36 samples/sec	acc=0.060547
+2018-10-29 12:13	Epoch[0] Batch [3020]	Speed: 1206.67 samples/sec	acc=0.059505
+2018-10-29 12:13	Epoch[0] Batch [3040]	Speed: 1207.61 samples/sec	acc=0.058659
+2018-10-29 12:13	Epoch[0] Batch [3060]	Speed: 1206.06 samples/sec	acc=0.062695
+2018-10-29 12:13	Epoch[0] Batch [3080]	Speed: 1201.07 samples/sec	acc=0.066536
+2018-10-29 12:14	Epoch[0] Batch [3100]	Speed: 1210.66 samples/sec	acc=0.062370
+2018-10-29 12:14	Epoch[0] Batch [3120]	Speed: 1183.19 samples/sec	acc=0.066406
+2018-10-29 12:14	Epoch[0] Batch [3140]	Speed: 1208.88 samples/sec	acc=0.070898
+2018-10-29 12:14	Epoch[0] Batch [3160]	Speed: 1208.21 samples/sec	acc=0.075065
+2018-10-29 12:14	Epoch[0] Batch [3180]	Speed: 1201.60 samples/sec	acc=0.074479
+2018-10-29 12:15	Epoch[0] Batch [3200]	Speed: 1203.75 samples/sec	acc=0.077148
+2018-10-29 12:15	Epoch[0] Batch [3220]	Speed: 1205.91 samples/sec	acc=0.076107
+2018-10-29 12:15	Epoch[0] Batch [3240]	Speed: 1199.75 samples/sec	acc=0.078125
+2018-10-29 12:15	Epoch[0] Batch [3260]	Speed: 1201.00 samples/sec	acc=0.083659
+2018-10-29 12:16	Epoch[0] Batch [3280]	Speed: 1202.58 samples/sec	acc=0.083138
+2018-10-29 12:16	Epoch[0] Batch [3300]	Speed: 1194.98 samples/sec	acc=0.084310
+2018-10-29 12:16	Epoch[0] Batch [3320]	Speed: 1198.53 samples/sec	acc=0.090560
+2018-10-29 12:16	Epoch[0] Batch [3340]	Speed: 1199.25 samples/sec	acc=0.086003
+2018-10-29 12:16	Epoch[0] Batch [3360]	Speed: 1198.34 samples/sec	acc=0.090430
+2018-10-29 12:17	Epoch[0] Batch [3380]	Speed: 1207.64 samples/sec	acc=0.091992
+2018-10-29 12:17	Epoch[0] Batch [3400]	Speed: 1205.40 samples/sec	acc=0.091602
+2018-10-29 12:17	Epoch[0] Batch [3420]	Speed: 1200.26 samples/sec	acc=0.094792
+2018-10-29 12:17	Epoch[0] Batch [3440]	Speed: 1202.03 samples/sec	acc=0.096029
+2018-10-29 12:17	Epoch[0] Batch [3460]	Speed: 1212.97 samples/sec	acc=0.097135
+2018-10-29 12:18	Epoch[0] Batch [3480]	Speed: 1205.52 samples/sec	acc=0.104102
+2018-10-29 12:18	Epoch[0] Batch [3500]	Speed: 1209.95 samples/sec	acc=0.103255
+2018-10-29 12:18	Epoch[0] Batch [3520]	Speed: 1199.94 samples/sec	acc=0.104818
+2018-10-29 12:18	Epoch[0] Batch [3540]	Speed: 1197.17 samples/sec	acc=0.108854
+2018-10-29 12:19	Epoch[0] Batch [3560]	Speed: 1206.03 samples/sec	acc=0.109245
+2018-10-29 12:19	Epoch[0] Batch [3580]	Speed: 1201.20 samples/sec	acc=0.110547
+2018-10-29 12:19	Epoch[0] Batch [3600]	Speed: 1203.16 samples/sec	acc=0.109115
+2018-10-29 12:19	Epoch[0] Batch [3620]	Speed: 1198.86 samples/sec	acc=0.112826
+2018-10-29 12:19	Epoch[0] Batch [3640]	Speed: 1201.89 samples/sec	acc=0.115560
+2018-10-29 12:20	Epoch[0] Batch [3660]	Speed: 1207.45 samples/sec	acc=0.106901
+2018-10-29 12:20	Epoch[0] Batch [3680]	Speed: 1208.23 samples/sec	acc=0.113477
+2018-10-29 12:20	Epoch[0] Batch [3700]	Speed: 1201.38 samples/sec	acc=0.117188
+2018-10-29 12:20	Epoch[0] Batch [3720]	Speed: 1208.19 samples/sec	acc=0.119271
+2018-10-29 12:20	Epoch[0] Batch [3740]	Speed: 1203.19 samples/sec	acc=0.121224
+2018-10-29 12:21	Epoch[0] Batch [3760]	Speed: 1208.23 samples/sec	acc=0.123568
+2018-10-29 12:21	Epoch[0] Batch [3780]	Speed: 1203.21 samples/sec	acc=0.124609
+2018-10-29 12:21	Epoch[0] Batch [3800]	Speed: 1204.39 samples/sec	acc=0.125391
+2018-10-29 12:21	Epoch[0] Batch [3820]	Speed: 1187.87 samples/sec	acc=0.127669
+2018-10-29 12:21	Epoch[0] Batch [3840]	Speed: 1202.17 samples/sec	acc=0.128125
+2018-10-29 12:22	Epoch[0] Batch [3860]	Speed: 1196.26 samples/sec	acc=0.130469
+2018-10-29 12:22	Epoch[0] Batch [3880]	Speed: 1207.50 samples/sec	acc=0.130469
+2018-10-29 12:22	Epoch[0] Batch [3900]	Speed: 1200.85 samples/sec	acc=0.127279
+2018-10-29 12:22	Epoch[0] Batch [3920]	Speed: 1206.40 samples/sec	acc=0.130729
+2018-10-29 12:23	Epoch[0] Batch [3940]	Speed: 1206.34 samples/sec	acc=0.134049
+2018-10-29 12:23	Epoch[0] Batch [3960]	Speed: 1204.68 samples/sec	acc=0.131641
+2018-10-29 12:23	Epoch[0] Batch [3980]	Speed: 1203.05 samples/sec	acc=0.133008
+2018-10-29 12:24	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540841041.192.168.2.148
+2018-10-29 12:24	wrote 1 event to disk
+2018-10-29 12:24	wrote 1 event to disk
+2018-10-29 12:24	wrote 2 events to disk
+2018-10-29 12:24	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540841064.192.168.2.148
+2018-10-29 12:24	wrote 1 event to disk
+2018-10-29 12:24	wrote 1 event to disk
+2018-10-29 12:24	wrote 2 events to disk
+2018-10-29 12:24	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0004.params"
+2018-10-29 12:24	Epoch[0] Batch [4000]	Speed: 270.93 samples/sec	acc=0.141016
+2018-10-29 12:24	Epoch[0] Batch [4020]	Speed: 1211.31 samples/sec	acc=0.138737
+2018-10-29 12:24	Epoch[0] Batch [4040]	Speed: 1208.71 samples/sec	acc=0.141341
+2018-10-29 12:25	Epoch[0] Batch [4060]	Speed: 1207.07 samples/sec	acc=0.138477
+2018-10-29 12:25	Epoch[0] Batch [4080]	Speed: 1212.95 samples/sec	acc=0.142969
+2018-10-29 12:25	Epoch[0] Batch [4100]	Speed: 1200.53 samples/sec	acc=0.141602
+2018-10-29 12:25	Epoch[0] Batch [4120]	Speed: 1202.48 samples/sec	acc=0.137305
+2018-10-29 12:25	Epoch[0] Batch [4140]	Speed: 1209.37 samples/sec	acc=0.141862
+2018-10-29 12:26	Epoch[0] Batch [4160]	Speed: 1207.25 samples/sec	acc=0.144466
+2018-10-29 12:26	Epoch[0] Batch [4180]	Speed: 1200.74 samples/sec	acc=0.139583
+2018-10-29 12:26	Epoch[0] Batch [4200]	Speed: 1207.25 samples/sec	acc=0.148568
+2018-10-29 12:26	Epoch[0] Batch [4220]	Speed: 1203.51 samples/sec	acc=0.149023
+2018-10-29 12:26	Epoch[0] Batch [4240]	Speed: 1198.59 samples/sec	acc=0.140755
+2018-10-29 12:27	Epoch[0] Batch [4260]	Speed: 1207.19 samples/sec	acc=0.150846
+2018-10-29 12:27	Epoch[0] Batch [4280]	Speed: 1210.26 samples/sec	acc=0.153906
+2018-10-29 12:27	Epoch[0] Batch [4300]	Speed: 1204.88 samples/sec	acc=0.153190
+2018-10-29 12:27	Epoch[0] Batch [4320]	Speed: 1204.14 samples/sec	acc=0.145052
+2018-10-29 12:28	Epoch[0] Batch [4340]	Speed: 1208.83 samples/sec	acc=0.160547
+2018-10-29 12:28	Epoch[0] Batch [4360]	Speed: 1193.23 samples/sec	acc=0.161263
+2018-10-29 12:28	Epoch[0] Batch [4380]	Speed: 1203.54 samples/sec	acc=0.164453
+2018-10-29 12:28	Epoch[0] Batch [4400]	Speed: 1176.59 samples/sec	acc=0.154557
+2018-10-29 12:28	Epoch[0] Batch [4420]	Speed: 1199.66 samples/sec	acc=0.155143
+2018-10-29 12:29	Epoch[0] Batch [4440]	Speed: 1209.75 samples/sec	acc=0.158724
+2018-10-29 12:29	Epoch[0] Batch [4460]	Speed: 1202.40 samples/sec	acc=0.160026
+2018-10-29 12:29	Epoch[0] Batch [4480]	Speed: 1201.52 samples/sec	acc=0.161914
+2018-10-29 12:29	Epoch[0] Batch [4500]	Speed: 1203.40 samples/sec	acc=0.160547
+2018-10-29 12:29	Epoch[0] Batch [4520]	Speed: 1203.69 samples/sec	acc=0.166732
+2018-10-29 12:30	Epoch[0] Batch [4540]	Speed: 1204.39 samples/sec	acc=0.164844
+2018-10-29 12:30	Epoch[0] Batch [4560]	Speed: 1207.48 samples/sec	acc=0.165885
+2018-10-29 12:30	Epoch[0] Batch [4580]	Speed: 1204.36 samples/sec	acc=0.166992
+2018-10-29 12:30	Epoch[0] Batch [4600]	Speed: 1199.18 samples/sec	acc=0.166016
+2018-10-29 12:31	Epoch[0] Batch [4620]	Speed: 1193.63 samples/sec	acc=0.161719
+2018-10-29 12:31	Epoch[0] Batch [4640]	Speed: 1206.57 samples/sec	acc=0.166797
+2018-10-29 12:31	Epoch[0] Batch [4660]	Speed: 1209.17 samples/sec	acc=0.167318
+2018-10-29 12:31	Epoch[0] Batch [4680]	Speed: 1206.48 samples/sec	acc=0.174219
+2018-10-29 12:31	Epoch[0] Batch [4700]	Speed: 1185.27 samples/sec	acc=0.168620
+2018-10-29 12:32	Epoch[0] Batch [4720]	Speed: 1208.17 samples/sec	acc=0.172396
+2018-10-29 12:32	Epoch[0] Batch [4740]	Speed: 1202.74 samples/sec	acc=0.166146
+2018-10-29 12:32	Epoch[0] Batch [4760]	Speed: 1206.15 samples/sec	acc=0.173633
+2018-10-29 12:32	Epoch[0] Batch [4780]	Speed: 1200.57 samples/sec	acc=0.170833
+2018-10-29 12:32	Epoch[0] Batch [4800]	Speed: 1206.33 samples/sec	acc=0.166927
+2018-10-29 12:33	Epoch[0] Batch [4820]	Speed: 1206.09 samples/sec	acc=0.170378
+2018-10-29 12:33	Epoch[0] Batch [4840]	Speed: 1206.23 samples/sec	acc=0.178190
+2018-10-29 12:33	Epoch[0] Batch [4860]	Speed: 1207.74 samples/sec	acc=0.178385
+2018-10-29 12:33	Epoch[0] Batch [4880]	Speed: 1205.41 samples/sec	acc=0.176563
+2018-10-29 12:33	Epoch[0] Batch [4900]	Speed: 1207.03 samples/sec	acc=0.176693
+2018-10-29 12:34	Epoch[0] Batch [4920]	Speed: 1208.67 samples/sec	acc=0.179622
+2018-10-29 12:34	Epoch[0] Batch [4940]	Speed: 1205.35 samples/sec	acc=0.181966
+2018-10-29 12:34	Epoch[0] Batch [4960]	Speed: 1203.23 samples/sec	acc=0.176302
+2018-10-29 12:34	Epoch[0] Batch [4980]	Speed: 1184.67 samples/sec	acc=0.179362
+2018-10-29 12:35	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540841720.192.168.2.148
+2018-10-29 12:35	wrote 1 event to disk
+2018-10-29 12:35	wrote 1 event to disk
+2018-10-29 12:35	wrote 2 events to disk
+2018-10-29 12:35	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540841744.192.168.2.148
+2018-10-29 12:35	wrote 1 event to disk
+2018-10-29 12:35	wrote 1 event to disk
+2018-10-29 12:35	wrote 2 events to disk
+2018-10-29 12:35	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0005.params"
+2018-10-29 12:35	Epoch[0] Batch [5000]	Speed: 278.55 samples/sec	acc=0.177930
+2018-10-29 12:35	Epoch[0] Batch [5020]	Speed: 1213.43 samples/sec	acc=0.181576
+2018-10-29 12:36	Epoch[0] Batch [5040]	Speed: 1211.69 samples/sec	acc=0.177995
+2018-10-29 12:36	Epoch[0] Batch [5060]	Speed: 1212.08 samples/sec	acc=0.177474
+2018-10-29 12:36	Epoch[0] Batch [5080]	Speed: 1203.57 samples/sec	acc=0.184310
+2018-10-29 12:36	Epoch[0] Batch [5100]	Speed: 1208.86 samples/sec	acc=0.187695
+2018-10-29 12:37	Epoch[0] Batch [5120]	Speed: 1205.76 samples/sec	acc=0.184766
+2018-10-29 12:37	Epoch[0] Batch [5140]	Speed: 1203.45 samples/sec	acc=0.180924
+2018-10-29 12:37	Epoch[0] Batch [5160]	Speed: 1201.27 samples/sec	acc=0.186198
+2018-10-29 12:37	Epoch[0] Batch [5180]	Speed: 1201.75 samples/sec	acc=0.187630
+2018-10-29 12:37	Epoch[0] Batch [5200]	Speed: 1214.57 samples/sec	acc=0.183919
+2018-10-29 12:38	Epoch[0] Batch [5220]	Speed: 1202.97 samples/sec	acc=0.189583
+2018-10-29 12:38	Epoch[0] Batch [5240]	Speed: 1206.66 samples/sec	acc=0.187044
+2018-10-29 12:38	Epoch[0] Batch [5260]	Speed: 1203.02 samples/sec	acc=0.183398
+2018-10-29 12:38	Epoch[0] Batch [5280]	Speed: 1205.03 samples/sec	acc=0.189193
+2018-10-29 12:38	Epoch[0] Batch [5300]	Speed: 1204.73 samples/sec	acc=0.187174
+2018-10-29 12:39	Epoch[0] Batch [5320]	Speed: 1205.36 samples/sec	acc=0.192708
+2018-10-29 12:39	Epoch[0] Batch [5340]	Speed: 1201.28 samples/sec	acc=0.188086
+2018-10-29 12:39	Epoch[0] Batch [5360]	Speed: 1209.62 samples/sec	acc=0.197135
+2018-10-29 12:39	Epoch[0] Batch [5380]	Speed: 1205.56 samples/sec	acc=0.191732
+2018-10-29 12:40	Epoch[0] Batch [5400]	Speed: 1204.24 samples/sec	acc=0.192773
+2018-10-29 12:40	Epoch[0] Batch [5420]	Speed: 1200.55 samples/sec	acc=0.202734
+2018-10-29 12:40	Epoch[0] Batch [5440]	Speed: 1202.33 samples/sec	acc=0.199284
+2018-10-29 12:40	Epoch[0] Batch [5460]	Speed: 1206.19 samples/sec	acc=0.192708
+2018-10-29 12:40	Epoch[0] Batch [5480]	Speed: 1197.28 samples/sec	acc=0.193099
+2018-10-29 12:41	Epoch[0] Batch [5500]	Speed: 1204.78 samples/sec	acc=0.194792
+2018-10-29 12:41	Epoch[0] Batch [5520]	Speed: 1202.77 samples/sec	acc=0.199023
+2018-10-29 12:41	Epoch[0] Batch [5540]	Speed: 1205.53 samples/sec	acc=0.197331
+2018-10-29 12:41	Epoch[0] Batch [5560]	Speed: 1200.65 samples/sec	acc=0.193750
+2018-10-29 12:41	Epoch[0] Batch [5580]	Speed: 1182.60 samples/sec	acc=0.199219
+2018-10-29 12:42	Epoch[0] Batch [5600]	Speed: 1201.02 samples/sec	acc=0.201367
+2018-10-29 12:42	Epoch[0] Batch [5620]	Speed: 1202.74 samples/sec	acc=0.203516
+2018-10-29 12:42	Epoch[0] Batch [5640]	Speed: 1203.42 samples/sec	acc=0.201367
+2018-10-29 12:42	Epoch[0] Batch [5660]	Speed: 1201.64 samples/sec	acc=0.204036
+2018-10-29 12:42	Epoch[0] Batch [5680]	Speed: 1204.26 samples/sec	acc=0.201758
+2018-10-29 12:43	Epoch[0] Batch [5700]	Speed: 1201.51 samples/sec	acc=0.196875
+2018-10-29 12:43	Epoch[0] Batch [5720]	Speed: 1202.23 samples/sec	acc=0.206641
+2018-10-29 12:43	Epoch[0] Batch [5740]	Speed: 1199.52 samples/sec	acc=0.205404
+2018-10-29 12:43	Epoch[0] Batch [5760]	Speed: 1201.04 samples/sec	acc=0.200911
+2018-10-29 12:44	Epoch[0] Batch [5780]	Speed: 1204.36 samples/sec	acc=0.208203
+2018-10-29 12:44	Epoch[0] Batch [5800]	Speed: 1207.11 samples/sec	acc=0.203255
+2018-10-29 12:44	Epoch[0] Batch [5820]	Speed: 1204.47 samples/sec	acc=0.213542
+2018-10-29 12:44	Epoch[0] Batch [5840]	Speed: 1205.62 samples/sec	acc=0.217578
+2018-10-29 12:44	Epoch[0] Batch [5860]	Speed: 1206.42 samples/sec	acc=0.212174
+2018-10-29 12:45	Epoch[0] Batch [5880]	Speed: 1184.25 samples/sec	acc=0.211784
+2018-10-29 12:45	Epoch[0] Batch [5900]	Speed: 1203.85 samples/sec	acc=0.209115
+2018-10-29 12:45	Epoch[0] Batch [5920]	Speed: 1211.55 samples/sec	acc=0.207227
+2018-10-29 12:45	Epoch[0] Batch [5940]	Speed: 1209.66 samples/sec	acc=0.206706
+2018-10-29 12:45	Epoch[0] Batch [5960]	Speed: 1198.10 samples/sec	acc=0.207096
+2018-10-29 12:46	Epoch[0] Batch [5980]	Speed: 1203.92 samples/sec	acc=0.203451
+2018-10-29 12:46	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540842400.192.168.2.148
+2018-10-29 12:46	wrote 1 event to disk
+2018-10-29 12:46	wrote 1 event to disk
+2018-10-29 12:46	wrote 2 events to disk
+2018-10-29 12:47	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540842424.192.168.2.148
+2018-10-29 12:47	wrote 1 event to disk
+2018-10-29 12:47	wrote 1 event to disk
+2018-10-29 12:47	wrote 2 events to disk
+2018-10-29 12:47	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0006.params"
+2018-10-29 12:47	Epoch[0] Batch [6000]	Speed: 280.99 samples/sec	acc=0.210872
+2018-10-29 12:47	Epoch[0] Batch [6020]	Speed: 1212.25 samples/sec	acc=0.206510
+2018-10-29 12:47	Epoch[0] Batch [6040]	Speed: 1213.72 samples/sec	acc=0.210547
+2018-10-29 12:47	Epoch[0] Batch [6060]	Speed: 1207.58 samples/sec	acc=0.208984
+2018-10-29 12:47	Epoch[0] Batch [6080]	Speed: 1213.48 samples/sec	acc=0.218945
+2018-10-29 12:48	Epoch[0] Batch [6100]	Speed: 1218.13 samples/sec	acc=0.209180
+2018-10-29 12:48	Epoch[0] Batch [6120]	Speed: 1214.32 samples/sec	acc=0.210547
+2018-10-29 12:48	Epoch[0] Batch [6140]	Speed: 1205.41 samples/sec	acc=0.219076
+2018-10-29 12:48	Epoch[0] Batch [6160]	Speed: 1204.96 samples/sec	acc=0.211198
+2018-10-29 12:49	Epoch[0] Batch [6180]	Speed: 1180.20 samples/sec	acc=0.212370
+2018-10-29 12:49	Epoch[0] Batch [6200]	Speed: 1205.08 samples/sec	acc=0.222201
+2018-10-29 12:49	Epoch[0] Batch [6220]	Speed: 1208.23 samples/sec	acc=0.215885
+2018-10-29 12:49	Epoch[0] Batch [6240]	Speed: 1201.32 samples/sec	acc=0.213932
+2018-10-29 12:49	Epoch[0] Batch [6260]	Speed: 1206.46 samples/sec	acc=0.219727
+2018-10-29 12:50	Epoch[0] Batch [6280]	Speed: 1205.34 samples/sec	acc=0.215625
+2018-10-29 12:50	Epoch[0] Batch [6300]	Speed: 1197.88 samples/sec	acc=0.216536
+2018-10-29 12:50	Epoch[0] Batch [6320]	Speed: 1204.42 samples/sec	acc=0.214128
+2018-10-29 12:50	Epoch[0] Batch [6340]	Speed: 1207.08 samples/sec	acc=0.219727
+2018-10-29 12:50	Epoch[0] Batch [6360]	Speed: 1200.30 samples/sec	acc=0.220247
+2018-10-29 12:51	Epoch[0] Batch [6380]	Speed: 1199.86 samples/sec	acc=0.211654
+2018-10-29 12:51	Epoch[0] Batch [6400]	Speed: 1205.81 samples/sec	acc=0.216211
+2018-10-29 12:51	Epoch[0] Batch [6420]	Speed: 1207.26 samples/sec	acc=0.219727
+2018-10-29 12:51	Epoch[0] Batch [6440]	Speed: 1214.31 samples/sec	acc=0.228385
+2018-10-29 12:51	Epoch[0] Batch [6460]	Speed: 1215.65 samples/sec	acc=0.218750
+2018-10-29 12:52	Epoch[0] Batch [6480]	Speed: 1201.61 samples/sec	acc=0.221094
+2018-10-29 12:52	Epoch[0] Batch [6500]	Speed: 1204.41 samples/sec	acc=0.226042
+2018-10-29 12:52	Epoch[0] Batch [6520]	Speed: 1212.32 samples/sec	acc=0.223698
+2018-10-29 12:52	Epoch[0] Batch [6540]	Speed: 1208.89 samples/sec	acc=0.225326
+2018-10-29 12:53	Epoch[0] Batch [6560]	Speed: 1215.87 samples/sec	acc=0.220833
+2018-10-29 12:53	Epoch[0] Batch [6580]	Speed: 1204.86 samples/sec	acc=0.226823
+2018-10-29 12:53	Epoch[0] Batch [6600]	Speed: 1218.43 samples/sec	acc=0.224154
+2018-10-29 12:53	Epoch[0] Batch [6620]	Speed: 1205.76 samples/sec	acc=0.226888
+2018-10-29 12:53	Epoch[0] Batch [6640]	Speed: 1201.13 samples/sec	acc=0.224089
+2018-10-29 12:54	Epoch[0] Batch [6660]	Speed: 1208.94 samples/sec	acc=0.228581
+2018-10-29 12:54	Epoch[0] Batch [6680]	Speed: 1209.00 samples/sec	acc=0.223307
+2018-10-29 12:54	Epoch[0] Batch [6700]	Speed: 1199.84 samples/sec	acc=0.221875
+2018-10-29 12:54	Epoch[0] Batch [6720]	Speed: 1201.77 samples/sec	acc=0.223698
+2018-10-29 12:54	Epoch[0] Batch [6740]	Speed: 1203.25 samples/sec	acc=0.219076
+2018-10-29 12:55	Epoch[0] Batch [6760]	Speed: 1202.46 samples/sec	acc=0.224284
+2018-10-29 12:55	Epoch[0] Batch [6780]	Speed: 1197.51 samples/sec	acc=0.219141
+2018-10-29 12:55	Epoch[0] Batch [6800]	Speed: 1206.96 samples/sec	acc=0.226042
+2018-10-29 12:55	Epoch[0] Batch [6820]	Speed: 1205.39 samples/sec	acc=0.231510
+2018-10-29 12:56	Epoch[0] Batch [6840]	Speed: 1199.13 samples/sec	acc=0.224740
+2018-10-29 12:56	Epoch[0] Batch [6860]	Speed: 1207.07 samples/sec	acc=0.231641
+2018-10-29 12:56	Epoch[0] Batch [6880]	Speed: 1202.80 samples/sec	acc=0.225651
+2018-10-29 12:56	Epoch[0] Batch [6900]	Speed: 1202.51 samples/sec	acc=0.221680
+2018-10-29 12:56	Epoch[0] Batch [6920]	Speed: 1209.55 samples/sec	acc=0.231250
+2018-10-29 12:57	Epoch[0] Batch [6940]	Speed: 1208.29 samples/sec	acc=0.231445
+2018-10-29 12:57	Epoch[0] Batch [6960]	Speed: 1205.86 samples/sec	acc=0.228646
+2018-10-29 12:57	Epoch[0] Batch [6980]	Speed: 1207.08 samples/sec	acc=0.233789
+2018-10-29 12:57	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540843079.192.168.2.148
+2018-10-29 12:57	wrote 1 event to disk
+2018-10-29 12:57	wrote 1 event to disk
+2018-10-29 12:57	wrote 2 events to disk
+2018-10-29 12:58	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540843104.192.168.2.148
+2018-10-29 12:58	wrote 1 event to disk
+2018-10-29 12:58	wrote 1 event to disk
+2018-10-29 12:58	wrote 2 events to disk
+2018-10-29 12:58	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0007.params"
+2018-10-29 12:58	Epoch[0] Batch [7000]	Speed: 276.85 samples/sec	acc=0.239258
+2018-10-29 12:58	Epoch[0] Batch [7020]	Speed: 1207.97 samples/sec	acc=0.234831
+2018-10-29 12:58	Epoch[0] Batch [7040]	Speed: 1212.49 samples/sec	acc=0.231771
+2018-10-29 12:59	Epoch[0] Batch [7060]	Speed: 1212.81 samples/sec	acc=0.228060
+2018-10-29 12:59	Epoch[0] Batch [7080]	Speed: 1182.87 samples/sec	acc=0.237109
+2018-10-29 12:59	Epoch[0] Batch [7100]	Speed: 1218.24 samples/sec	acc=0.237630
+2018-10-29 12:59	Epoch[0] Batch [7120]	Speed: 1210.47 samples/sec	acc=0.236458
+2018-10-29 12:59	Epoch[0] Batch [7140]	Speed: 1208.04 samples/sec	acc=0.233203
+2018-10-29 13:00	Epoch[0] Batch [7160]	Speed: 1207.50 samples/sec	acc=0.240039
+2018-10-29 13:00	Epoch[0] Batch [7180]	Speed: 1215.97 samples/sec	acc=0.237891
+2018-10-29 13:00	Epoch[0] Batch [7200]	Speed: 1212.87 samples/sec	acc=0.235156
+2018-10-29 13:00	Epoch[0] Batch [7220]	Speed: 1207.28 samples/sec	acc=0.240299
+2018-10-29 13:00	Epoch[0] Batch [7240]	Speed: 1207.33 samples/sec	acc=0.234570
+2018-10-29 13:01	Epoch[0] Batch [7260]	Speed: 1211.86 samples/sec	acc=0.236979
+2018-10-29 13:01	Epoch[0] Batch [7280]	Speed: 1210.11 samples/sec	acc=0.236914
+2018-10-29 13:01	Epoch[0] Batch [7300]	Speed: 1205.54 samples/sec	acc=0.239063
+2018-10-29 13:01	Epoch[0] Batch [7320]	Speed: 1206.43 samples/sec	acc=0.237956
+2018-10-29 13:02	Epoch[0] Batch [7340]	Speed: 1207.18 samples/sec	acc=0.241732
+2018-10-29 13:02	Epoch[0] Batch [7360]	Speed: 1203.87 samples/sec	acc=0.236849
+2018-10-29 13:02	Epoch[0] Batch [7380]	Speed: 1199.20 samples/sec	acc=0.248372
+2018-10-29 13:02	Epoch[0] Batch [7400]	Speed: 1194.52 samples/sec	acc=0.239063
+2018-10-29 13:02	Epoch[0] Batch [7420]	Speed: 1207.03 samples/sec	acc=0.235677
+2018-10-29 13:03	Epoch[0] Batch [7440]	Speed: 1196.17 samples/sec	acc=0.238086
+2018-10-29 13:03	Epoch[0] Batch [7460]	Speed: 1207.58 samples/sec	acc=0.233724
+2018-10-29 13:03	Epoch[0] Batch [7480]	Speed: 1200.97 samples/sec	acc=0.241341
+2018-10-29 13:03	Epoch[0] Batch [7500]	Speed: 1203.68 samples/sec	acc=0.237500
+2018-10-29 13:03	Epoch[0] Batch [7520]	Speed: 1191.87 samples/sec	acc=0.239648
+2018-10-29 13:04	Epoch[0] Batch [7540]	Speed: 1211.98 samples/sec	acc=0.242708
+2018-10-29 13:04	Epoch[0] Batch [7560]	Speed: 1205.20 samples/sec	acc=0.238997
+2018-10-29 13:04	Epoch[0] Batch [7580]	Speed: 1203.78 samples/sec	acc=0.246940
+2018-10-29 13:04	Epoch[0] Train-acc=0.246940
+2018-10-29 13:04	Epoch[0] Time cost=5163.462
+2018-10-29 13:04	Epoch[1] Batch [20]	Speed: 1216.25 samples/sec	acc=0.269841
+2018-10-29 13:05	Epoch[1] Batch [40]	Speed: 1208.16 samples/sec	acc=0.269206
+2018-10-29 13:05	Epoch[1] Batch [60]	Speed: 1210.81 samples/sec	acc=0.269401
+2018-10-29 13:05	Epoch[1] Batch [80]	Speed: 1203.85 samples/sec	acc=0.261393
+2018-10-29 13:05	Epoch[1] Batch [100]	Speed: 1206.42 samples/sec	acc=0.267057
+2018-10-29 13:05	Epoch[1] Batch [120]	Speed: 1201.02 samples/sec	acc=0.262630
+2018-10-29 13:06	Epoch[1] Batch [140]	Speed: 1204.01 samples/sec	acc=0.261784
+2018-10-29 13:06	Epoch[1] Batch [160]	Speed: 1209.19 samples/sec	acc=0.266667
+2018-10-29 13:06	Epoch[1] Batch [180]	Speed: 1196.27 samples/sec	acc=0.261784
+2018-10-29 13:06	Epoch[1] Batch [200]	Speed: 1201.65 samples/sec	acc=0.260221
+2018-10-29 13:07	Epoch[1] Batch [220]	Speed: 1204.65 samples/sec	acc=0.259505
+2018-10-29 13:07	Epoch[1] Batch [240]	Speed: 1202.35 samples/sec	acc=0.263672
+2018-10-29 13:07	Epoch[1] Batch [260]	Speed: 1201.36 samples/sec	acc=0.252474
+2018-10-29 13:07	Epoch[1] Batch [280]	Speed: 1203.53 samples/sec	acc=0.258984
+2018-10-29 13:07	Epoch[1] Batch [300]	Speed: 1202.82 samples/sec	acc=0.257943
+2018-10-29 13:08	Epoch[1] Batch [320]	Speed: 1200.08 samples/sec	acc=0.258008
+2018-10-29 13:08	Epoch[1] Batch [340]	Speed: 1202.56 samples/sec	acc=0.255859
+2018-10-29 13:08	Epoch[1] Batch [360]	Speed: 1200.63 samples/sec	acc=0.260091
+2018-10-29 13:08	Epoch[1] Batch [380]	Speed: 1201.99 samples/sec	acc=0.257552
+2018-10-29 13:08	Epoch[1] Batch [400]	Speed: 1155.81 samples/sec	acc=0.263477
+2018-10-29 13:09	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540843763.192.168.2.148
+2018-10-29 13:09	wrote 1 event to disk
+2018-10-29 13:09	wrote 1 event to disk
+2018-10-29 13:09	wrote 2 events to disk
+2018-10-29 13:09	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540843787.192.168.2.148
+2018-10-29 13:09	wrote 1 event to disk
+2018-10-29 13:09	wrote 1 event to disk
+2018-10-29 13:09	wrote 2 events to disk
+2018-10-29 13:09	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0008.params"
+2018-10-29 13:09	Epoch[1] Batch [420]	Speed: 282.75 samples/sec	acc=0.256120
+2018-10-29 13:10	Epoch[1] Batch [440]	Speed: 1207.42 samples/sec	acc=0.254297
+2018-10-29 13:10	Epoch[1] Batch [460]	Speed: 1204.70 samples/sec	acc=0.254492
+2018-10-29 13:10	Epoch[1] Batch [480]	Speed: 1201.65 samples/sec	acc=0.251628
+2018-10-29 13:10	Epoch[1] Batch [500]	Speed: 1204.27 samples/sec	acc=0.256055
+2018-10-29 13:10	Epoch[1] Batch [520]	Speed: 1204.32 samples/sec	acc=0.253841
+2018-10-29 13:11	Epoch[1] Batch [540]	Speed: 1210.87 samples/sec	acc=0.257812
+2018-10-29 13:11	Epoch[1] Batch [560]	Speed: 1201.73 samples/sec	acc=0.257617
+2018-10-29 13:11	Epoch[1] Batch [580]	Speed: 1214.42 samples/sec	acc=0.255924
+2018-10-29 13:11	Epoch[1] Batch [600]	Speed: 1210.67 samples/sec	acc=0.247266
+2018-10-29 13:11	Epoch[1] Batch [620]	Speed: 1216.33 samples/sec	acc=0.251432
+2018-10-29 13:12	Epoch[1] Batch [640]	Speed: 1205.37 samples/sec	acc=0.258789
+2018-10-29 13:12	Epoch[1] Batch [660]	Speed: 1203.14 samples/sec	acc=0.252734
+2018-10-29 13:12	Epoch[1] Batch [680]	Speed: 1207.77 samples/sec	acc=0.254948
+2018-10-29 13:12	Epoch[1] Batch [700]	Speed: 1181.24 samples/sec	acc=0.251172
+2018-10-29 13:13	Epoch[1] Batch [720]	Speed: 1201.93 samples/sec	acc=0.251367
+2018-10-29 13:13	Epoch[1] Batch [740]	Speed: 1200.98 samples/sec	acc=0.255599
+2018-10-29 13:13	Epoch[1] Batch [760]	Speed: 1200.93 samples/sec	acc=0.258789
+2018-10-29 13:13	Epoch[1] Batch [780]	Speed: 1200.25 samples/sec	acc=0.257096
+2018-10-29 13:13	Epoch[1] Batch [800]	Speed: 1195.42 samples/sec	acc=0.261523
+2018-10-29 13:14	Epoch[1] Batch [820]	Speed: 1206.96 samples/sec	acc=0.256576
+2018-10-29 13:14	Epoch[1] Batch [840]	Speed: 1203.83 samples/sec	acc=0.254753
+2018-10-29 13:14	Epoch[1] Batch [860]	Speed: 1201.28 samples/sec	acc=0.255078
+2018-10-29 13:14	Epoch[1] Batch [880]	Speed: 1204.21 samples/sec	acc=0.250065
+2018-10-29 13:14	Epoch[1] Batch [900]	Speed: 1208.11 samples/sec	acc=0.251237
+2018-10-29 13:15	Epoch[1] Batch [920]	Speed: 1203.77 samples/sec	acc=0.248307
+2018-10-29 13:15	Epoch[1] Batch [940]	Speed: 1202.44 samples/sec	acc=0.263607
+2018-10-29 13:15	Epoch[1] Batch [960]	Speed: 1201.67 samples/sec	acc=0.256185
+2018-10-29 13:15	Epoch[1] Batch [980]	Speed: 1196.28 samples/sec	acc=0.257617
+2018-10-29 13:16	Epoch[1] Batch [1000]	Speed: 1181.03 samples/sec	acc=0.244857
+2018-10-29 13:16	Epoch[1] Batch [1020]	Speed: 1201.43 samples/sec	acc=0.252930
+2018-10-29 13:16	Epoch[1] Batch [1040]	Speed: 1208.33 samples/sec	acc=0.254427
+2018-10-29 13:16	Epoch[1] Batch [1060]	Speed: 1206.99 samples/sec	acc=0.261133
+2018-10-29 13:16	Epoch[1] Batch [1080]	Speed: 1200.36 samples/sec	acc=0.253646
+2018-10-29 13:17	Epoch[1] Batch [1100]	Speed: 1199.62 samples/sec	acc=0.253385
+2018-10-29 13:17	Epoch[1] Batch [1120]	Speed: 1201.24 samples/sec	acc=0.258138
+2018-10-29 13:17	Epoch[1] Batch [1140]	Speed: 1203.18 samples/sec	acc=0.261198
+2018-10-29 13:17	Epoch[1] Batch [1160]	Speed: 1214.37 samples/sec	acc=0.260417
+2018-10-29 13:17	Epoch[1] Batch [1180]	Speed: 1202.78 samples/sec	acc=0.258984
+2018-10-29 13:18	Epoch[1] Batch [1200]	Speed: 1200.38 samples/sec	acc=0.260352
+2018-10-29 13:18	Epoch[1] Batch [1220]	Speed: 1205.59 samples/sec	acc=0.254102
+2018-10-29 13:18	Epoch[1] Batch [1240]	Speed: 1207.52 samples/sec	acc=0.263281
+2018-10-29 13:18	Epoch[1] Batch [1260]	Speed: 1204.27 samples/sec	acc=0.256315
+2018-10-29 13:18	Epoch[1] Batch [1280]	Speed: 1209.14 samples/sec	acc=0.254297
+2018-10-29 13:19	Epoch[1] Batch [1300]	Speed: 1206.44 samples/sec	acc=0.257357
+2018-10-29 13:19	Epoch[1] Batch [1320]	Speed: 1202.64 samples/sec	acc=0.257031
+2018-10-29 13:19	Epoch[1] Batch [1340]	Speed: 1209.20 samples/sec	acc=0.257422
+2018-10-29 13:19	Epoch[1] Batch [1360]	Speed: 1202.66 samples/sec	acc=0.263346
+2018-10-29 13:20	Epoch[1] Batch [1380]	Speed: 1205.65 samples/sec	acc=0.256380
+2018-10-29 13:20	Epoch[1] Batch [1400]	Speed: 1201.46 samples/sec	acc=0.260026
+2018-10-29 13:20	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540844443.192.168.2.148
+2018-10-29 13:20	wrote 1 event to disk
+2018-10-29 13:20	wrote 1 event to disk
+2018-10-29 13:20	wrote 2 events to disk
+2018-10-29 13:21	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540844466.192.168.2.148
+2018-10-29 13:21	wrote 1 event to disk
+2018-10-29 13:21	wrote 1 event to disk
+2018-10-29 13:21	wrote 2 events to disk
+2018-10-29 13:21	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0009.params"
+2018-10-29 13:21	Epoch[1] Batch [1420]	Speed: 290.54 samples/sec	acc=0.263672
+2018-10-29 13:21	Epoch[1] Batch [1440]	Speed: 1200.50 samples/sec	acc=0.260872
+2018-10-29 13:21	Epoch[1] Batch [1460]	Speed: 1204.07 samples/sec	acc=0.257943
+2018-10-29 13:21	Epoch[1] Batch [1480]	Speed: 1208.76 samples/sec	acc=0.262565
+2018-10-29 13:21	Epoch[1] Batch [1500]	Speed: 1208.58 samples/sec	acc=0.257292
+2018-10-29 13:22	Epoch[1] Batch [1520]	Speed: 1209.78 samples/sec	acc=0.263477
+2018-10-29 13:22	Epoch[1] Batch [1540]	Speed: 1212.44 samples/sec	acc=0.262240
+2018-10-29 13:22	Epoch[1] Batch [1560]	Speed: 1202.07 samples/sec	acc=0.258789
+2018-10-29 13:22	Epoch[1] Batch [1580]	Speed: 1207.44 samples/sec	acc=0.265104
+2018-10-29 13:23	Epoch[1] Batch [1600]	Speed: 1209.52 samples/sec	acc=0.269727
+2018-10-29 13:23	Epoch[1] Batch [1620]	Speed: 1202.70 samples/sec	acc=0.262370
+2018-10-29 13:23	Epoch[1] Batch [1640]	Speed: 1206.77 samples/sec	acc=0.267969
+2018-10-29 13:23	Epoch[1] Batch [1660]	Speed: 1186.55 samples/sec	acc=0.271615
+2018-10-29 13:23	Epoch[1] Batch [1680]	Speed: 1209.22 samples/sec	acc=0.266146
+2018-10-29 13:24	Epoch[1] Batch [1700]	Speed: 1201.73 samples/sec	acc=0.259896
+2018-10-29 13:24	Epoch[1] Batch [1720]	Speed: 1196.98 samples/sec	acc=0.265430
+2018-10-29 13:24	Epoch[1] Batch [1740]	Speed: 1196.10 samples/sec	acc=0.267969
+2018-10-29 13:24	Epoch[1] Batch [1760]	Speed: 1201.78 samples/sec	acc=0.267773
+2018-10-29 13:24	Epoch[1] Batch [1780]	Speed: 1206.00 samples/sec	acc=0.266341
+2018-10-29 13:25	Epoch[1] Batch [1800]	Speed: 1205.39 samples/sec	acc=0.269010
+2018-10-29 13:25	Epoch[1] Batch [1820]	Speed: 1203.53 samples/sec	acc=0.264453
+2018-10-29 13:25	Epoch[1] Batch [1840]	Speed: 1212.28 samples/sec	acc=0.262956
+2018-10-29 13:25	Epoch[1] Batch [1860]	Speed: 1199.70 samples/sec	acc=0.267057
+2018-10-29 13:26	Epoch[1] Batch [1880]	Speed: 1202.92 samples/sec	acc=0.268815
+2018-10-29 13:26	Epoch[1] Batch [1900]	Speed: 1207.03 samples/sec	acc=0.270313
+2018-10-29 13:26	Epoch[1] Batch [1920]	Speed: 1204.10 samples/sec	acc=0.272591
+2018-10-29 13:26	Epoch[1] Batch [1940]	Speed: 1203.72 samples/sec	acc=0.267253
+2018-10-29 13:26	Epoch[1] Batch [1960]	Speed: 1196.35 samples/sec	acc=0.265430
+2018-10-29 13:27	Epoch[1] Batch [1980]	Speed: 1209.50 samples/sec	acc=0.267513
+2018-10-29 13:27	Epoch[1] Batch [2000]	Speed: 1206.62 samples/sec	acc=0.261523
+2018-10-29 13:27	Epoch[1] Batch [2020]	Speed: 1211.21 samples/sec	acc=0.268359
+2018-10-29 13:27	Epoch[1] Batch [2040]	Speed: 1208.65 samples/sec	acc=0.267708
+2018-10-29 13:27	Epoch[1] Batch [2060]	Speed: 1210.51 samples/sec	acc=0.265365
+2018-10-29 13:28	Epoch[1] Batch [2080]	Speed: 1208.97 samples/sec	acc=0.270703
+2018-10-29 13:28	Epoch[1] Batch [2100]	Speed: 1201.98 samples/sec	acc=0.266146
+2018-10-29 13:28	Epoch[1] Batch [2120]	Speed: 1207.41 samples/sec	acc=0.272070
+2018-10-29 13:28	Epoch[1] Batch [2140]	Speed: 1198.58 samples/sec	acc=0.267578
+2018-10-29 13:29	Epoch[1] Batch [2160]	Speed: 1207.17 samples/sec	acc=0.271680
+2018-10-29 13:29	Epoch[1] Batch [2180]	Speed: 1206.29 samples/sec	acc=0.268880
+2018-10-29 13:29	Epoch[1] Batch [2200]	Speed: 1201.24 samples/sec	acc=0.262695
+2018-10-29 13:29	Epoch[1] Batch [2220]	Speed: 1197.57 samples/sec	acc=0.261914
+2018-10-29 13:29	Epoch[1] Batch [2240]	Speed: 1195.66 samples/sec	acc=0.270768
+2018-10-29 13:30	Epoch[1] Batch [2260]	Speed: 1207.71 samples/sec	acc=0.275065
+2018-10-29 13:30	Epoch[1] Batch [2280]	Speed: 1198.20 samples/sec	acc=0.271810
+2018-10-29 13:30	Epoch[1] Batch [2300]	Speed: 1203.23 samples/sec	acc=0.271159
+2018-10-29 13:30	Epoch[1] Batch [2320]	Speed: 1206.71 samples/sec	acc=0.279297
+2018-10-29 13:30	Epoch[1] Batch [2340]	Speed: 1204.93 samples/sec	acc=0.271484
+2018-10-29 13:31	Epoch[1] Batch [2360]	Speed: 1204.10 samples/sec	acc=0.268685
+2018-10-29 13:31	Epoch[1] Batch [2380]	Speed: 1203.82 samples/sec	acc=0.272070
+2018-10-29 13:31	Epoch[1] Batch [2400]	Speed: 1210.45 samples/sec	acc=0.277995
+2018-10-29 13:32	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540845121.192.168.2.148
+2018-10-29 13:32	wrote 1 event to disk
+2018-10-29 13:32	wrote 1 event to disk
+2018-10-29 13:32	wrote 2 events to disk
+2018-10-29 13:32	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540845147.192.168.2.148
+2018-10-29 13:32	wrote 1 event to disk
+2018-10-29 13:32	wrote 1 event to disk
+2018-10-29 13:32	wrote 2 events to disk
+2018-10-29 13:32	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0010.params"
+2018-10-29 13:32	Epoch[1] Batch [2420]	Speed: 272.58 samples/sec	acc=0.278255
+2018-10-29 13:32	Epoch[1] Batch [2440]	Speed: 1203.92 samples/sec	acc=0.272266
+2018-10-29 13:32	Epoch[1] Batch [2460]	Speed: 1212.37 samples/sec	acc=0.275846
+2018-10-29 13:33	Epoch[1] Batch [2480]	Speed: 1209.13 samples/sec	acc=0.268880
+2018-10-29 13:33	Epoch[1] Batch [2500]	Speed: 1212.06 samples/sec	acc=0.275846
+2018-10-29 13:33	Epoch[1] Batch [2520]	Speed: 1207.45 samples/sec	acc=0.269857
+2018-10-29 13:33	Epoch[1] Batch [2540]	Speed: 1201.30 samples/sec	acc=0.278320
+2018-10-29 13:33	Epoch[1] Batch [2560]	Speed: 1213.20 samples/sec	acc=0.270052
+2018-10-29 13:34	Epoch[1] Batch [2580]	Speed: 1212.44 samples/sec	acc=0.269727
+2018-10-29 13:34	Epoch[1] Batch [2600]	Speed: 1204.00 samples/sec	acc=0.271549
+2018-10-29 13:34	Epoch[1] Batch [2620]	Speed: 1206.14 samples/sec	acc=0.272721
+2018-10-29 13:34	Epoch[1] Batch [2640]	Speed: 1203.46 samples/sec	acc=0.271680
+2018-10-29 13:35	Epoch[1] Batch [2660]	Speed: 1213.00 samples/sec	acc=0.275391
+2018-10-29 13:35	Epoch[1] Batch [2680]	Speed: 1199.96 samples/sec	acc=0.281836
+2018-10-29 13:35	Epoch[1] Batch [2700]	Speed: 1203.60 samples/sec	acc=0.270703
+2018-10-29 13:35	Epoch[1] Batch [2720]	Speed: 1194.23 samples/sec	acc=0.272396
+2018-10-29 13:35	Epoch[1] Batch [2740]	Speed: 1202.20 samples/sec	acc=0.276497
+2018-10-29 13:36	Epoch[1] Batch [2760]	Speed: 1207.45 samples/sec	acc=0.275195
+2018-10-29 13:36	Epoch[1] Batch [2780]	Speed: 1204.16 samples/sec	acc=0.272201
+2018-10-29 13:36	Epoch[1] Batch [2800]	Speed: 1207.98 samples/sec	acc=0.277344
+2018-10-29 13:36	Epoch[1] Batch [2820]	Speed: 1200.69 samples/sec	acc=0.281055
+2018-10-29 13:36	Epoch[1] Batch [2840]	Speed: 1205.52 samples/sec	acc=0.270768
+2018-10-29 13:37	Epoch[1] Batch [2860]	Speed: 1204.70 samples/sec	acc=0.274805
+2018-10-29 13:37	Epoch[1] Batch [2880]	Speed: 1202.00 samples/sec	acc=0.276953
+2018-10-29 13:37	Epoch[1] Batch [2900]	Speed: 1191.50 samples/sec	acc=0.279557
+2018-10-29 13:37	Epoch[1] Batch [2920]	Speed: 1203.24 samples/sec	acc=0.278125
+2018-10-29 13:38	Epoch[1] Batch [2940]	Speed: 1206.54 samples/sec	acc=0.280208
+2018-10-29 13:38	Epoch[1] Batch [2960]	Speed: 1206.19 samples/sec	acc=0.274674
+2018-10-29 13:38	Epoch[1] Batch [2980]	Speed: 1200.57 samples/sec	acc=0.277279
+2018-10-29 13:38	Epoch[1] Batch [3000]	Speed: 1202.15 samples/sec	acc=0.279622
+2018-10-29 13:38	Epoch[1] Batch [3020]	Speed: 1202.29 samples/sec	acc=0.279492
+2018-10-29 13:39	Epoch[1] Batch [3040]	Speed: 1207.14 samples/sec	acc=0.271940
+2018-10-29 13:39	Epoch[1] Batch [3060]	Speed: 1200.68 samples/sec	acc=0.272266
+2018-10-29 13:39	Epoch[1] Batch [3080]	Speed: 1203.26 samples/sec	acc=0.280143
+2018-10-29 13:39	Epoch[1] Batch [3100]	Speed: 1207.08 samples/sec	acc=0.283659
+2018-10-29 13:39	Epoch[1] Batch [3120]	Speed: 1206.76 samples/sec	acc=0.277214
+2018-10-29 13:40	Epoch[1] Batch [3140]	Speed: 1208.54 samples/sec	acc=0.273177
+2018-10-29 13:40	Epoch[1] Batch [3160]	Speed: 1216.67 samples/sec	acc=0.279036
+2018-10-29 13:40	Epoch[1] Batch [3180]	Speed: 1206.25 samples/sec	acc=0.274154
+2018-10-29 13:40	Epoch[1] Batch [3200]	Speed: 1207.84 samples/sec	acc=0.280794
+2018-10-29 13:40	Epoch[1] Batch [3220]	Speed: 1211.04 samples/sec	acc=0.276888
+2018-10-29 13:41	Epoch[1] Batch [3240]	Speed: 1199.95 samples/sec	acc=0.277409
+2018-10-29 13:41	Epoch[1] Batch [3260]	Speed: 1204.46 samples/sec	acc=0.288021
+2018-10-29 13:41	Epoch[1] Batch [3280]	Speed: 1207.94 samples/sec	acc=0.275781
+2018-10-29 13:41	Epoch[1] Batch [3300]	Speed: 1209.85 samples/sec	acc=0.277669
+2018-10-29 13:42	Epoch[1] Batch [3320]	Speed: 1199.68 samples/sec	acc=0.288086
+2018-10-29 13:42	Epoch[1] Batch [3340]	Speed: 1199.29 samples/sec	acc=0.283594
+2018-10-29 13:42	Epoch[1] Batch [3360]	Speed: 1215.17 samples/sec	acc=0.281901
+2018-10-29 13:42	Epoch[1] Batch [3380]	Speed: 1200.30 samples/sec	acc=0.287565
+2018-10-29 13:42	Epoch[1] Batch [3400]	Speed: 1207.80 samples/sec	acc=0.275846
+2018-10-29 13:43	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540845802.192.168.2.148
+2018-10-29 13:43	wrote 1 event to disk
+2018-10-29 13:43	wrote 1 event to disk
+2018-10-29 13:43	wrote 2 events to disk
+2018-10-29 13:43	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540845829.192.168.2.148
+2018-10-29 13:43	wrote 1 event to disk
+2018-10-29 13:43	wrote 1 event to disk
+2018-10-29 13:43	wrote 2 events to disk
+2018-10-29 13:43	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0011.params"
+2018-10-29 13:43	Epoch[1] Batch [3420]	Speed: 268.73 samples/sec	acc=0.278971
+2018-10-29 13:44	Epoch[1] Batch [3440]	Speed: 1199.06 samples/sec	acc=0.276953
+2018-10-29 13:44	Epoch[1] Batch [3460]	Speed: 1211.60 samples/sec	acc=0.281576
+2018-10-29 13:44	Epoch[1] Batch [3480]	Speed: 1201.07 samples/sec	acc=0.285286
+2018-10-29 13:44	Epoch[1] Batch [3500]	Speed: 1207.56 samples/sec	acc=0.277799
+2018-10-29 13:44	Epoch[1] Batch [3520]	Speed: 1190.88 samples/sec	acc=0.275195
+2018-10-29 13:45	Epoch[1] Batch [3540]	Speed: 1208.87 samples/sec	acc=0.285352
+2018-10-29 13:45	Epoch[1] Batch [3560]	Speed: 1212.82 samples/sec	acc=0.283984
+2018-10-29 13:45	Epoch[1] Batch [3580]	Speed: 1207.50 samples/sec	acc=0.278971
+2018-10-29 13:45	Epoch[1] Batch [3600]	Speed: 1201.93 samples/sec	acc=0.284049
+2018-10-29 13:45	Epoch[1] Batch [3620]	Speed: 1210.76 samples/sec	acc=0.278906
+2018-10-29 13:46	Epoch[1] Batch [3640]	Speed: 1209.33 samples/sec	acc=0.284961
+2018-10-29 13:46	Epoch[1] Batch [3660]	Speed: 1208.00 samples/sec	acc=0.283138
+2018-10-29 13:46	Epoch[1] Batch [3680]	Speed: 1207.08 samples/sec	acc=0.281966
+2018-10-29 13:46	Epoch[1] Batch [3700]	Speed: 1211.60 samples/sec	acc=0.277865
+2018-10-29 13:47	Epoch[1] Batch [3720]	Speed: 1208.00 samples/sec	acc=0.282747
+2018-10-29 13:47	Epoch[1] Batch [3740]	Speed: 1204.48 samples/sec	acc=0.277930
+2018-10-29 13:47	Epoch[1] Batch [3760]	Speed: 1201.64 samples/sec	acc=0.282617
+2018-10-29 13:47	Epoch[1] Batch [3780]	Speed: 1200.24 samples/sec	acc=0.288997
+2018-10-29 13:47	Epoch[1] Batch [3800]	Speed: 1203.18 samples/sec	acc=0.284766
+2018-10-29 13:48	Epoch[1] Batch [3820]	Speed: 1196.01 samples/sec	acc=0.283073
+2018-10-29 13:48	Epoch[1] Batch [3840]	Speed: 1207.35 samples/sec	acc=0.284440
+2018-10-29 13:48	Epoch[1] Batch [3860]	Speed: 1206.00 samples/sec	acc=0.279883
+2018-10-29 13:48	Epoch[1] Batch [3880]	Speed: 1203.76 samples/sec	acc=0.277214
+2018-10-29 13:48	Epoch[1] Batch [3900]	Speed: 1199.28 samples/sec	acc=0.282747
+2018-10-29 13:49	Epoch[1] Batch [3920]	Speed: 1195.39 samples/sec	acc=0.295247
+2018-10-29 13:49	Epoch[1] Batch [3940]	Speed: 1208.34 samples/sec	acc=0.284440
+2018-10-29 13:49	Epoch[1] Batch [3960]	Speed: 1205.97 samples/sec	acc=0.285286
+2018-10-29 13:49	Epoch[1] Batch [3980]	Speed: 1203.20 samples/sec	acc=0.288672
+2018-10-29 13:50	Epoch[1] Batch [4000]	Speed: 1205.88 samples/sec	acc=0.281510
+2018-10-29 13:50	Epoch[1] Batch [4020]	Speed: 1193.91 samples/sec	acc=0.291732
+2018-10-29 13:50	Epoch[1] Batch [4040]	Speed: 1203.71 samples/sec	acc=0.282943
+2018-10-29 13:50	Epoch[1] Batch [4060]	Speed: 1201.59 samples/sec	acc=0.284310
+2018-10-29 13:50	Epoch[1] Batch [4080]	Speed: 1199.51 samples/sec	acc=0.284570
+2018-10-29 13:51	Epoch[1] Batch [4100]	Speed: 1202.17 samples/sec	acc=0.286003
+2018-10-29 13:51	Epoch[1] Batch [4120]	Speed: 1192.42 samples/sec	acc=0.286458
+2018-10-29 13:51	Epoch[1] Batch [4140]	Speed: 1205.83 samples/sec	acc=0.294271
+2018-10-29 13:51	Epoch[1] Batch [4160]	Speed: 1207.70 samples/sec	acc=0.283919
+2018-10-29 13:51	Epoch[1] Batch [4180]	Speed: 1203.52 samples/sec	acc=0.280013
+2018-10-29 13:52	Epoch[1] Batch [4200]	Speed: 1202.81 samples/sec	acc=0.290820
+2018-10-29 13:52	Epoch[1] Batch [4220]	Speed: 1210.25 samples/sec	acc=0.290430
+2018-10-29 13:52	Epoch[1] Batch [4240]	Speed: 1209.44 samples/sec	acc=0.283919
+2018-10-29 13:52	Epoch[1] Batch [4260]	Speed: 1195.53 samples/sec	acc=0.278646
+2018-10-29 13:52	Epoch[1] Batch [4280]	Speed: 1206.98 samples/sec	acc=0.286328
+2018-10-29 13:53	Epoch[1] Batch [4300]	Speed: 1199.00 samples/sec	acc=0.293945
+2018-10-29 13:53	Epoch[1] Batch [4320]	Speed: 1200.51 samples/sec	acc=0.286003
+2018-10-29 13:53	Epoch[1] Batch [4340]	Speed: 1200.02 samples/sec	acc=0.294076
+2018-10-29 13:53	Epoch[1] Batch [4360]	Speed: 1202.49 samples/sec	acc=0.280599
+2018-10-29 13:54	Epoch[1] Batch [4380]	Speed: 1200.42 samples/sec	acc=0.285417
+2018-10-29 13:54	Epoch[1] Batch [4400]	Speed: 1201.99 samples/sec	acc=0.284180
+2018-10-29 13:54	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540846485.192.168.2.148
+2018-10-29 13:54	wrote 1 event to disk
+2018-10-29 13:54	wrote 1 event to disk
+2018-10-29 13:54	wrote 2 events to disk
+2018-10-29 13:55	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540846513.192.168.2.148
+2018-10-29 13:55	wrote 1 event to disk
+2018-10-29 13:55	wrote 1 event to disk
+2018-10-29 13:55	wrote 2 events to disk
+2018-10-29 13:55	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0012.params"
+2018-10-29 13:55	Epoch[1] Batch [4420]	Speed: 260.83 samples/sec	acc=0.287305
+2018-10-29 13:55	Epoch[1] Batch [4440]	Speed: 1212.66 samples/sec	acc=0.291992
+2018-10-29 13:55	Epoch[1] Batch [4460]	Speed: 1207.73 samples/sec	acc=0.286198
+2018-10-29 13:55	Epoch[1] Batch [4480]	Speed: 1204.54 samples/sec	acc=0.287305
+2018-10-29 13:56	Epoch[1] Batch [4500]	Speed: 1215.36 samples/sec	acc=0.284440
+2018-10-29 13:56	Epoch[1] Batch [4520]	Speed: 1203.60 samples/sec	acc=0.287630
+2018-10-29 13:56	Epoch[1] Batch [4540]	Speed: 1211.21 samples/sec	acc=0.283138
+2018-10-29 13:56	Epoch[1] Batch [4560]	Speed: 1205.67 samples/sec	acc=0.286133
+2018-10-29 13:56	Epoch[1] Batch [4580]	Speed: 1204.07 samples/sec	acc=0.295443
+2018-10-29 13:57	Epoch[1] Batch [4600]	Speed: 1207.97 samples/sec	acc=0.291602
+2018-10-29 13:57	Epoch[1] Batch [4620]	Speed: 1208.11 samples/sec	acc=0.289453
+2018-10-29 13:57	Epoch[1] Batch [4640]	Speed: 1211.53 samples/sec	acc=0.288802
+2018-10-29 13:57	Epoch[1] Batch [4660]	Speed: 1207.50 samples/sec	acc=0.291862
+2018-10-29 13:58	Epoch[1] Batch [4680]	Speed: 1200.25 samples/sec	acc=0.291797
+2018-10-29 13:58	Epoch[1] Batch [4700]	Speed: 1197.32 samples/sec	acc=0.290495
+2018-10-29 13:58	Epoch[1] Batch [4720]	Speed: 1202.32 samples/sec	acc=0.286328
+2018-10-29 13:58	Epoch[1] Batch [4740]	Speed: 1191.40 samples/sec	acc=0.293945
+2018-10-29 13:58	Epoch[1] Batch [4760]	Speed: 1207.26 samples/sec	acc=0.294141
+2018-10-29 13:59	Epoch[1] Batch [4780]	Speed: 1204.37 samples/sec	acc=0.291081
+2018-10-29 13:59	Epoch[1] Batch [4800]	Speed: 1205.49 samples/sec	acc=0.286719
+2018-10-29 13:59	Epoch[1] Batch [4820]	Speed: 1194.86 samples/sec	acc=0.288607
+2018-10-29 13:59	Epoch[1] Batch [4840]	Speed: 1203.54 samples/sec	acc=0.292904
+2018-10-29 13:59	Epoch[1] Batch [4860]	Speed: 1205.06 samples/sec	acc=0.291927
+2018-10-29 14:00	Epoch[1] Batch [4880]	Speed: 1200.32 samples/sec	acc=0.286393
+2018-10-29 14:00	Epoch[1] Batch [4900]	Speed: 1206.98 samples/sec	acc=0.289909
+2018-10-29 14:00	Epoch[1] Batch [4920]	Speed: 1206.77 samples/sec	acc=0.286589
+2018-10-29 14:00	Epoch[1] Batch [4940]	Speed: 1203.41 samples/sec	acc=0.290430
+2018-10-29 14:00	Epoch[1] Batch [4960]	Speed: 1201.85 samples/sec	acc=0.292253
+2018-10-29 14:01	Epoch[1] Batch [4980]	Speed: 1206.68 samples/sec	acc=0.291406
+2018-10-29 14:01	Epoch[1] Batch [5000]	Speed: 1204.18 samples/sec	acc=0.295378
+2018-10-29 14:01	Epoch[1] Batch [5020]	Speed: 1203.69 samples/sec	acc=0.288737
+2018-10-29 14:01	Epoch[1] Batch [5040]	Speed: 1182.97 samples/sec	acc=0.289388
+2018-10-29 14:02	Epoch[1] Batch [5060]	Speed: 1201.48 samples/sec	acc=0.290169
+2018-10-29 14:02	Epoch[1] Batch [5080]	Speed: 1201.33 samples/sec	acc=0.291667
+2018-10-29 14:02	Epoch[1] Batch [5100]	Speed: 1200.05 samples/sec	acc=0.287370
+2018-10-29 14:02	Epoch[1] Batch [5120]	Speed: 1204.96 samples/sec	acc=0.284049
+2018-10-29 14:02	Epoch[1] Batch [5140]	Speed: 1207.32 samples/sec	acc=0.291081
+2018-10-29 14:03	Epoch[1] Batch [5160]	Speed: 1201.19 samples/sec	acc=0.292969
+2018-10-29 14:03	Epoch[1] Batch [5180]	Speed: 1199.67 samples/sec	acc=0.289193
+2018-10-29 14:03	Epoch[1] Batch [5200]	Speed: 1206.48 samples/sec	acc=0.291732
+2018-10-29 14:03	Epoch[1] Batch [5220]	Speed: 1195.42 samples/sec	acc=0.294857
+2018-10-29 14:03	Epoch[1] Batch [5240]	Speed: 1197.27 samples/sec	acc=0.293750
+2018-10-29 14:04	Epoch[1] Batch [5260]	Speed: 1206.55 samples/sec	acc=0.302799
+2018-10-29 14:04	Epoch[1] Batch [5280]	Speed: 1208.47 samples/sec	acc=0.298698
+2018-10-29 14:04	Epoch[1] Batch [5300]	Speed: 1204.59 samples/sec	acc=0.301237
+2018-10-29 14:04	Epoch[1] Batch [5320]	Speed: 1197.11 samples/sec	acc=0.300000
+2018-10-29 14:05	Epoch[1] Batch [5340]	Speed: 1200.00 samples/sec	acc=0.292057
+2018-10-29 14:05	Epoch[1] Batch [5360]	Speed: 1204.19 samples/sec	acc=0.296029
+2018-10-29 14:05	Epoch[1] Batch [5380]	Speed: 1197.03 samples/sec	acc=0.292773
+2018-10-29 14:05	Epoch[1] Batch [5400]	Speed: 1198.24 samples/sec	acc=0.292904
+2018-10-29 14:06	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540847168.192.168.2.148
+2018-10-29 14:06	wrote 1 event to disk
+2018-10-29 14:06	wrote 1 event to disk
+2018-10-29 14:06	wrote 2 events to disk
+2018-10-29 14:06	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540847197.192.168.2.148
+2018-10-29 14:06	wrote 1 event to disk
+2018-10-29 14:06	wrote 1 event to disk
+2018-10-29 14:06	wrote 2 events to disk
+2018-10-29 14:06	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0013.params"
+2018-10-29 14:06	Epoch[1] Batch [5420]	Speed: 260.92 samples/sec	acc=0.301432
+2018-10-29 14:06	Epoch[1] Batch [5440]	Speed: 1205.86 samples/sec	acc=0.292122
+2018-10-29 14:07	Epoch[1] Batch [5460]	Speed: 1201.20 samples/sec	acc=0.301497
+2018-10-29 14:07	Epoch[1] Batch [5480]	Speed: 1195.84 samples/sec	acc=0.297721
+2018-10-29 14:07	Epoch[1] Batch [5500]	Speed: 1201.66 samples/sec	acc=0.292578
+2018-10-29 14:07	Epoch[1] Batch [5520]	Speed: 1197.87 samples/sec	acc=0.302018
+2018-10-29 14:07	Epoch[1] Batch [5540]	Speed: 1200.79 samples/sec	acc=0.295247
+2018-10-29 14:08	Epoch[1] Batch [5560]	Speed: 1202.43 samples/sec	acc=0.286458
+2018-10-29 14:08	Epoch[1] Batch [5580]	Speed: 1201.03 samples/sec	acc=0.297982
+2018-10-29 14:08	Epoch[1] Batch [5600]	Speed: 1206.15 samples/sec	acc=0.289258
+2018-10-29 14:08	Epoch[1] Batch [5620]	Speed: 1214.12 samples/sec	acc=0.290039
+2018-10-29 14:09	Epoch[1] Batch [5640]	Speed: 1211.57 samples/sec	acc=0.295312
+2018-10-29 14:09	Epoch[1] Batch [5660]	Speed: 1187.65 samples/sec	acc=0.294792
+2018-10-29 14:09	Epoch[1] Batch [5680]	Speed: 1204.41 samples/sec	acc=0.291732
+2018-10-29 14:09	Epoch[1] Batch [5700]	Speed: 1208.60 samples/sec	acc=0.298893
+2018-10-29 14:09	Epoch[1] Batch [5720]	Speed: 1200.49 samples/sec	acc=0.295312
+2018-10-29 14:10	Epoch[1] Batch [5740]	Speed: 1205.68 samples/sec	acc=0.290495
+2018-10-29 14:10	Epoch[1] Batch [5760]	Speed: 1212.49 samples/sec	acc=0.300651
+2018-10-29 14:10	Epoch[1] Batch [5780]	Speed: 1209.93 samples/sec	acc=0.295378
+2018-10-29 14:10	Epoch[1] Batch [5800]	Speed: 1202.36 samples/sec	acc=0.297786
+2018-10-29 14:10	Epoch[1] Batch [5820]	Speed: 1199.96 samples/sec	acc=0.298763
+2018-10-29 14:11	Epoch[1] Batch [5840]	Speed: 1207.54 samples/sec	acc=0.296289
+2018-10-29 14:11	Epoch[1] Batch [5860]	Speed: 1203.73 samples/sec	acc=0.295378
+2018-10-29 14:11	Epoch[1] Batch [5880]	Speed: 1200.72 samples/sec	acc=0.300651
+2018-10-29 14:11	Epoch[1] Batch [5900]	Speed: 1212.87 samples/sec	acc=0.296615
+2018-10-29 14:11	Epoch[1] Batch [5920]	Speed: 1203.60 samples/sec	acc=0.296029
+2018-10-29 14:12	Epoch[1] Batch [5940]	Speed: 1206.74 samples/sec	acc=0.303060
+2018-10-29 14:12	Epoch[1] Batch [5960]	Speed: 1183.52 samples/sec	acc=0.301823
+2018-10-29 14:12	Epoch[1] Batch [5980]	Speed: 1204.14 samples/sec	acc=0.299805
+2018-10-29 14:12	Epoch[1] Batch [6000]	Speed: 1208.66 samples/sec	acc=0.295768
+2018-10-29 14:13	Epoch[1] Batch [6020]	Speed: 1197.47 samples/sec	acc=0.301172
+2018-10-29 14:13	Epoch[1] Batch [6040]	Speed: 1204.34 samples/sec	acc=0.293294
+2018-10-29 14:13	Epoch[1] Batch [6060]	Speed: 1196.10 samples/sec	acc=0.298372
+2018-10-29 14:13	Epoch[1] Batch [6080]	Speed: 1202.05 samples/sec	acc=0.301693
+2018-10-29 14:13	Epoch[1] Batch [6100]	Speed: 1202.54 samples/sec	acc=0.301628
+2018-10-29 14:14	Epoch[1] Batch [6120]	Speed: 1192.87 samples/sec	acc=0.293750
+2018-10-29 14:14	Epoch[1] Batch [6140]	Speed: 1206.67 samples/sec	acc=0.290039
+2018-10-29 14:14	Epoch[1] Batch [6160]	Speed: 1198.35 samples/sec	acc=0.290885
+2018-10-29 14:14	Epoch[1] Batch [6180]	Speed: 1202.08 samples/sec	acc=0.300260
+2018-10-29 14:14	Epoch[1] Batch [6200]	Speed: 1207.34 samples/sec	acc=0.295898
+2018-10-29 14:15	Epoch[1] Batch [6220]	Speed: 1199.83 samples/sec	acc=0.300195
+2018-10-29 14:15	Epoch[1] Batch [6240]	Speed: 1196.58 samples/sec	acc=0.303190
+2018-10-29 14:15	Epoch[1] Batch [6260]	Speed: 1205.98 samples/sec	acc=0.301758
+2018-10-29 14:15	Epoch[1] Batch [6280]	Speed: 1198.39 samples/sec	acc=0.305469
+2018-10-29 14:16	Epoch[1] Batch [6300]	Speed: 1200.27 samples/sec	acc=0.294271
+2018-10-29 14:16	Epoch[1] Batch [6320]	Speed: 1196.61 samples/sec	acc=0.289193
+2018-10-29 14:16	Epoch[1] Batch [6340]	Speed: 1206.19 samples/sec	acc=0.298112
+2018-10-29 14:16	Epoch[1] Batch [6360]	Speed: 1211.32 samples/sec	acc=0.302018
+2018-10-29 14:16	Epoch[1] Batch [6380]	Speed: 1206.90 samples/sec	acc=0.297331
+2018-10-29 14:17	Epoch[1] Batch [6400]	Speed: 1197.16 samples/sec	acc=0.293359
+2018-10-29 14:17	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540847854.192.168.2.148
+2018-10-29 14:17	wrote 1 event to disk
+2018-10-29 14:17	wrote 1 event to disk
+2018-10-29 14:17	wrote 2 events to disk
+2018-10-29 14:18	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540847882.192.168.2.148
+2018-10-29 14:18	wrote 1 event to disk
+2018-10-29 14:18	wrote 1 event to disk
+2018-10-29 14:18	wrote 2 events to disk
+2018-10-29 14:18	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0014.params"
+2018-10-29 14:18	Epoch[1] Batch [6420]	Speed: 260.36 samples/sec	acc=0.302148
+2018-10-29 14:18	Epoch[1] Batch [6440]	Speed: 1205.76 samples/sec	acc=0.295508
+2018-10-29 14:18	Epoch[1] Batch [6460]	Speed: 1207.85 samples/sec	acc=0.293880
+2018-10-29 14:18	Epoch[1] Batch [6480]	Speed: 1210.40 samples/sec	acc=0.297982
+2018-10-29 14:18	Epoch[1] Batch [6500]	Speed: 1194.77 samples/sec	acc=0.305143
+2018-10-29 14:19	Epoch[1] Batch [6520]	Speed: 1209.98 samples/sec	acc=0.304557
+2018-10-29 14:19	Epoch[1] Batch [6540]	Speed: 1196.71 samples/sec	acc=0.296354
+2018-10-29 14:19	Epoch[1] Batch [6560]	Speed: 1206.13 samples/sec	acc=0.302279
+2018-10-29 14:19	Epoch[1] Batch [6580]	Speed: 1208.33 samples/sec	acc=0.303516
+2018-10-29 14:19	Epoch[1] Batch [6600]	Speed: 1214.85 samples/sec	acc=0.302865
+2018-10-29 14:20	Epoch[1] Batch [6620]	Speed: 1164.09 samples/sec	acc=0.302995
+2018-10-29 14:20	Epoch[1] Batch [6640]	Speed: 1211.60 samples/sec	acc=0.301107
+2018-10-29 14:20	Epoch[1] Batch [6660]	Speed: 1205.56 samples/sec	acc=0.296745
+2018-10-29 14:20	Epoch[1] Batch [6680]	Speed: 1205.30 samples/sec	acc=0.301172
+2018-10-29 14:21	Epoch[1] Batch [6700]	Speed: 1203.13 samples/sec	acc=0.294466
+2018-10-29 14:21	Epoch[1] Batch [6720]	Speed: 1192.65 samples/sec	acc=0.300000
+2018-10-29 14:21	Epoch[1] Batch [6740]	Speed: 1162.11 samples/sec	acc=0.298698
+2018-10-29 14:21	Epoch[1] Batch [6760]	Speed: 1202.33 samples/sec	acc=0.306510
+2018-10-29 14:21	Epoch[1] Batch [6780]	Speed: 1209.81 samples/sec	acc=0.293555
+2018-10-29 14:22	Epoch[1] Batch [6800]	Speed: 1205.20 samples/sec	acc=0.304557
+2018-10-29 14:22	Epoch[1] Batch [6820]	Speed: 1203.52 samples/sec	acc=0.300977
+2018-10-29 14:22	Epoch[1] Batch [6840]	Speed: 1200.65 samples/sec	acc=0.305013
+2018-10-29 14:22	Epoch[1] Batch [6860]	Speed: 1211.91 samples/sec	acc=0.301953
+2018-10-29 14:22	Epoch[1] Batch [6880]	Speed: 1208.27 samples/sec	acc=0.301693
+2018-10-29 14:23	Epoch[1] Batch [6900]	Speed: 1184.87 samples/sec	acc=0.299740
+2018-10-29 14:23	Epoch[1] Batch [6920]	Speed: 1168.58 samples/sec	acc=0.296419
+2018-10-29 14:23	Epoch[1] Batch [6940]	Speed: 1193.37 samples/sec	acc=0.300846
+2018-10-29 14:23	Epoch[1] Batch [6960]	Speed: 1184.19 samples/sec	acc=0.305208
+2018-10-29 14:24	Epoch[1] Batch [6980]	Speed: 1206.91 samples/sec	acc=0.307031
+2018-10-29 14:24	Epoch[1] Batch [7000]	Speed: 1202.29 samples/sec	acc=0.303906
+2018-10-29 14:24	Epoch[1] Batch [7020]	Speed: 1175.89 samples/sec	acc=0.305078
+2018-10-29 14:24	Epoch[1] Batch [7040]	Speed: 1190.04 samples/sec	acc=0.298112
+2018-10-29 14:24	Epoch[1] Batch [7060]	Speed: 1174.34 samples/sec	acc=0.298893
+2018-10-29 14:25	Epoch[1] Batch [7080]	Speed: 1197.30 samples/sec	acc=0.297331
+2018-10-29 14:25	Epoch[1] Batch [7100]	Speed: 1164.63 samples/sec	acc=0.304036
+2018-10-29 14:25	Epoch[1] Batch [7120]	Speed: 1221.36 samples/sec	acc=0.298047
+2018-10-29 14:25	Epoch[1] Batch [7140]	Speed: 1168.19 samples/sec	acc=0.294531
+2018-10-29 14:25	Epoch[1] Batch [7160]	Speed: 1200.60 samples/sec	acc=0.300651
+2018-10-29 14:26	Epoch[1] Batch [7180]	Speed: 1205.10 samples/sec	acc=0.304297
+2018-10-29 14:26	Epoch[1] Batch [7200]	Speed: 1208.57 samples/sec	acc=0.298438
+2018-10-29 14:26	Epoch[1] Batch [7220]	Speed: 1170.27 samples/sec	acc=0.303320
+2018-10-29 14:26	Epoch[1] Batch [7240]	Speed: 1225.86 samples/sec	acc=0.298568
+2018-10-29 14:27	Epoch[1] Batch [7260]	Speed: 1199.89 samples/sec	acc=0.305078
+2018-10-29 14:27	Epoch[1] Batch [7280]	Speed: 1196.91 samples/sec	acc=0.306510
+2018-10-29 14:27	Epoch[1] Batch [7300]	Speed: 1176.39 samples/sec	acc=0.302734
+2018-10-29 14:27	Epoch[1] Batch [7320]	Speed: 1214.91 samples/sec	acc=0.299089
+2018-10-29 14:27	Epoch[1] Batch [7340]	Speed: 1203.02 samples/sec	acc=0.309701
+2018-10-29 14:28	Epoch[1] Batch [7360]	Speed: 1199.33 samples/sec	acc=0.303320
+2018-10-29 14:28	Epoch[1] Batch [7380]	Speed: 1173.29 samples/sec	acc=0.300651
+2018-10-29 14:28	Epoch[1] Batch [7400]	Speed: 1169.42 samples/sec	acc=0.300130
+2018-10-29 14:29	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540848542.192.168.2.148
+2018-10-29 14:29	wrote 1 event to disk
+2018-10-29 14:29	wrote 1 event to disk
+2018-10-29 14:29	wrote 2 events to disk
+2018-10-29 14:29	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540848571.192.168.2.148
+2018-10-29 14:29	wrote 1 event to disk
+2018-10-29 14:29	wrote 1 event to disk
+2018-10-29 14:29	wrote 2 events to disk
+2018-10-29 14:29	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0015.params"
+2018-10-29 14:29	Epoch[1] Batch [7420]	Speed: 255.65 samples/sec	acc=0.304102
+2018-10-29 14:29	Epoch[1] Batch [7440]	Speed: 1218.12 samples/sec	acc=0.305208
+2018-10-29 14:29	Epoch[1] Batch [7460]	Speed: 1214.61 samples/sec	acc=0.307617
+2018-10-29 14:30	Epoch[1] Batch [7480]	Speed: 1206.57 samples/sec	acc=0.306836
+2018-10-29 14:30	Epoch[1] Batch [7500]	Speed: 1222.68 samples/sec	acc=0.303971
+2018-10-29 14:30	Epoch[1] Batch [7520]	Speed: 1194.05 samples/sec	acc=0.307682
+2018-10-29 14:30	Epoch[1] Batch [7540]	Speed: 1210.15 samples/sec	acc=0.307031
+2018-10-29 14:31	Epoch[1] Batch [7560]	Speed: 1171.93 samples/sec	acc=0.299219
+2018-10-29 14:31	Epoch[1] Batch [7580]	Speed: 1193.17 samples/sec	acc=0.307292
+2018-10-29 14:31	Epoch[1] Train-acc=0.307292
+2018-10-29 14:31	Epoch[1] Time cost=5197.369
+2018-10-29 14:31	Epoch[2] Batch [20]	Speed: 1209.26 samples/sec	acc=0.334387
+2018-10-29 14:31	Epoch[2] Batch [40]	Speed: 1207.15 samples/sec	acc=0.340625
+2018-10-29 14:31	Epoch[2] Batch [60]	Speed: 1215.69 samples/sec	acc=0.328711
+2018-10-29 14:32	Epoch[2] Batch [80]	Speed: 1164.70 samples/sec	acc=0.331185
+2018-10-29 14:32	Epoch[2] Batch [100]	Speed: 1217.19 samples/sec	acc=0.332227
+2018-10-29 14:32	Epoch[2] Batch [120]	Speed: 1208.14 samples/sec	acc=0.332161
+2018-10-29 14:32	Epoch[2] Batch [140]	Speed: 1189.26 samples/sec	acc=0.326953
+2018-10-29 14:33	Epoch[2] Batch [160]	Speed: 1220.94 samples/sec	acc=0.320117
+2018-10-29 14:33	Epoch[2] Batch [180]	Speed: 1209.37 samples/sec	acc=0.327279
+2018-10-29 14:33	Epoch[2] Batch [200]	Speed: 1149.06 samples/sec	acc=0.327604
+2018-10-29 14:33	Epoch[2] Batch [220]	Speed: 1196.07 samples/sec	acc=0.323307
+2018-10-29 14:33	Epoch[2] Batch [240]	Speed: 1203.99 samples/sec	acc=0.322266
+2018-10-29 14:34	Epoch[2] Batch [260]	Speed: 1211.39 samples/sec	acc=0.328320
+2018-10-29 14:34	Epoch[2] Batch [280]	Speed: 1205.69 samples/sec	acc=0.318099
+2018-10-29 14:34	Epoch[2] Batch [300]	Speed: 1206.86 samples/sec	acc=0.324089
+2018-10-29 14:34	Epoch[2] Batch [320]	Speed: 1209.84 samples/sec	acc=0.317773
+2018-10-29 14:34	Epoch[2] Batch [340]	Speed: 1200.69 samples/sec	acc=0.316927
+2018-10-29 14:35	Epoch[2] Batch [360]	Speed: 1192.68 samples/sec	acc=0.314063
+2018-10-29 14:35	Epoch[2] Batch [380]	Speed: 1199.45 samples/sec	acc=0.308203
+2018-10-29 14:35	Epoch[2] Batch [400]	Speed: 1204.58 samples/sec	acc=0.315299
+2018-10-29 14:35	Epoch[2] Batch [420]	Speed: 1212.68 samples/sec	acc=0.315820
+2018-10-29 14:36	Epoch[2] Batch [440]	Speed: 1216.48 samples/sec	acc=0.315560
+2018-10-29 14:36	Epoch[2] Batch [460]	Speed: 1204.94 samples/sec	acc=0.307031
+2018-10-29 14:36	Epoch[2] Batch [480]	Speed: 1209.12 samples/sec	acc=0.314909
+2018-10-29 14:36	Epoch[2] Batch [500]	Speed: 1206.84 samples/sec	acc=0.316602
+2018-10-29 14:36	Epoch[2] Batch [520]	Speed: 1192.69 samples/sec	acc=0.314518
+2018-10-29 14:37	Epoch[2] Batch [540]	Speed: 1186.40 samples/sec	acc=0.309635
+2018-10-29 14:37	Epoch[2] Batch [560]	Speed: 1192.89 samples/sec	acc=0.310482
+2018-10-29 14:37	Epoch[2] Batch [580]	Speed: 1215.40 samples/sec	acc=0.313411
+2018-10-29 14:37	Epoch[2] Batch [600]	Speed: 1206.97 samples/sec	acc=0.318945
+2018-10-29 14:37	Epoch[2] Batch [620]	Speed: 1188.37 samples/sec	acc=0.309701
+2018-10-29 14:38	Epoch[2] Batch [640]	Speed: 1122.27 samples/sec	acc=0.310156
+2018-10-29 14:38	Epoch[2] Batch [660]	Speed: 1212.24 samples/sec	acc=0.310352
+2018-10-29 14:38	Epoch[2] Batch [680]	Speed: 1205.05 samples/sec	acc=0.315104
+2018-10-29 14:38	Epoch[2] Batch [700]	Speed: 1211.35 samples/sec	acc=0.309375
+2018-10-29 14:39	Epoch[2] Batch [720]	Speed: 1190.00 samples/sec	acc=0.310742
+2018-10-29 14:39	Epoch[2] Batch [740]	Speed: 1196.96 samples/sec	acc=0.312695
+2018-10-29 14:39	Epoch[2] Batch [760]	Speed: 1194.99 samples/sec	acc=0.314909
+2018-10-29 14:39	Epoch[2] Batch [780]	Speed: 1213.85 samples/sec	acc=0.306185
+2018-10-29 14:39	Epoch[2] Batch [800]	Speed: 1197.74 samples/sec	acc=0.304948
+2018-10-29 14:40	Epoch[2] Batch [820]	Speed: 1184.55 samples/sec	acc=0.311068
+2018-10-29 14:40	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540849234.192.168.2.148
+2018-10-29 14:40	wrote 1 event to disk
+2018-10-29 14:40	wrote 1 event to disk
+2018-10-29 14:40	wrote 2 events to disk
+2018-10-29 14:41	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540849262.192.168.2.148
+2018-10-29 14:41	wrote 1 event to disk
+2018-10-29 14:41	wrote 1 event to disk
+2018-10-29 14:41	wrote 2 events to disk
+2018-10-29 14:41	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0016.params"
+2018-10-29 14:41	Epoch[2] Batch [840]	Speed: 256.17 samples/sec	acc=0.309310
+2018-10-29 14:41	Epoch[2] Batch [860]	Speed: 1216.36 samples/sec	acc=0.303971
+2018-10-29 14:41	Epoch[2] Batch [880]	Speed: 1205.56 samples/sec	acc=0.305794
+2018-10-29 14:41	Epoch[2] Batch [900]	Speed: 1165.93 samples/sec	acc=0.307487
+2018-10-29 14:41	Epoch[2] Batch [920]	Speed: 1191.91 samples/sec	acc=0.312305
+2018-10-29 14:42	Epoch[2] Batch [940]	Speed: 1197.51 samples/sec	acc=0.311263
+2018-10-29 14:42	Epoch[2] Batch [960]	Speed: 1209.19 samples/sec	acc=0.307878
+2018-10-29 14:42	Epoch[2] Batch [980]	Speed: 1191.65 samples/sec	acc=0.304688
+2018-10-29 14:42	Epoch[2] Batch [1000]	Speed: 1215.30 samples/sec	acc=0.310026
+2018-10-29 14:43	Epoch[2] Batch [1020]	Speed: 1167.05 samples/sec	acc=0.305794
+2018-10-29 14:43	Epoch[2] Batch [1040]	Speed: 1209.00 samples/sec	acc=0.305143
+2018-10-29 14:43	Epoch[2] Batch [1060]	Speed: 1181.26 samples/sec	acc=0.309831
+2018-10-29 14:43	Epoch[2] Batch [1080]	Speed: 1218.95 samples/sec	acc=0.308008
+2018-10-29 14:43	Epoch[2] Batch [1100]	Speed: 1174.55 samples/sec	acc=0.304362
+2018-10-29 14:44	Epoch[2] Batch [1120]	Speed: 1212.65 samples/sec	acc=0.310482
+2018-10-29 14:44	Epoch[2] Batch [1140]	Speed: 1208.71 samples/sec	acc=0.309701
+2018-10-29 14:44	Epoch[2] Batch [1160]	Speed: 1205.16 samples/sec	acc=0.307943
+2018-10-29 14:44	Epoch[2] Batch [1180]	Speed: 1214.56 samples/sec	acc=0.303906
+2018-10-29 14:44	Epoch[2] Batch [1200]	Speed: 1164.72 samples/sec	acc=0.312370
+2018-10-29 14:45	Epoch[2] Batch [1220]	Speed: 1189.39 samples/sec	acc=0.308138
+2018-10-29 14:45	Epoch[2] Batch [1240]	Speed: 1186.00 samples/sec	acc=0.313411
+2018-10-29 14:45	Epoch[2] Batch [1260]	Speed: 1192.40 samples/sec	acc=0.306315
+2018-10-29 14:45	Epoch[2] Batch [1280]	Speed: 1218.36 samples/sec	acc=0.303776
+2018-10-29 14:46	Epoch[2] Batch [1300]	Speed: 1207.38 samples/sec	acc=0.309635
+2018-10-29 14:46	Epoch[2] Batch [1320]	Speed: 1157.73 samples/sec	acc=0.308138
+2018-10-29 14:46	Epoch[2] Batch [1340]	Speed: 1218.62 samples/sec	acc=0.306315
+2018-10-29 14:46	Epoch[2] Batch [1360]	Speed: 1203.75 samples/sec	acc=0.305273
+2018-10-29 14:46	Epoch[2] Batch [1380]	Speed: 1207.41 samples/sec	acc=0.311003
+2018-10-29 14:47	Epoch[2] Batch [1400]	Speed: 1216.13 samples/sec	acc=0.305208
+2018-10-29 14:47	Epoch[2] Batch [1420]	Speed: 1197.97 samples/sec	acc=0.316406
+2018-10-29 14:47	Epoch[2] Batch [1440]	Speed: 1213.85 samples/sec	acc=0.312109
+2018-10-29 14:47	Epoch[2] Batch [1460]	Speed: 1208.92 samples/sec	acc=0.314128
+2018-10-29 14:47	Epoch[2] Batch [1480]	Speed: 1211.68 samples/sec	acc=0.318424
+2018-10-29 14:48	Epoch[2] Batch [1500]	Speed: 1161.16 samples/sec	acc=0.307682
+2018-10-29 14:48	Epoch[2] Batch [1520]	Speed: 1145.69 samples/sec	acc=0.311589
+2018-10-29 14:48	Epoch[2] Batch [1540]	Speed: 1206.55 samples/sec	acc=0.311068
+2018-10-29 14:48	Epoch[2] Batch [1560]	Speed: 1204.96 samples/sec	acc=0.312044
+2018-10-29 14:49	Epoch[2] Batch [1580]	Speed: 1214.07 samples/sec	acc=0.313477
+2018-10-29 14:49	Epoch[2] Batch [1600]	Speed: 1208.39 samples/sec	acc=0.313932
+2018-10-29 14:49	Epoch[2] Batch [1620]	Speed: 1168.58 samples/sec	acc=0.313802
+2018-10-29 14:49	Epoch[2] Batch [1640]	Speed: 1197.42 samples/sec	acc=0.316536
+2018-10-29 14:49	Epoch[2] Batch [1660]	Speed: 1209.86 samples/sec	acc=0.310221
+2018-10-29 14:50	Epoch[2] Batch [1680]	Speed: 1198.73 samples/sec	acc=0.315169
+2018-10-29 14:50	Epoch[2] Batch [1700]	Speed: 1202.34 samples/sec	acc=0.312956
+2018-10-29 14:50	Epoch[2] Batch [1720]	Speed: 1194.41 samples/sec	acc=0.313932
+2018-10-29 14:50	Epoch[2] Batch [1740]	Speed: 1224.30 samples/sec	acc=0.307357
+2018-10-29 14:50	Epoch[2] Batch [1760]	Speed: 1205.22 samples/sec	acc=0.304036
+2018-10-29 14:51	Epoch[2] Batch [1780]	Speed: 1204.21 samples/sec	acc=0.312174
+2018-10-29 14:51	Epoch[2] Batch [1800]	Speed: 1162.44 samples/sec	acc=0.311654
+2018-10-29 14:51	Epoch[2] Batch [1820]	Speed: 1213.09 samples/sec	acc=0.315234
+2018-10-29 14:52	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540849928.192.168.2.148
+2018-10-29 14:52	wrote 1 event to disk
+2018-10-29 14:52	wrote 1 event to disk
+2018-10-29 14:52	wrote 2 events to disk
+2018-10-29 14:52	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540849953.192.168.2.148
+2018-10-29 14:52	wrote 1 event to disk
+2018-10-29 14:52	wrote 1 event to disk
+2018-10-29 14:52	wrote 2 events to disk
+2018-10-29 14:52	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0017.params"
+2018-10-29 14:52	Epoch[2] Batch [1840]	Speed: 245.43 samples/sec	acc=0.312240
+2018-10-29 14:52	Epoch[2] Batch [1860]	Speed: 1139.66 samples/sec	acc=0.309505
+2018-10-29 14:53	Epoch[2] Batch [1880]	Speed: 1219.58 samples/sec	acc=0.308529
+2018-10-29 14:53	Epoch[2] Batch [1900]	Speed: 1196.88 samples/sec	acc=0.311719
+2018-10-29 14:53	Epoch[2] Batch [1920]	Speed: 1218.61 samples/sec	acc=0.310352
+2018-10-29 14:53	Epoch[2] Batch [1940]	Speed: 1213.69 samples/sec	acc=0.314453
+2018-10-29 14:53	Epoch[2] Batch [1960]	Speed: 1163.19 samples/sec	acc=0.302279
+2018-10-29 14:54	Epoch[2] Batch [1980]	Speed: 1185.86 samples/sec	acc=0.312695
+2018-10-29 14:54	Epoch[2] Batch [2000]	Speed: 1188.69 samples/sec	acc=0.309766
+2018-10-29 14:54	Epoch[2] Batch [2020]	Speed: 1189.67 samples/sec	acc=0.319531
+2018-10-29 14:54	Epoch[2] Batch [2040]	Speed: 1195.87 samples/sec	acc=0.311589
+2018-10-29 14:54	Epoch[2] Batch [2060]	Speed: 1191.26 samples/sec	acc=0.310872
+2018-10-29 14:55	Epoch[2] Batch [2080]	Speed: 1161.52 samples/sec	acc=0.317708
+2018-10-29 14:55	Epoch[2] Batch [2100]	Speed: 1207.62 samples/sec	acc=0.313542
+2018-10-29 14:55	Epoch[2] Batch [2120]	Speed: 1200.75 samples/sec	acc=0.316667
+2018-10-29 14:55	Epoch[2] Batch [2140]	Speed: 1198.72 samples/sec	acc=0.313672
+2018-10-29 14:56	Epoch[2] Batch [2160]	Speed: 1204.77 samples/sec	acc=0.309245
+2018-10-29 14:56	Epoch[2] Batch [2180]	Speed: 1203.50 samples/sec	acc=0.313932
+2018-10-29 14:56	Epoch[2] Batch [2200]	Speed: 1202.57 samples/sec	acc=0.310742
+2018-10-29 14:56	Epoch[2] Batch [2220]	Speed: 1195.83 samples/sec	acc=0.314714
+2018-10-29 14:56	Epoch[2] Batch [2240]	Speed: 1202.34 samples/sec	acc=0.310026
+2018-10-29 14:57	Epoch[2] Batch [2260]	Speed: 1194.33 samples/sec	acc=0.310156
+2018-10-29 14:57	Epoch[2] Batch [2280]	Speed: 1205.98 samples/sec	acc=0.316471
+2018-10-29 14:57	Epoch[2] Batch [2300]	Speed: 1202.96 samples/sec	acc=0.319336
+2018-10-29 14:57	Epoch[2] Batch [2320]	Speed: 1188.62 samples/sec	acc=0.312370
+2018-10-29 14:57	Epoch[2] Batch [2340]	Speed: 1199.99 samples/sec	acc=0.311523
+2018-10-29 14:58	Epoch[2] Batch [2360]	Speed: 1198.55 samples/sec	acc=0.308724
+2018-10-29 14:58	Epoch[2] Batch [2380]	Speed: 1207.03 samples/sec	acc=0.318034
+2018-10-29 14:58	Epoch[2] Batch [2400]	Speed: 1194.39 samples/sec	acc=0.313802
+2018-10-29 14:58	Epoch[2] Batch [2420]	Speed: 1210.58 samples/sec	acc=0.316081
+2018-10-29 14:59	Epoch[2] Batch [2440]	Speed: 1206.94 samples/sec	acc=0.308464
+2018-10-29 14:59	Epoch[2] Batch [2460]	Speed: 1190.92 samples/sec	acc=0.312240
+2018-10-29 14:59	Epoch[2] Batch [2480]	Speed: 1215.94 samples/sec	acc=0.310352
+2018-10-29 14:59	Epoch[2] Batch [2500]	Speed: 1155.81 samples/sec	acc=0.304688
+2018-10-29 14:59	Epoch[2] Batch [2520]	Speed: 1206.06 samples/sec	acc=0.310742
+2018-10-29 15:00	Epoch[2] Batch [2540]	Speed: 1183.07 samples/sec	acc=0.307031
+2018-10-29 15:00	Epoch[2] Batch [2560]	Speed: 1197.72 samples/sec	acc=0.315234
+2018-10-29 15:00	Epoch[2] Batch [2580]	Speed: 1190.21 samples/sec	acc=0.312891
+2018-10-29 15:00	Epoch[2] Batch [2600]	Speed: 1212.71 samples/sec	acc=0.310742
+2018-10-29 15:00	Epoch[2] Batch [2620]	Speed: 1193.17 samples/sec	acc=0.311393
+2018-10-29 15:01	Epoch[2] Batch [2640]	Speed: 1129.90 samples/sec	acc=0.311654
+2018-10-29 15:01	Epoch[2] Batch [2660]	Speed: 1218.46 samples/sec	acc=0.316927
+2018-10-29 15:01	Epoch[2] Batch [2680]	Speed: 1209.60 samples/sec	acc=0.315951
+2018-10-29 15:01	Epoch[2] Batch [2700]	Speed: 1199.45 samples/sec	acc=0.320052
+2018-10-29 15:02	Epoch[2] Batch [2720]	Speed: 1218.83 samples/sec	acc=0.317383
+2018-10-29 15:02	Epoch[2] Batch [2740]	Speed: 1144.38 samples/sec	acc=0.314648
+2018-10-29 15:02	Epoch[2] Batch [2760]	Speed: 1179.06 samples/sec	acc=0.322917
+2018-10-29 15:02	Epoch[2] Batch [2780]	Speed: 1204.49 samples/sec	acc=0.317773
+2018-10-29 15:02	Epoch[2] Batch [2800]	Speed: 1156.66 samples/sec	acc=0.318229
+2018-10-29 15:03	Epoch[2] Batch [2820]	Speed: 1199.93 samples/sec	acc=0.309831
+2018-10-29 15:03	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540850615.192.168.2.148
+2018-10-29 15:03	wrote 1 event to disk
+2018-10-29 15:03	wrote 1 event to disk
+2018-10-29 15:03	wrote 2 events to disk
+2018-10-29 15:04	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540850644.192.168.2.148
+2018-10-29 15:04	wrote 1 event to disk
+2018-10-29 15:04	wrote 1 event to disk
+2018-10-29 15:04	wrote 2 events to disk
+2018-10-29 15:04	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0018.params"
+2018-10-29 15:04	Epoch[2] Batch [2840]	Speed: 257.10 samples/sec	acc=0.310547
+2018-10-29 15:04	Epoch[2] Batch [2860]	Speed: 1196.72 samples/sec	acc=0.311328
+2018-10-29 15:04	Epoch[2] Batch [2880]	Speed: 1195.97 samples/sec	acc=0.311914
+2018-10-29 15:04	Epoch[2] Batch [2900]	Speed: 1153.85 samples/sec	acc=0.314974
+2018-10-29 15:04	Epoch[2] Batch [2920]	Speed: 1222.51 samples/sec	acc=0.314453
+2018-10-29 15:05	Epoch[2] Batch [2940]	Speed: 1208.28 samples/sec	acc=0.315755
+2018-10-29 15:05	Epoch[2] Batch [2960]	Speed: 1152.03 samples/sec	acc=0.318099
+2018-10-29 15:05	Epoch[2] Batch [2980]	Speed: 1175.16 samples/sec	acc=0.317643
+2018-10-29 15:05	Epoch[2] Batch [3000]	Speed: 1187.64 samples/sec	acc=0.320638
+2018-10-29 15:06	Epoch[2] Batch [3020]	Speed: 1197.25 samples/sec	acc=0.314648
+2018-10-29 15:06	Epoch[2] Batch [3040]	Speed: 1139.88 samples/sec	acc=0.310417
+2018-10-29 15:06	Epoch[2] Batch [3060]	Speed: 1151.77 samples/sec	acc=0.318945
+2018-10-29 15:06	Epoch[2] Batch [3080]	Speed: 1196.32 samples/sec	acc=0.319076
+2018-10-29 15:06	Epoch[2] Batch [3100]	Speed: 1210.64 samples/sec	acc=0.316081
+2018-10-29 15:07	Epoch[2] Batch [3120]	Speed: 1206.04 samples/sec	acc=0.314128
+2018-10-29 15:07	Epoch[2] Batch [3140]	Speed: 1189.29 samples/sec	acc=0.320312
+2018-10-29 15:07	Epoch[2] Batch [3160]	Speed: 1218.30 samples/sec	acc=0.316862
+2018-10-29 15:07	Epoch[2] Batch [3180]	Speed: 1187.98 samples/sec	acc=0.311003
+2018-10-29 15:08	Epoch[2] Batch [3200]	Speed: 1182.09 samples/sec	acc=0.318359
+2018-10-29 15:08	Epoch[2] Batch [3220]	Speed: 1177.73 samples/sec	acc=0.314388
+2018-10-29 15:08	Epoch[2] Batch [3240]	Speed: 1179.07 samples/sec	acc=0.314518
+2018-10-29 15:08	Epoch[2] Batch [3260]	Speed: 1168.61 samples/sec	acc=0.317188
+2018-10-29 15:08	Epoch[2] Batch [3280]	Speed: 1148.81 samples/sec	acc=0.316276
+2018-10-29 15:09	Epoch[2] Batch [3300]	Speed: 1168.37 samples/sec	acc=0.325000
+2018-10-29 15:09	Epoch[2] Batch [3320]	Speed: 1187.47 samples/sec	acc=0.320443
+2018-10-29 15:09	Epoch[2] Batch [3340]	Speed: 1193.24 samples/sec	acc=0.311068
+2018-10-29 15:09	Epoch[2] Batch [3360]	Speed: 1197.50 samples/sec	acc=0.316471
+2018-10-29 15:09	Epoch[2] Batch [3380]	Speed: 1207.36 samples/sec	acc=0.321549
+2018-10-29 15:10	Epoch[2] Batch [3400]	Speed: 1165.73 samples/sec	acc=0.325651
+2018-10-29 15:10	Epoch[2] Batch [3420]	Speed: 1165.16 samples/sec	acc=0.316732
+2018-10-29 15:10	Epoch[2] Batch [3440]	Speed: 1210.31 samples/sec	acc=0.311914
+2018-10-29 15:10	Epoch[2] Batch [3460]	Speed: 1154.38 samples/sec	acc=0.312044
+2018-10-29 15:11	Epoch[2] Batch [3480]	Speed: 1200.87 samples/sec	acc=0.316211
+2018-10-29 15:11	Epoch[2] Batch [3500]	Speed: 1176.48 samples/sec	acc=0.316471
+2018-10-29 15:11	Epoch[2] Batch [3520]	Speed: 1175.45 samples/sec	acc=0.315104
+2018-10-29 15:11	Epoch[2] Batch [3540]	Speed: 1199.56 samples/sec	acc=0.324479
+2018-10-29 15:11	Epoch[2] Batch [3560]	Speed: 1167.26 samples/sec	acc=0.315169
+2018-10-29 15:12	Epoch[2] Batch [3580]	Speed: 1207.14 samples/sec	acc=0.318034
+2018-10-29 15:12	Epoch[2] Batch [3600]	Speed: 1189.82 samples/sec	acc=0.317643
+2018-10-29 15:12	Epoch[2] Batch [3620]	Speed: 1137.86 samples/sec	acc=0.321224
+2018-10-29 15:12	Epoch[2] Batch [3640]	Speed: 1197.40 samples/sec	acc=0.319271
+2018-10-29 15:12	Epoch[2] Batch [3660]	Speed: 1221.03 samples/sec	acc=0.319401
+2018-10-29 15:13	Epoch[2] Batch [3680]	Speed: 1209.92 samples/sec	acc=0.319792
+2018-10-29 15:13	Epoch[2] Batch [3700]	Speed: 1209.97 samples/sec	acc=0.319661
+2018-10-29 15:13	Epoch[2] Batch [3720]	Speed: 1210.68 samples/sec	acc=0.322721
+2018-10-29 15:13	Epoch[2] Batch [3740]	Speed: 1113.06 samples/sec	acc=0.320898
+2018-10-29 15:14	Epoch[2] Batch [3760]	Speed: 1208.03 samples/sec	acc=0.313346
+2018-10-29 15:14	Epoch[2] Batch [3780]	Speed: 1121.78 samples/sec	acc=0.320573
+2018-10-29 15:14	Epoch[2] Batch [3800]	Speed: 1215.36 samples/sec	acc=0.321029
+2018-10-29 15:14	Epoch[2] Batch [3820]	Speed: 1182.65 samples/sec	acc=0.315430
+2018-10-29 15:15	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540851316.192.168.2.148
+2018-10-29 15:15	wrote 1 event to disk
+2018-10-29 15:15	wrote 1 event to disk
+2018-10-29 15:15	wrote 2 events to disk
+2018-10-29 15:15	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540851340.192.168.2.148
+2018-10-29 15:15	wrote 1 event to disk
+2018-10-29 15:15	wrote 1 event to disk
+2018-10-29 15:15	wrote 2 events to disk
+2018-10-29 15:15	Saved checkpoint to "/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2-0019.params"
+2018-10-29 15:15	Epoch[2] Batch [3840]	Speed: 253.74 samples/sec	acc=0.319661
+2018-10-29 15:15	Epoch[2] Batch [3860]	Speed: 1214.46 samples/sec	acc=0.312240
+2018-10-29 15:16	Epoch[2] Batch [3880]	Speed: 1200.70 samples/sec	acc=0.315039
+2018-10-29 15:16	Epoch[2] Batch [3900]	Speed: 1167.80 samples/sec	acc=0.320964
+2018-10-29 15:16	Epoch[2] Batch [3920]	Speed: 1158.37 samples/sec	acc=0.314518
+2018-10-29 15:16	Epoch[2] Batch [3940]	Speed: 1191.80 samples/sec	acc=0.313151
+2018-10-29 15:17	Epoch[2] Batch [3960]	Speed: 1163.06 samples/sec	acc=0.313802
+2018-10-29 15:17	Epoch[2] Batch [3980]	Speed: 1215.13 samples/sec	acc=0.312565
+2018-10-29 15:17	Epoch[2] Batch [4000]	Speed: 1206.75 samples/sec	acc=0.325000
+2018-10-29 15:17	Epoch[2] Batch [4020]	Speed: 1210.04 samples/sec	acc=0.315951
+2018-10-29 15:17	Epoch[2] Batch [4040]	Speed: 1184.22 samples/sec	acc=0.315625
+2018-10-29 15:18	Epoch[2] Batch [4060]	Speed: 1147.49 samples/sec	acc=0.312109
+2018-10-29 15:18	Epoch[2] Batch [4080]	Speed: 1179.41 samples/sec	acc=0.315039
+2018-10-29 15:18	Epoch[2] Batch [4100]	Speed: 1208.47 samples/sec	acc=0.312565
+2018-10-29 15:18	Epoch[2] Batch [4120]	Speed: 1194.71 samples/sec	acc=0.311393
+2018-10-29 15:18	Epoch[2] Batch [4140]	Speed: 1210.10 samples/sec	acc=0.317318
+2018-10-29 15:19	Epoch[2] Batch [4160]	Speed: 1174.69 samples/sec	acc=0.317708
+2018-10-29 15:19	Epoch[2] Batch [4180]	Speed: 1186.09 samples/sec	acc=0.316797
+2018-10-29 15:19	Epoch[2] Batch [4200]	Speed: 1166.82 samples/sec	acc=0.315365
+2018-10-29 15:19	Epoch[2] Batch [4220]	Speed: 1170.44 samples/sec	acc=0.309375
+2018-10-29 15:20	Epoch[2] Batch [4240]	Speed: 1134.85 samples/sec	acc=0.319010
+2018-10-29 15:20	Epoch[2] Batch [4260]	Speed: 1208.47 samples/sec	acc=0.320964
+2018-10-29 15:20	Epoch[2] Batch [4280]	Speed: 1196.99 samples/sec	acc=0.314518
+2018-10-29 15:20	Epoch[2] Batch [4300]	Speed: 1205.67 samples/sec	acc=0.321549
+2018-10-29 15:20	Epoch[2] Batch [4320]	Speed: 1179.47 samples/sec	acc=0.320052
+2018-10-29 15:21	Epoch[2] Batch [4340]	Speed: 1208.90 samples/sec	acc=0.313216
+2018-10-29 15:21	Epoch[2] Batch [4360]	Speed: 1107.75 samples/sec	acc=0.320964
+2018-10-29 15:21	Epoch[2] Batch [4380]	Speed: 1184.13 samples/sec	acc=0.314518
+2018-10-29 15:21	Epoch[2] Batch [4400]	Speed: 1169.43 samples/sec	acc=0.319141
+2018-10-29 15:21	Epoch[2] Batch [4420]	Speed: 1207.51 samples/sec	acc=0.316211
+2018-10-29 15:22	Epoch[2] Batch [4440]	Speed: 1205.56 samples/sec	acc=0.316471
+2018-10-29 15:22	Epoch[2] Batch [4460]	Speed: 1170.93 samples/sec	acc=0.317708
+2018-10-29 15:22	Epoch[2] Batch [4480]	Speed: 1165.54 samples/sec	acc=0.320378
+2018-10-29 15:22	Epoch[2] Batch [4500]	Speed: 1179.75 samples/sec	acc=0.326432
+2018-10-29 15:23	Epoch[2] Batch [4520]	Speed: 1203.54 samples/sec	acc=0.321094
+2018-10-29 15:23	Epoch[2] Batch [4540]	Speed: 1195.32 samples/sec	acc=0.317188
+2018-10-29 15:23	Epoch[2] Batch [4560]	Speed: 1183.57 samples/sec	acc=0.314258
+2018-10-29 15:23	Epoch[2] Batch [4580]	Speed: 1196.15 samples/sec	acc=0.324479
+2018-10-29 15:23	Epoch[2] Batch [4600]	Speed: 1212.44 samples/sec	acc=0.321875
+2018-10-29 15:24	Epoch[2] Batch [4620]	Speed: 1180.22 samples/sec	acc=0.317643
+2018-10-29 15:24	Epoch[2] Batch [4640]	Speed: 1140.32 samples/sec	acc=0.316862
+2018-10-29 15:24	Epoch[2] Batch [4660]	Speed: 1196.22 samples/sec	acc=0.314388
+2018-10-29 15:24	Epoch[2] Batch [4680]	Speed: 1141.84 samples/sec	acc=0.320833
+2018-10-29 15:25	Epoch[2] Batch [4700]	Speed: 962.92 samples/sec	acc=0.328060
+2018-10-29 15:25	Epoch[2] Batch [4720]	Speed: 890.42 samples/sec	acc=0.322396
+2018-10-29 15:25	Epoch[2] Batch [4740]	Speed: 954.47 samples/sec	acc=0.325781
+2018-10-29 15:25	Epoch[2] Batch [4760]	Speed: 1035.96 samples/sec	acc=0.320898
+2018-10-29 15:26	Epoch[2] Batch [4780]	Speed: 1190.04 samples/sec	acc=0.317188
+2018-10-29 15:26	Epoch[2] Batch [4800]	Speed: 1172.97 samples/sec	acc=0.316992
+2018-10-29 15:26	Epoch[2] Batch [4820]	Speed: 1182.44 samples/sec	acc=0.319076
+2018-10-29 15:26	successfully opened events file: /home/meiyiyang/Face/insightface/output/result/mobile2_emore_v2/events.out.tfevents.1540852019.192.168.2.148

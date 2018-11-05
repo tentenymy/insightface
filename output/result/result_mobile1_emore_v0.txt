@@ -6126,3 +6126,313 @@ max_steps: 50000
 margin: 4
 pretrained: /data/meiyi/models/mobile/model_mobile1_emore_v0_0/model_mobile1_emore_v0,242
 use_val: False
+
+date_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+tag: mobile1_emore_v0
+pretrain: 
+per_batch_size: 152
+save: 0, max_steps: 50000, lr: 0.00500, verbose: 1000, margin_a: 1.00, margin_m: 0.30, margin_b: 0.20
+
+date_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+tag: mobile1_emore_v0
+pretrain: 
+per_batch_size: 152
+save: 0, max_steps: 50000, lr: 0.00500, verbose: 200, margin_a: 1.00, margin_m: 0.30, margin_b: 0.20
+
+version_se: 0
+do_save: False
+verbose: 200
+cutoff: 0
+version_input: 1
+rand_mirror: 1
+emb_size: 128
+ckpt: 1
+tag: mobile1_emore_v0
+num_layers: 1
+use_deformable: 0
+config_dir: /home/meiyiyang/Face/insightface/output/config
+ctx_num: 3
+do_save_threshold: 0.9945
+scale: 0.9993
+data_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+network: m1
+margin_s: 64.0
+center_alpha: 0.5
+version_act: prelu
+result_dir: /home/meiyiyang/Face/insightface/output/result
+beta_freeze: 0
+lr: 0.005
+triplet_bag_size: 3600
+margin_m: 0.3
+num_classes: 1701
+end_epoch: 100000
+margin_a: 1.0
+triplet_max_ap: 0.0
+lr_steps: 
+log_dir: /home/meiyiyang/Face/insightface/output/log
+last_epoch: 0
+loss_type: 5
+wd: 0.0005
+power: 1.0
+version_unit: 3
+batch_size: 456
+beta: 1000.0
+mom: 0.9
+margin_b: 0.2
+triplet_alpha: 0.3
+easy_margin: 0
+version_output: E
+image_channel: 3
+gamma: 0.12
+target: lfw,classify_megaface
+image_w: 112
+rescale_threshold: 0
+images_per_identity: 0
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+fc7_wd_mult: 1.0
+per_batch_size: 152
+beta_min: 5.0
+center_scale: 0.003
+pretrained: 
+fine_tune: 0
+image_h: 112
+max_steps: 50000
+margin: 4
+bn_mom: 0.9
+
+20180815-023926	200	1	0.0050	lfw	0.51150	0.01857	0.00000	0.00000	classify_megaface	0.00965	0.00000	0.00000	0.00000	
+20180815-024324	400	2	0.0050	lfw	0.65083	0.02095	0.00467	0.00400	classify_megaface	0.02499	0.00000	0.00000	0.00000	
+20180815-024722	600	3	0.0050	lfw	0.70700	0.02073	0.03633	0.01206	classify_megaface	0.04474	0.00000	0.00000	0.00000	
+20180815-025107	800	4	0.0050	lfw	0.68200	0.02008	0.04800	0.01185	classify_megaface	0.06170	0.00000	0.00000	0.00000	
+20180815-025512	1000	5	0.0050	lfw	0.70717	0.02444	0.06400	0.01413	classify_megaface	0.08096	0.00000	0.00000	0.00000	
+20180815-025912	1200	6	0.0050	lfw	0.68800	0.01856	0.04667	0.01265	classify_megaface	0.09823	0.00000	0.00000	0.00000	
+20180815-030321	1400	7	0.0050	lfw	0.61567	0.02295	0.01800	0.00872	classify_megaface	0.11718	0.00000	0.00000	0.00000	
+20180815-030644	1600	8	0.0050	lfw	0.64500	0.01809	0.02300	0.01242	classify_megaface	0.15952	0.00000	0.00000	0.00000	
+20180815-031018	1800	9	0.0050	lfw	0.64850	0.01839	0.02033	0.00994	classify_megaface	0.20581	0.00000	0.00000	0.00000	
+20180815-031419	2000	10	0.0050	lfw	0.73117	0.02121	0.01067	0.00757	classify_megaface	0.26820	0.00000	0.00000	0.00000	
+20180815-031817	2200	11	0.0050	lfw	0.78333	0.02053	0.00867	0.00636	
+date_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+tag: mobile1_emore_v0
+pretrain: 
+per_batch_size: 152
+save: 0, max_steps: 50000, lr: 0.00500, verbose: 200, margin_a: 1.00, margin_m: 0.30, margin_b: 0.20
+
+version_se: 0
+do_save: False
+verbose: 200
+cutoff: 0
+version_input: 1
+rand_mirror: 1
+emb_size: 128
+ckpt: 1
+tag: mobile1_emore_v0
+num_layers: 1
+use_deformable: 0
+config_dir: /home/meiyiyang/Face/insightface/output/config
+ctx_num: 3
+do_save_threshold: 0.9945
+scale: 0.9993
+data_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+network: m1
+margin_s: 64.0
+center_alpha: 0.5
+version_act: prelu
+result_dir: /home/meiyiyang/Face/insightface/output/result
+beta_freeze: 0
+lr: 0.005
+triplet_bag_size: 3600
+margin_m: 0.3
+num_classes: 1701
+end_epoch: 100000
+margin_a: 1.0
+triplet_max_ap: 0.0
+lr_steps: 
+log_dir: /home/meiyiyang/Face/insightface/output/log
+last_epoch: 0
+loss_type: 5
+wd: 0.0005
+power: 1.0
+version_unit: 3
+batch_size: 456
+beta: 1000.0
+mom: 0.9
+margin_b: 0.2
+triplet_alpha: 0.3
+easy_margin: 0
+version_output: E
+image_channel: 3
+gamma: 0.12
+target: lfw,classify_megaface
+image_w: 112
+rescale_threshold: 0
+images_per_identity: 0
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+fc7_wd_mult: 1.0
+per_batch_size: 152
+beta_min: 5.0
+center_scale: 0.003
+pretrained: 
+fine_tune: 0
+image_h: 112
+max_steps: 50000
+margin: 4
+bn_mom: 0.9
+
+20180815-113533	200	1	0.0050	
+date_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+tag: mobile1_emore_v0
+pretrain: 
+per_batch_size: 152
+save: 0, max_steps: 50000, lr: 0.10000, verbose: 200, margin_a: 1.00, margin_m: 0.30, margin_b: 0.20
+
+version_se: 0
+do_save: False
+verbose: 200
+cutoff: 0
+version_input: 1
+rand_mirror: 1
+emb_size: 128
+ckpt: 1
+tag: mobile1_emore_v0
+num_layers: 1
+use_deformable: 0
+config_dir: /home/meiyiyang/Face/insightface/output/config
+ctx_num: 3
+do_save_threshold: 0.9945
+scale: 0.9993
+data_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+network: m1
+margin_s: 64.0
+center_alpha: 0.5
+version_act: prelu
+result_dir: /home/meiyiyang/Face/insightface/output/result
+beta_freeze: 0
+lr: 0.1
+triplet_bag_size: 3600
+margin_m: 0.3
+num_classes: 1701
+end_epoch: 100000
+margin_a: 1.0
+triplet_max_ap: 0.0
+lr_steps: 
+log_dir: /home/meiyiyang/Face/insightface/output/log
+last_epoch: 0
+loss_type: 5
+wd: 0.0005
+power: 1.0
+version_unit: 3
+batch_size: 456
+beta: 1000.0
+mom: 0.9
+margin_b: 0.2
+triplet_alpha: 0.3
+easy_margin: 0
+version_output: E
+image_channel: 3
+gamma: 0.12
+target: lfw,classify_megaface
+image_w: 112
+rescale_threshold: 0
+images_per_identity: 0
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+fc7_wd_mult: 1.0
+per_batch_size: 152
+beta_min: 5.0
+center_scale: 0.003
+pretrained: 
+fine_tune: 0
+image_h: 112
+max_steps: 50000
+margin: 4
+bn_mom: 0.9
+
+20180815-113921	200	1	0.1000	lfw	0.49833	0.00342	0.00000	0.00000	classify_megaface	0.01906	0.00000	0.00000	0.00000	
+20180815-114301	400	2	0.1000	lfw	0.55450	0.01670	0.00000	0.00000	classify_megaface	0.04039	0.00000	0.00000	0.00000	
+20180815-114730	600	3	0.1000	lfw	0.49933	0.00153	0.00000	0.00000	classify_megaface	0.02877	0.00000	0.00000	0.00000	
+
+date_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+tag: mobile1_emore_v0
+pretrain: 
+per_batch_size: 152
+save: 0, max_steps: 50000, lr: 0.10000, verbose: 200, margin_a: 1.00, margin_m: 0.30, margin_b: 0.20
+
+version_se: 0
+do_save: False
+verbose: 200
+cutoff: 0
+version_input: 1
+rand_mirror: 1
+emb_size: 128
+ckpt: 1
+tag: mobile1_emore_v0
+num_layers: 1
+use_deformable: 0
+config_dir: /home/meiyiyang/Face/insightface/output/config
+ctx_num: 3
+do_save_threshold: 0.9945
+scale: 0.9993
+data_dir: /home/meiyiyang/Face/insightface/datasets/baidu
+network: m1
+margin_s: 64.0
+center_alpha: 0.5
+version_act: prelu
+result_dir: /home/meiyiyang/Face/insightface/output/result
+beta_freeze: 0
+lr: 0.1
+triplet_bag_size: 3600
+margin_m: 0.3
+num_classes: 1701
+end_epoch: 100000
+margin_a: 1.0
+triplet_max_ap: 0.0
+lr_steps: 
+log_dir: /home/meiyiyang/Face/insightface/output/log
+last_epoch: 0
+loss_type: 5
+wd: 0.0005
+power: 1.0
+version_unit: 3
+batch_size: 456
+beta: 1000.0
+mom: 0.9
+margin_b: 0.2
+triplet_alpha: 0.3
+easy_margin: 0
+version_output: E
+image_channel: 3
+gamma: 0.12
+target: lfw
+image_w: 112
+rescale_threshold: 0
+images_per_identity: 0
+prefix: /data/meiyi/models/mobile/model_mobile1_emore_0/model_mobile2_emore_v0
+fc7_wd_mult: 1.0
+per_batch_size: 152
+beta_min: 5.0
+center_scale: 0.003
+pretrained: 
+fine_tune: 0
+image_h: 112
+max_steps: 50000
+margin: 4
+bn_mom: 0.9
+
+20180815-115352	200	1	0.1000	lfw	0.50050	0.00150	0.00000	0.00000	
+20180815-115639	400	2	0.1000	lfw	0.49500	0.00691	0.00000	0.00000	
+20180815-115927	600	3	0.1000	lfw	0.51217	0.02474	0.00067	0.00133	
+20180815-120214	800	4	0.1000	lfw	0.50800	0.00862	0.18867	0.02207	
+20180815-120502	1000	5	0.1000	lfw	0.49967	0.00180	0.81733	0.02973	
+20180815-120749	1200	6	0.1000	lfw	0.50000	0.00236	0.92033	0.02814	
+20180815-121036	1400	7	0.1000	lfw	0.50000	0.00000	1.00000	0.00000	
+20180815-121323	1600	8	0.1000	lfw	0.50000	0.00000	1.00000	0.00000	
+20180815-121610	1800	9	0.1000	lfw	0.50000	0.00000	0.91533	0.03301	
+20180815-121857	2000	10	0.1000	lfw	0.50000	0.00000	1.00000	0.00000	
+20180815-122144	2200	11	0.1000	lfw	0.50000	0.00000	1.00000	0.00000	
+20180815-122430	2400	12	0.1000	lfw	0.50100	0.00291	0.06200	0.00718	
+20180815-122717	2600	13	0.1000	lfw	0.50350	0.00765	0.57400	0.02525	
+20180815-123004	2800	14	0.1000	lfw	0.51450	0.00837	0.00100	0.00153	

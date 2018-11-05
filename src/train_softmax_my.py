@@ -31,6 +31,8 @@ import spherenet
 import fmnasnet
 import verification_mxnet_meiyi
 
+from mxboard import SummaryWriter
+
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -190,11 +192,11 @@ def parse_args():
     parser.add_argument('--target', type=str, default='classify_megaface',
                         help='verification targets')
 
-    parser.add_argument('--log_dir', type=str, default='/home/meiyiyang/Face/insightface/output/log')
+    parser.add_argument('--log_dir', type=str, default='/data/meiyi/insightface/output/log')
     parser.add_argument('--config_dir', type=str,
                         default='/home/meiyiyang/Face/insightface/output/config', help='')
     parser.add_argument('--result_dir', type=str,
-                        default='/home/meiyiyang/Face/insightface/output/result')
+                        default='/data/meiyi/insightface/output/result')
     parser.add_argument('--do_save', action='store_true',
                         help='true means save every model while training')
     parser.add_argument('--do_save_threshold', default=0.982, type=float)
@@ -222,8 +224,11 @@ def get_symbol(args, arg_params, aux_params):
                                               version_input=args.version_input,
                                               version_output=args.version_output,
                                               version_unit=args.version_unit)
-        else:
+        elif args.num_layers == 2:
             embedding = fmobilenetv2.get_symbol(args.emb_size)
+        else:
+            embedding = fmnasnet.get_symbol(args.emb_size)
+
     elif args.network[0] == 'i':
         print('init inception-resnet-v2', args.num_layers)
         embedding = finception_resnet_v2.get_symbol(args.emb_size,
@@ -408,7 +413,7 @@ def train_net(args):
     # Set training parameters (do_save, max_step, lr)
     config_path = os.path.join(args.config_dir, 'config_' + args.tag + '.txt')
     if os.path.exists(config_path):
-        get_config(config_path, 0, args)
+        get_config(config_path, int(args.last_epoch) * args.verbose, args)
         
     ctx = []
     if 'CUDA_VISIBLE_DEVICES' in os.environ:
@@ -603,6 +608,18 @@ def train_net(args):
                     result_file.write(
                         '%s\t%1.5f\t%1.5f\t%1.5f\t%1.5f\t' % (name, acc2, std2, val1, std1))
                     results.append(acc2)
+
+                    # add summary
+                    summary_dir = os.path.join(args.result_dir, args.tag)
+                    if not os.path.exists(summary_dir):
+                        os.makedirs(summary_dir)
+
+                    with SummaryWriter(summary_dir) as sw:
+                        sw.add_scalar(tag='eval/acc_' + name, value=acc2, global_step=nbatch)
+                        sw.add_scalar(tag='eval/val_' + name, value=val1, global_step=nbatch)
+                        sw.add_scalar(tag='learning_rate', value=args.lr, global_step=nbatch)
+                        print("write summary to ", args.result_dir)
+
             result_file.write('\n')
         return results
     # meiyi change END
@@ -610,7 +627,7 @@ def train_net(args):
     highest_acc = [0.0, 0.0]  # lfw and target
     # for i in xrange(len(ver_list)):
     #  highest_acc.append(0.0)
-    global_step = [0]
+    global_step = [int(args.last_epoch) * args.verbose]
     save_step = [int(args.last_epoch)]
     if len(args.lr_steps) == 0:
         lr_steps = [40000, 60000, 80000]

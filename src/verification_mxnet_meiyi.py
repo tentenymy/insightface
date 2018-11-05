@@ -200,6 +200,9 @@ def evaluate(embeddings, actual_issame, nrof_folds=10, pca=0):
 	val, val_std, far = calculate_val(
 		thresholds, embeddings1, embeddings2,
 		np.asarray(actual_issame), 1e-3, nrof_folds=nrof_folds)
+
+
+
 	return tpr, fpr, accuracy, val, val_std, far
 
 def evaluate_suning(embeddings):
@@ -349,7 +352,12 @@ def test(data_set, mx_model, batch_size, nfolds=10, data_extra=None, label_shape
 		embeddings = embeddings_list[0] + embeddings_list[1]
 	else:
 		embeddings = embeddings_list[0]
-	embeddings = sklearn.preprocessing.normalize(embeddings)
+	# print(embeddings)
+
+	try:
+		embeddings = sklearn.preprocessing.normalize(embeddings)
+	except Valueerror:
+		print("embeddings explode")
 	
 	if mode_classify == 0:
 		# lfw, suningshop, renren, douyin, cfp_ff, cfp_fp, agedb_30
@@ -760,7 +768,7 @@ def get_model_epochs(model_str, model_epoch_range_str):
 				if model_epoch_range[0] <= epoch <= model_epoch_range[1]:
 					model_epochs.append(epoch)
 					model_prefix_list.append(model_prefix)
-		model_epochs = sorted(model_epochs, reverse=True)
+		model_epochs = sorted(model_epochs)
 	else:
 		model_epochs = [int(x) for x in model_fields[1].split('|')]
 		model_prefix_list = [model_prefix]

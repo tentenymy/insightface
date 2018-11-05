@@ -65,5 +65,9 @@ def get_symbol(num_classes, **kwargs):
 
     conv_6_f = mx.sym.FullyConnected(data=conv_6_dw, weight=_weight, num_hidden=num_classes, name='pre_fc1')
     fc1 = mx.sym.BatchNorm(data=conv_6_f, fix_gamma=True, eps=2e-5, momentum=bn_mom, name='fc1')
+
+    #mx.viz.print_summary(fc1, shape={'data': (8, 3, 112, 112)})
+    # mx.viz.plot_network(fc1, shape={'data': (8, 3, 112, 112)},
+    #                     node_attrs={'shape': 'oval', 'fixedsize': 'fasl==false'}).view()
     return fc1
 

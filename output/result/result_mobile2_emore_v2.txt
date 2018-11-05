@@ -1,0 +1,88 @@
+
+date_dir: /home/meiyiyang/Face/insightface/datasets/faces_emore
+prefix: /data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2
+tag: mobile2_emore_v2
+pretrain: 
+per_batch_size: 128
+save: 1, max_steps: 350000, lr: 0.10000, verbose: 1000, margin_a: 1.00, margin_m: 0.30, margin_b: 0.20
+
+version_se: 0
+do_save: True
+verbose: 1000
+cutoff: 0
+version_input: 1
+rand_mirror: 1
+emb_size: 512
+ckpt: 1
+tag: mobile2_emore_v2
+num_layers: 2
+use_deformable: 0
+config_dir: /home/meiyiyang/Face/insightface/output/config
+ctx_num: 6
+do_save_threshold: 0.99
+scale: 0.9993
+data_dir: /home/meiyiyang/Face/insightface/datasets/faces_emore
+network: m2
+margin_s: 64.0
+center_alpha: 0.5
+version_act: prelu
+result_dir: /home/meiyiyang/Face/insightface/output/result
+beta_freeze: 0
+lr: 0.1
+triplet_bag_size: 3600
+margin_m: 0.3
+num_classes: 85742
+end_epoch: 100000
+margin_a: 1.0
+triplet_max_ap: 0.0
+lr_steps: 
+log_dir: /home/meiyiyang/Face/insightface/output/log
+last_epoch: 0
+loss_type: 4
+wd: 0.0005
+power: 1.0
+version_unit: 3
+batch_size: 768
+beta: 1000.0
+mom: 0.9
+margin_b: 0.2
+triplet_alpha: 0.3
+easy_margin: 0
+version_output: E
+image_channel: 3
+gamma: 0.12
+target: lfw,classify_megaface
+image_w: 112
+rescale_threshold: 0
+images_per_identity: 0
+prefix: /data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2
+fc7_wd_mult: 1.0
+per_batch_size: 128
+beta_min: 5.0
+center_scale: 0.003
+pretrained: 
+fine_tune: 0
+image_h: 112
+max_steps: 350000
+margin: 4
+bn_mom: 0.9
+
+20181029-114928	1000	1	0.1000	lfw	0.81583	0.01268	0.06800	0.02500	classify_megaface	0.05797	0.00000	0.00000	0.00000	
+20181029-120047	2000	2	0.1000	lfw	0.92317	0.01141	0.66733	0.03797	classify_megaface	0.41673	0.00000	0.00000	0.00000	
+20181029-121221	3000	3	0.1000	lfw	0.96017	0.01221	0.79067	0.03025	classify_megaface	0.62706	0.00000	0.00000	0.00000	
+20181029-122341	4000	4	0.1000	lfw	0.96383	0.00992	0.84233	0.02441	classify_megaface	0.69164	0.00000	0.00000	0.00000	
+20181029-123503	5000	5	0.1000	lfw	0.98083	0.00926	0.90133	0.02291	classify_megaface	0.77592	0.00000	0.00000	0.00000	
+20181029-124623	6000	6	0.1000	lfw	0.97967	0.00849	0.88367	0.02771	classify_megaface	0.79657	0.00000	0.00000	0.00000	
+20181029-125742	7000	7	0.1000	lfw	0.98200	0.00875	0.91100	0.02357	classify_megaface	0.81550	0.00000	0.00000	0.00000	
+20181029-130907	8000	8	0.1000	lfw	0.98500	0.00592	0.92800	0.01956	classify_megaface	0.84400	0.00000	0.00000	0.00000	
+20181029-132026	9000	9	0.1000	lfw	0.98400	0.00539	0.92500	0.01708	classify_megaface	0.84857	0.00000	0.00000	0.00000	
+20181029-133144	10000	10	0.1000	lfw	0.98533	0.00515	0.93900	0.01732	classify_megaface	0.84369	0.00000	0.00000	0.00000	
+20181029-134305	11000	11	0.1000	lfw	0.98567	0.00692	0.93567	0.01967	classify_megaface	0.86549	0.00000	0.00000	0.00000	
+20181029-135428	12000	12	0.1000	lfw	0.98683	0.00634	0.93800	0.01973	classify_megaface	0.85303	0.00000	0.00000	0.00000	
+20181029-140552	13000	13	0.1000	lfw	0.98417	0.00534	0.88800	0.03256	classify_megaface	0.85751	0.00000	0.00000	0.00000	
+20181029-141717	14000	14	0.1000	lfw	0.98333	0.00723	0.93833	0.01962	classify_megaface	0.86610	0.00000	0.00000	0.00000	
+20181029-142845	15000	15	0.1000	lfw	0.98817	0.00743	0.93800	0.01881	classify_megaface	0.87142	0.00000	0.00000	0.00000	
+20181029-144016	16000	16	0.1000	lfw	0.98650	0.00513	0.94867	0.01668	classify_megaface	0.87398	0.00000	0.00000	0.00000	
+20181029-145144	17000	17	0.1000	lfw	0.98333	0.00582	0.94100	0.01764	classify_megaface	0.85807	0.00000	0.00000	0.00000	
+20181029-150318	18000	18	0.1000	lfw	0.98300	0.00670	0.91733	0.02118	classify_megaface	0.87091	0.00000	0.00000	0.00000	
+20181029-151453	19000	19	0.1000	lfw	0.98717	0.00538	0.93333	0.02556	classify_megaface	0.87136	0.00000	0.00000	0.00000	
