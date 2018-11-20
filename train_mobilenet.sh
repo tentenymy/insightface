@@ -2,8 +2,8 @@ CUDA='2,3,4,5,6,7'
 BATCH_SIZE='128'
 
 DATA_DIR=/home/meiyiyang/Face/insightface/datasets/faces_emore
-MODEL_OUTPUT_DIR=/data/meiyi/models/mobile/model_mobile2_emore_v2_0/model_mobile2_emore_v2
 TAG=mobile2_emore_v2
+MODEL_OUTPUT_DIR='/data/meiyi/models/mobile/model_'$TAG'/model_'$TAG
 
 LAST_EPOCH=0
 PRETRAIN=''

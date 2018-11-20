@@ -30,9 +30,12 @@ import fnasnet
 import spherenet
 import fmnasnet
 import verification_mxnet_meiyi
+import fresattention
 
 from mxboard import SummaryWriter
 
+sys.path.append(os.path.join(os.path.dirname(__file__), 'memonger'))
+import memonger
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -262,6 +265,9 @@ def get_symbol(args, arg_params, aux_params):
         print('init mobilefacenet', args.num_layers)
         embedding = fmobilefacenet.get_symbol(args.emb_size, bn_mom=args.bn_mom,
                                               wd_mult=args.fc7_wd_mult)
+    elif args.network[0] == 'a':  # must be 56 / 92 layers
+        print("init resnet attention", args.num_layers)
+        embedding = fresattention.get_symbol(args.emb_size, args.num_layers, memonger=True)
     else:
         print('init resnet', args.num_layers)
         embedding = fresnet.get_symbol(args.emb_size, args.num_layers,
@@ -412,6 +418,7 @@ def get_symbol(args, arg_params, aux_params):
 def train_net(args):
     # Set training parameters (do_save, max_step, lr)
     config_path = os.path.join(args.config_dir, 'config_' + args.tag + '.txt')
+    print(config_path)
     if os.path.exists(config_path):
         get_config(config_path, int(args.last_epoch) * args.verbose, args)
         
@@ -497,6 +504,11 @@ def train_net(args):
         data_shape_dict = {'data': (args.per_batch_size,) + data_shape}
         spherenet.init_weights(sym, data_shape_dict, args.num_layers)
 
+    # memong
+    #sym = memonger.search_plan(sym)
+
+
+
     triplet_params = None
     if args.loss_type == 12 or args.loss_type == 13:
         triplet_params = [args.triplet_bag_size, args.triplet_alpha, args.triplet_max_ap]
@@ -507,10 +519,13 @@ def train_net(args):
         fixed_params = dict({k: arg_params[k] for k in arg_params if 'fc7' not in k})
         model = mx.mod.Module(context=ctx, symbol=sym, fixed_param_names=fixed_params)
     else:
+        # sym_planned = memonger.search_plan(sym)
+
         model = mx.mod.Module(
             context=ctx,
             symbol=sym,
         )
+
         
     val_dataiter = None
 
@@ -694,6 +709,8 @@ def train_net(args):
         os.environ['BETA'] = str(_beta)
         if args.max_steps > 0 and mbatch > args.max_steps:
             sys.exit(0)
+
+
 
     epoch_cb = None
     train_dataiter = mx.io.PrefetchingIter(train_dataiter)

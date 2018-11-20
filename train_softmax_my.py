@@ -29,7 +29,9 @@ import fdpn
 import fnasnet
 import spherenet
 import fmnasnet
+import fresattention
 import verification_mxnet_meiyi
+
 
 
 logger = logging.getLogger()
@@ -190,11 +192,11 @@ def parse_args():
     parser.add_argument('--target', type=str, default='classify_megaface',
                         help='verification targets')
 
-    parser.add_argument('--log_dir', type=str, default='/home/meiyiyang/Face/insightface/output/log')
+    parser.add_argument('--log_dir', type=str, default='/data/meiyi/insightface/output/log')
     parser.add_argument('--config_dir', type=str,
                         default='/home/meiyiyang/Face/insightface/output/config', help='')
     parser.add_argument('--result_dir', type=str,
-                        default='/home/meiyiyang/Face/insightface/output/result')
+                        default='/data/meiyi//insightface/output/result')
     parser.add_argument('--do_save', action='store_true',
                         help='true means save every model while training')
     parser.add_argument('--do_save_threshold', default=0.982, type=float)
@@ -208,6 +210,7 @@ def parse_args():
 
 def get_symbol(args, arg_params, aux_params):
     # network
+    print("network", args.network[0], args.num_layers)
     if args.network[0] == 'd':
         embedding = fdensenet.get_symbol(args.emb_size, args.num_layers,
                                          version_se=args.version_se,
@@ -215,15 +218,19 @@ def get_symbol(args, arg_params, aux_params):
                                          version_output=args.version_output,
                                          version_unit=args.version_unit)
     elif args.network[0] == 'm':
-        print('init mobilenet', args.num_layers)
-        if args.num_layers == 1:
+        if args.num_layers == 1: # mobilenet v1
+            print('init mobilenet', args.num_layers)
             embedding = fmobilenet.get_symbol(args.emb_size,
                                               version_se=args.version_se,
                                               version_input=args.version_input,
                                               version_output=args.version_output,
                                               version_unit=args.version_unit)
-        else:
+        elif args.num_layers == 2: # mobilenet v2
+            print('init mobilenet v2', args.num_layers)
             embedding = fmobilenetv2.get_symbol(args.emb_size)
+        else: # mnasnet
+            print('init mnasnet', args.num_layers)
+            embedding = fmnasnet.get_symbol(args.emb_size)
     elif args.network[0] == 'i':
         print('init inception-resnet-v2', args.num_layers)
         embedding = finception_resnet_v2.get_symbol(args.emb_size,
@@ -257,6 +264,9 @@ def get_symbol(args, arg_params, aux_params):
         print('init mobilefacenet', args.num_layers)
         embedding = fmobilefacenet.get_symbol(args.emb_size, bn_mom=args.bn_mom,
                                               wd_mult=args.fc7_wd_mult)
+    elif args.network[0] == 'a': # must be 56 / 92 layers
+        print("init attention", args.num_layers)
+        embedding = fresattention.get_symbol(args.emb_size)
     else:
         print('init resnet', args.num_layers)
         embedding = fresnet.get_symbol(args.emb_size, args.num_layers,
@@ -407,6 +417,7 @@ def get_symbol(args, arg_params, aux_params):
 def train_net(args):
     # Set training parameters (do_save, max_step, lr)
     config_path = os.path.join(args.config_dir, 'config_' + args.tag + '.txt')
+    print(config_path)
     if os.path.exists(config_path):
         get_config(config_path, 0, args)
         
@@ -644,6 +655,7 @@ def train_net(args):
 
             # update config
             config_path = os.path.join(args.config_dir, 'config_' + args.tag + '.txt')
+            print(config_path)
             if os.path.exists(config_path):
                 get_config(config_path, mbatch, args)
                 opt.lr = args.lr
