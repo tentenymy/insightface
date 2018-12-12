@@ -166,10 +166,10 @@ def parse_args():
     parser.add_argument('--emb-size', type=int, default=512, help='embedding length')
     parser.add_argument('--per-batch-size', type=int, default=128,
                         help='batch size in each context')
-    parser.add_argument('--margin-m', type=float, default=0.5, help='margin for loss')
+    parser.add_argument('--margin-m', type=float, default=0.3, help='margin for loss')
     parser.add_argument('--margin-s', type=float, default=64.0, help='scale for feature')
     parser.add_argument('--margin-a', type=float, default=1.0, help='')
-    parser.add_argument('--margin-b', type=float, default=0.0, help='')
+    parser.add_argument('--margin-b', type=float, default=0.2, help='')
     parser.add_argument('--easy-margin', type=int, default=0, help='')
 
     # sphereface
@@ -409,8 +409,11 @@ def get_symbol(args, arg_params, aux_params):
     out = mx.symbol.Group(out_list)
 
     # fine-tune
-    if args.fine_tune:
+    if args.fine_tune == 1:
         arg_params = dict({k: arg_params[k] for k in arg_params if 'fc7' not in k})
+    elif args.fine_tune == 2:
+        arg_params = dict({k: arg_params[k] for k in arg_params if 'fc7' not in k and 'stage4'
+                           not in k})
 
     return (out, arg_params, aux_params)
 
@@ -616,12 +619,13 @@ def train_net(args):
                     else:
                         dataset = verification_mxnet_meiyi.load_megaface_bin(path, image_size)
 
-                    val1, std1, acc2, std2, xnorm, embeddings_list = verification_mxnet_meiyi.test(
+                    val1, std1, acc2, std2, far, embeddings_list, \
+                    time_s = verification_mxnet_meiyi.test(
                         dataset, model, args.batch_size, 10, None, None, mode_classify)
-                    print('batch: %d\t%s\tacc: %1.5f+-%1.5f\tval: %1.5f+-%1.5f' % (
-                    nbatch, name, acc2, std2, val1, std1))
+                    print('batch: %d\t%s\tacc: %1.5f+-%1.5f\tval: %1.5f+-%1.5f\tfar:%1.7f' % (
+                    nbatch, name, acc2, std2, val1, std1, far))
                     result_file.write(
-                        '%s\t%1.5f\t%1.5f\t%1.5f\t%1.5f\t' % (name, acc2, std2, val1, std1))
+                        '%s\t%1.5f\t%1.5f\t%1.5f\t%1.7f\t' % (name, acc2, std2, val1, std1))
                     results.append(acc2)
 
                     # add summary

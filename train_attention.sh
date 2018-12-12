@@ -1,4 +1,4 @@
-CUDA='1,2,3,4,5,6,7'
+CUDA='5,6,7'
 BATCH_SIZE='20'
 
 DATA_DIR=/home/meiyiyang/Face/insightface/datasets/faces_emore
@@ -6,7 +6,7 @@ TAG=attention92_emore_v0
 MODEL_OUTPUT_DIR='/data/meiyi/models/r100/model_'$TAG'/model_'$TAG
 
 LAST_EPOCH=0
-PRETRAIN='/data/meiyi/models/r100/model_'$TAG'/model_'$TAG',449'
+PRETRAIN='/data/meiyi/models/r100/model_'$TAG'/model_'$TAG',465'
 
 NETWORK='a92'
 

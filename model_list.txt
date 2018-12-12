@@ -1,0 +1,7 @@
+/data/meiyi/models/mobile/model_mobile2_emore_v2/model_mobile2_emore_v2,282
+/data/meiyi/models/mobile/model_mobile2_emore_v2/model_mobile2_emore_v2,217
+/data/meiyi/models/mobile/model_mnasnet_emore_v0_0/model_mnasnet_emore_v0,218
+/data/meiyi/models/r34/original/model,0
+/data/meiyi/models/r50/model_r50_glintasia_v1/model_r50_glintasia_v1,40
+/data/meiyi/models/r100/model_r100_emore_v2_2/model_r100_emore_v2,20
+

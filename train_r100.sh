@@ -1,16 +1,16 @@
+#!/usr/bin/env bash
 CUDA='4,5,6,7'
-BATCH_SIZE='64'
+BATCH_SIZE='256'
 
-TAG=r100_emore_v4
-DATA_DIR=~/Face/insightface/datasets/faces_emore
-MODEL_OUTPUT_DIR='/data/meiyi/models/r100/model_'$TAG'_0/model_'$TAG
+TAG=r100_glint_v0
+DATA_DIR=/data/meiyi/glint/faces_glintasia
+MODEL_OUTPUT_DIR='/data/meiyi/models/r100/model_'$TAG'/model_'$TAG
 
-LAST_EPOCH=86
-PRETRAIN='/data/meiyi/models/r100/model_r100_emore_v4_0/model_r100_emore_v4,86'
+LAST_EPOCH=0
+PRETRAINED='/data/meiyi/models/r100/model_r100_emore_v4_3_tri/model_r100_emore_v4,12'
 
 NETWORK=r100
 
-TARGET=classify_megaface,lfw
-#LOGFILE='/home/Face/insightface/output/log/log_'$TAG'_arg.txt'
+TARGET=classify_megaface,classify_megaface_fgnet
 
-export CUDA_VISIBLE_DEVICES=$CUDA; python -u ~/Face/insightface/src/train_softmax_my.py --network $NETWORK --loss-type 4 --margin-m 0.5 --per-batch-size $BATCH_SIZE --verbose 1000 --tag $TAG --target $TARGET --data-dir $DATA_DIR  --prefix $MODEL_OUTPUT_DIR --last_epoch $LAST_EPOCH --pretrain $PRETRAIN
+export CUDA_VISIBLE_DEVICES=$CUDA; python -u ~/Face/insightface/src/train_softmax_my.py --network $NETWORK --loss-type 5 --margin-m 0.3 --per-batch-size $BATCH_SIZE  --pretrained $PRETRAINED --verbose 1000 --tag $TAG --target $TARGET --data-dir $DATA_DIR  --prefix $MODEL_OUTPUT_DIR --fine_tune 1
